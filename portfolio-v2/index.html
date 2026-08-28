@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="김병주의 Python과 AI 활용 학습 포트폴리오입니다."
+    />
+    <title>김병주 | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 키보드 사용자도 메뉴를 건너뛰고 본문으로 바로 이동할 수 있습니다. -->
+    <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="주요 메뉴">
+        <a class="logo" href="#home">B/J</a>
+        <button class="menu-button" type="button" aria-controls="menu" aria-expanded="false">
+          <span class="sr-only">메뉴 열기</span>
+          <span></span><span></span>
+        </button>
+        <!-- href의 #about처럼 # 뒤에 쓰인 이름은 아래 section의 id와 연결됩니다. -->
+        <ul class="menu" id="menu">
+          <li><a href="#about">소개</a></li>
+          <li><a href="#skills">학습</a></li>
+          <li><a href="#work">사이트</a></li>
+          <li><a href="#contact">연락</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- 첫 화면: 짧은 자기소개와 사진으로 포트폴리오의 주제를 전달합니다. -->
+      <section class="hero container" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker">PORTFOLIO / 2026</p>
+          <h1 id="hero-title">배우고,<br /><em>만들고,</em><br />연결합니다.</h1>
+          <p class="hero-description">
+            Python과 AI를 활용해 생각을 화면과 서비스로 옮기는 과정을 기록합니다.
+          </p>
+          <a class="text-link" href="#work">만든 사이트 보기 <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="portrait-frame">
+          <img src="../assets/profile-photo.png" alt="김병주 프로필 사진" />
+          <p>Kim<br />Byeongju</p>
+        </div>
+      </section>
+
+      <section class="about section container" id="about" aria-labelledby="about-title">
+        <p class="section-number">01</p>
+        <div>
+          <p class="kicker">ABOUT ME</p>
+          <h2 id="about-title">작은 질문에서<br />새로운 화면을 만듭니다.</h2>
+        </div>
+        <p class="body-copy">
+          웹을 통해 아이디어를 직접 구현하고 있습니다. 좋은 결과를 얻기 위해 AI에게
+          목표와 조건을 구체적으로 전달하고, 결과를 보고 다시 개선하는 과정을
+          연습합니다.
+        </p>
+      </section>
+
+      <!-- 학습 항목은 나중에 article 하나를 복사해서 쉽게 추가할 수 있습니다. -->
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-intro">
+            <p class="section-number">02</p>
+            <div>
+              <p class="kicker">LEARNING NOW</p>
+              <h2 id="skills-title">배우고 있는 것</h2>
+            </div>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-item">
+              <span>01</span>
+              <h3>Python</h3>
+              <p>기초 문법을 익히며 데이터를 다루고, 반복 작업을 자동화하는 방법을 배웁니다.</p>
+            </article>
+            <article class="skill-item">
+              <span>02</span>
+              <h3>AI 활용 with Claude</h3>
+              <p>문제를 단계로 나누고 명확한 요청을 작성해 AI와 더 잘 협업하는 방법을 연습합니다.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 프로젝트 카드는 실제 사이트 캡처를 보여 주고, 클릭하면 새 탭에서 열립니다. -->
+      <section class="section container" id="work" aria-labelledby="work-title">
+        <div class="section-intro">
+          <p class="section-number">03</p>
+          <div>
+            <p class="kicker">SELECTED WORK</p>
+            <h2 id="work-title">직접 만든 사이트</h2>
+          </div>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <a class="project-preview" href="https://hyemitarot.com" target="_blank" rel="noreferrer">
+              <img src="../assets/hyemitarot-preview.png" alt="혜미타로 사이트 화면 미리보기" />
+            </a>
+            <div class="project-copy">
+              <p class="kicker">AI TAROT</p>
+              <h3>혜미타로</h3>
+              <p>AI 무료 타로를 통해 오늘의 질문에 가볍게 답을 찾아볼 수 있는 서비스입니다.</p>
+              <a class="text-link" href="https://hyemitarot.com" target="_blank" rel="noreferrer">
+                hyemitarot.com <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+          <article class="project-card">
+            <a class="project-preview" href="https://nyangdrip.com" target="_blank" rel="noreferrer">
+              <img src="../assets/nyangdrip-preview.png" alt="냥드립 사이트 화면 미리보기" />
+            </a>
+            <div class="project-copy">
+              <p class="kicker">WIKI-STYLE SITE</p>
+              <h3>냥드립</h3>
+              <p>문서 속 위키 링크를 따라가며 여러 내용을 탐색할 수 있는 나무위키 스타일 정보 사이트입니다.</p>
+              <a class="text-link" href="https://nyangdrip.com" target="_blank" rel="noreferrer">
+                nyangdrip.com <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section container" id="contact" aria-labelledby="contact-title">
+        <p class="section-number">04</p>
+        <div>
+          <p class="kicker">CONTACT</p>
+          <h2 id="contact-title">같이 이야기해요.</h2>
+          <a class="email-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=darkping1979@gmail.com" target="_blank" rel="noreferrer">
+            darkping1979@gmail.com <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p>© <span id="year"></span> Kim Byeongju</p>
+      <p>Built while learning with AI.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

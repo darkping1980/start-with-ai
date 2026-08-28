@@ -1,0 +1,106 @@
+/* 색상은 여기서 한 번에 바꿀 수 있습니다. */
+:root {
+  --bg: #101112;
+  --surface: #1a1c1d;
+  --text: #f0efe9;
+  --muted: #a8aaa6;
+  --line: #343736;
+  --lime: #d9ff58;
+  --max-width: 74rem;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, "Noto Sans KR", sans-serif; line-height: 1.65; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; }
+.container { width: min(100% - clamp(2rem, 7vw, 6rem), var(--max-width)); margin-inline: auto; }
+
+/* 화면에는 평소 숨겨져 있다가 키보드 Tab으로 접근할 때만 보입니다. */
+.skip-link { position: fixed; top: 1rem; left: 1rem; z-index: 10; padding: 0.5rem 0.75rem; background: var(--lime); color: var(--bg); transform: translateY(-200%); }
+.skip-link:focus { transform: translateY(0); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+
+.site-header { position: sticky; top: 0; z-index: 5; border-bottom: 1px solid color-mix(in srgb, var(--line) 70%, transparent); background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(12px); }
+.nav { display: flex; align-items: center; justify-content: space-between; min-height: 4.75rem; }
+.logo { color: var(--lime); font-weight: 800; letter-spacing: -0.08em; }
+.menu { display: flex; gap: 1.5rem; margin: 0; padding: 0; list-style: none; color: var(--muted); font-size: 0.85rem; }
+.menu a:hover, .menu a:focus-visible { color: var(--lime); }
+.menu-button { display: none; border: 0; background: transparent; color: var(--text); cursor: pointer; }
+
+/* 큰 제목은 clamp()를 사용해 화면 크기에 맞춰 자동으로 커지거나 작아집니다. */
+.hero { display: grid; grid-template-columns: 1.15fr 0.85fr; align-items: end; min-height: calc(100svh - 4.75rem); gap: clamp(2rem, 8vw, 7rem); padding-block: 5rem; }
+.kicker { margin: 0 0 0.8rem; color: var(--lime); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; }
+h1, h2, h3, p { margin-top: 0; }
+h1 { max-width: 50rem; margin-bottom: 1.5rem; font-size: clamp(3.4rem, 8vw, 7.5rem); line-height: 0.91; letter-spacing: -0.075em; }
+h1 em { color: var(--lime); font-style: normal; }
+h2 { margin-bottom: 0; font-size: clamp(2.2rem, 4vw, 4rem); line-height: 1; letter-spacing: -0.06em; }
+h3 { margin-bottom: 0.7rem; font-size: 1.65rem; letter-spacing: -0.04em; }
+.hero-description, .body-copy { max-width: 31rem; color: var(--muted); font-size: 1.05rem; }
+.text-link { display: inline-flex; gap: 0.55rem; align-items: center; padding-bottom: 0.25rem; border-bottom: 1px solid var(--lime); color: var(--text); font-weight: 700; }
+.text-link:hover, .text-link:focus-visible { color: var(--lime); }
+
+/* 사진을 작고 직사각형으로 배치해 텍스트보다 과하게 눈에 띄지 않게 합니다. */
+.portrait-frame { position: relative; width: min(100%, 14rem); justify-self: end; margin: 0; }
+.portrait-frame img { display: block; width: 100%; aspect-ratio: 4 / 5; filter: grayscale(100%); object-fit: cover; object-position: center top; }
+.portrait-frame p { position: absolute; right: -0.5rem; bottom: -1.2rem; margin: 0; color: var(--lime); font-size: 1.45rem; font-weight: 700; line-height: 0.9; letter-spacing: -0.07em; }
+
+.section { padding-block: clamp(5rem, 11vw, 9rem); }
+.section-number { margin: 0; color: var(--lime); font-size: 0.8rem; font-weight: 700; }
+.about, .contact { display: grid; grid-template-columns: 0.2fr 1fr 0.8fr; gap: 2rem; align-items: start; }
+.about .body-copy { margin: 0; padding-top: 0.5rem; }
+.skills-section { border-block: 1px solid var(--line); background: var(--surface); }
+.section-intro { display: grid; grid-template-columns: 0.2fr 1fr; gap: 2rem; margin-bottom: 3.5rem; }
+.skills-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.skill-item { min-height: 15rem; padding: 1.8rem; background: var(--surface); }
+.skill-item span { display: block; margin-bottom: 3.5rem; color: var(--lime); font-size: 0.75rem; font-weight: 700; }
+.skill-item p, .project-copy > p:not(.kicker) { margin-bottom: 0; color: var(--muted); }
+
+.project-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-top: 3.5rem; }
+.project-card { overflow: hidden; border: 1px solid #555a57; background: #202324; box-shadow: 0 16px 35px rgba(0, 0, 0, 0.22); }
+.project-preview { display: block; overflow: hidden; border-bottom: 1px solid var(--line); }
+.project-preview img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: center top; filter: contrast(1.08) saturate(1.05); transition: filter 0.25s, transform 0.25s; }
+.project-preview:hover img, .project-preview:focus-visible img { filter: contrast(1.12) saturate(1.2); transform: scale(1.025); }
+.project-copy { min-height: 17rem; display: flex; flex-direction: column; padding: 1.7rem; }
+.project-copy .text-link { width: fit-content; margin-top: auto; }
+
+.contact { border-top: 1px solid var(--line); }
+.email-link { display: inline-flex; gap: 0.5rem; margin-top: 2.25rem; color: var(--lime); font-size: clamp(1.2rem, 2.6vw, 2rem); font-weight: 700; letter-spacing: -0.05em; word-break: break-all; }
+.email-link:hover, .email-link:focus-visible { color: var(--text); }
+.footer { display: flex; justify-content: space-between; gap: 1rem; padding-block: 1.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.78rem; }
+.footer p { margin: 0; }
+:focus-visible { outline: 2px solid var(--lime); outline-offset: 4px; }
+
+/* 태블릿 이하에서는 가로로 나뉜 영역을 위아래로 쌓아 읽기 편하게 만듭니다. */
+@media (max-width: 52rem) {
+  .hero { grid-template-columns: 1fr; min-height: auto; padding-block: 5rem 6rem; }
+  .portrait-frame { justify-self: start; width: min(11rem, 48vw); }
+  .about, .contact { grid-template-columns: 0.16fr 1fr; }
+  .about .body-copy { grid-column: 2; }
+}
+
+/* 휴대폰에서는 메뉴와 카드가 한 줄씩 보이도록 바뀝니다. */
+@media (max-width: 40rem) {
+  .menu-button { display: grid; gap: 0.35rem; min-width: 3rem; padding: 0.5rem; color: var(--lime); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; }
+  /* 선 아이콘이 작게 보일 수 있어 휴대폰에서는 MENU 글자도 함께 표시합니다. */
+  .menu-button::before { content: "MENU"; }
+  .menu-button span:not(.sr-only) { display: none; }
+  .menu { position: absolute; top: 4.75rem; right: 1rem; display: none; width: 10rem; flex-direction: column; gap: 0.3rem; padding: 0.9rem; border: 1px solid var(--line); background: var(--surface); }
+  .menu.is-open { display: flex; }
+  .menu a { display: block; padding: 0.45rem; }
+  .hero { padding-block: 4rem 5rem; }
+  .section-intro, .about, .contact { grid-template-columns: 1fr; gap: 1.25rem; }
+  .about .body-copy { grid-column: auto; }
+  .skills-grid, .project-list { grid-template-columns: 1fr; }
+  .skill-item { min-height: auto; }
+  .skill-item span { margin-bottom: 2rem; }
+  .project-list { margin-top: 2.5rem; }
+  .project-copy { min-height: 14rem; }
+  .footer { flex-direction: column; }
+}
+
+/* 움직임을 줄이도록 설정한 사용자를 위한 접근성 처리입니다. */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; }
+}

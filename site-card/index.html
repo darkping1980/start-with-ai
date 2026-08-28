@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="김병주가 만든 웹사이트를 소개하는 링크 페이지입니다." />
+    <title>김병주의 웹사이트 모음</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 키보드로 이용할 때 메뉴를 건너뛰고 사이트 카드로 바로 이동할 수 있습니다. -->
+    <a class="skip-link" href="#sites">사이트 목록으로 건너뛰기</a>
+
+    <main class="page-shell">
+      <header class="hero">
+        <a class="brand" href="#top" aria-label="첫 화면으로 이동">B/WEB</a>
+        <p class="eyebrow">INDEPENDENT WEB PROJECTS</p>
+        <h1 id="top">제가 만든<br /><span>작은 웹사이트들</span></h1>
+        <p class="intro">둘러보고 싶은 사이트를 선택해 주세요.</p>
+      </header>
+
+      <!-- 새로운 사이트를 추가할 때는 아래 article.site-card 하나를 복사하면 됩니다. -->
+      <section class="site-list" id="sites" aria-label="만든 사이트 목록">
+        <article class="site-card tarot-card">
+          <!-- 모바일에서는 긴 미리보기보다 먼저 방문할 수 있도록 위쪽에만 보이는 버튼입니다. -->
+          <a class="visit-button mobile-visit" href="https://hyemitarot.com" target="_blank" rel="noreferrer">
+            사이트 방문하기 <span aria-hidden="true">↗</span>
+          </a>
+          <a class="site-image" href="https://hyemitarot.com" target="_blank" rel="noreferrer">
+            <!-- picture의 source는 화면이 48rem 이하일 때 모바일 캡처를 선택합니다. -->
+            <picture>
+              <source media="(max-width: 48rem)" srcset="../assets/hyemitarot-mobile-preview.png" />
+              <img src="../assets/hyemitarot-preview.png" alt="혜미타로 사이트 화면 미리보기" />
+            </picture>
+          </a>
+          <div class="site-content">
+            <p class="site-type">AI TAROT · 01</p>
+            <h2>혜미타로</h2>
+            <p>
+              오늘의 마음이 궁금할 때, AI 무료 타로로 가볍게 나만의 리딩을 만나볼 수 있는 서비스입니다.
+            </p>
+            <a class="visit-button" href="https://hyemitarot.com" target="_blank" rel="noreferrer">
+              사이트 방문하기 <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="site-card wiki-card">
+          <a class="visit-button mobile-visit" href="https://nyangdrip.com" target="_blank" rel="noreferrer">
+            사이트 방문하기 <span aria-hidden="true">↗</span>
+          </a>
+          <a class="site-image" href="https://nyangdrip.com" target="_blank" rel="noreferrer">
+            <!-- PC와 모바일에서 각 화면에 맞는 사이트 미리보기를 보여 줍니다. -->
+            <picture>
+              <source media="(max-width: 48rem)" srcset="../assets/nyangdrip-mobile-preview.png" />
+              <img src="../assets/nyangdrip-preview.png" alt="냥드립 사이트 화면 미리보기" />
+            </picture>
+          </a>
+          <div class="site-content">
+            <p class="site-type">WIKI STYLE · 02</p>
+            <h2>냥드립</h2>
+            <p>
+              문서 속 위키 링크를 따라가며 여러 내용을 탐색하는 나무위키 스타일의 정보 사이트입니다.
+            </p>
+            <a class="visit-button" href="https://nyangdrip.com" target="_blank" rel="noreferrer">
+              사이트 방문하기 <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>Made by Kim Byeongju</p>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=darkping1979@gmail.com" target="_blank" rel="noreferrer">
+          Contact <span aria-hidden="true">↗</span>
+        </a>
+      </footer>
+    </main>
+  </body>
+</html>
