@@ -1,0 +1,24 @@
+# Python 가상환경과 실행 캐시
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter가 자동으로 만드는 임시 노트북 파일
+.ipynb_checkpoints/
+
+# API 키·비밀번호 등 비밀 환경변수
+.env
+.env.*
+
+# 나중에 웹 도구를 추가했을 때 생길 수 있는 의존성·빌드 결과
+node_modules/
+dist/
+build/
+
+# 테스트 실행 결과
+.coverage
+htmlcov/
+
+# 운영체제가 자동으로 만드는 파일
+.DS_Store
+Thumbs.db
