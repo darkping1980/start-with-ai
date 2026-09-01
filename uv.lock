@@ -1543,11 +1543,15 @@ name = "study-with-ai"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "ipykernel" },
     { name = "jupyter" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "jupyter", specifier = ">=1.1.1" }]
+requires-dist = [
+    { name = "ipykernel", specifier = ">=7.3.0" },
+    { name = "jupyter", specifier = ">=1.1.1" },
+]
 
 [[package]]
 name = "terminado"
