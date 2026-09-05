@@ -1,0 +1,12 @@
+[project]
+name = "pandas-ko-docs"
+version = "0.1.0"
+description = "Pandas HTML 문서의 한국어 번역 및 한영 검색 인덱스 생성 도구"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.13,<5",
+]
+
+[tool.uv]
+package = false
+

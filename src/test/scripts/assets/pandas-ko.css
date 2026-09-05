@@ -1,0 +1,33 @@
+/* 한글 제목과 넓은 튜토리얼 그림이 모바일 화면을 넘지 않도록 하는 생성본 전용 보정입니다. */
+@media (max-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .bd-main,
+  .bd-content,
+  .bd-article-container,
+  .bd-article {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .bd-article h1 {
+    font-size: clamp(2rem, 9vw, 2.7rem);
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+
+  .bd-article img,
+  .bd-article svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bd-article pre {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}

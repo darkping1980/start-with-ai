@@ -1,0 +1,4 @@
+/.translation-cache/
+/.venv/
+/dist/
+__pycache__/
