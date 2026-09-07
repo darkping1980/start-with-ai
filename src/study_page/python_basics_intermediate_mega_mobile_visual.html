@@ -1,0 +1,1923 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>파이썬 기초 → 중급 메가 도움말 — 모바일 암기형 치트시트</title>
+<style>
+:root{--bg:#f6f8fb;--panel:#fff;--text:#172033;--muted:#657089;--line:#e6eaf0;--accent:#2563eb;--accent-soft:#eaf1ff;--code:#111827;--code-text:#e5e7eb}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,"Noto Sans KR",sans-serif;background:var(--bg);color:var(--text);line-height:1.65;-webkit-text-size-adjust:100%;overflow-x:hidden}
+.app{display:grid;grid-template-columns:280px 1fr;min-height:100vh} .sidebar{position:sticky;top:0;height:100vh;overflow:auto;background:var(--panel);border-right:1px solid var(--line);padding:22px 16px}
+.brand{font-weight:800;font-size:20px;margin-bottom:6px} .sub{font-size:13px;color:var(--muted);margin-bottom:18px} .search-wrap{position:sticky;top:0;background:var(--panel);padding-bottom:12px;z-index:2}
+.search,#mobileSearch,.mobile-category{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-size:14px;background:#fff;outline:none}
+.search:focus,#mobileSearch:focus,.mobile-category:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(37,99,235,.10)}
+.category-title{font-size:12px;color:var(--muted);font-weight:700;margin:18px 8px 8px} .cat-btn{width:100%;border:0;background:transparent;text-align:left;padding:9px 10px;border-radius:8px;cursor:pointer;color:var(--text);font-size:14px;margin:2px 0}
+.cat-btn:hover{background:#f3f6fb} .cat-btn.active{background:var(--accent-soft);color:var(--accent);font-weight:700} .main{padding:30px;min-width:0} .hero{background:linear-gradient(135deg,#fff,#eef4ff);border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:20px}
+.hero h1{font-size:28px;line-height:1.3;margin:0 0 9px} .hero p{color:var(--muted);margin:0 0 14px} .tip{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14px}
+.quick-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px} .quick-tag{border:1px solid #dbe4f0;background:#fff;padding:7px 10px;border-radius:999px;font-size:12px;cursor:pointer;color:#334155} .quick-tag:hover{border-color:#93b4ff;background:#f8fbff}
+.counter{font-size:12px;color:var(--muted);margin-top:10px} .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px} .card{min-width:0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 1px 2px rgba(15,23,42,.03)}
+.card.hidden{display:none} .topline{display:flex;gap:8px;align-items:flex-start;margin-bottom:8px;min-width:0} .topline h3{font-size:17px;line-height:1.35;margin:0;min-width:0;overflow-wrap:anywhere;flex:1} .badge{font-size:11px;color:#1d4ed8;background:#eff6ff;border-radius:999px;padding:4px 8px;white-space:nowrap}
+.desc{font-size:14px;color:#475569;margin-bottom:10px;overflow-wrap:anywhere} pre{position:relative;margin:10px 0 0;background:var(--code);color:var(--code-text);padding:14px;border-radius:12px;overflow:auto;white-space:pre;font-family:Consolas,"Courier New",monospace;font-size:13px;line-height:1.55}
+.parts{margin-top:10px;padding:10px 12px;border:1px solid var(--line);background:#f8fafc;border-radius:11px;font-size:13px} .copy-btn{border:1px solid var(--line);background:#fff;border-radius:8px;padding:5px 8px;font-size:11px;cursor:pointer;flex:0 0 auto}
+.visual-box{margin:10px 0;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,#fbfcff,#f4f7ff);padding:8px;overflow:hidden} .visual-box svg{display:block;width:100%;height:auto} .recipe{border-left:4px solid #8b5cf6} .footer{color:var(--muted);font-size:12px;text-align:center;padding:30px 10px 8px} .no-result{display:none;padding:28px;text-align:center;color:var(--muted)}
+.mobile-bar{display:none}
+@media(max-width:800px){
+ .app{display:block} .sidebar{display:none} .main{padding:12px;padding-top:150px} .mobile-bar{display:block;position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:9px 10px 8px}
+ .mobile-toolbar{display:grid;grid-template-columns:minmax(0,1fr) 78px;gap:7px;margin-bottom:7px} .mobile-clear{border:1px solid var(--line);background:#fff;border-radius:10px;font-size:13px;font-weight:700;color:#475569} .mobile-counter{font-size:11px;color:var(--muted);margin-top:5px;padding-left:2px}
+ .hero{padding:16px;border-radius:14px;margin-bottom:12px} .hero h1{font-size:21px} .hero p,.tip{font-size:13px} .quick-tags{flex-wrap:nowrap;overflow-x:auto;padding-bottom:3px;scrollbar-width:none} .quick-tags::-webkit-scrollbar{display:none} .quick-tag{flex:0 0 auto}
+ .grid{grid-template-columns:1fr;gap:10px} .card{padding:13px;border-radius:13px} .topline{flex-wrap:wrap} .topline h3{font-size:16px;flex:1 1 65%} .badge{white-space:normal;text-align:center} .copy-btn{min-height:32px;padding:6px 10px}
+ pre{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;font-size:12.5px;padding:12px} .parts{font-size:12.5px} .visual-box{padding:6px}
+}
+@media(max-width:390px){.main{padding-left:9px;padding-right:9px} .hero h1{font-size:19px} .card{padding:11px} .topline h3{font-size:15.5px}}
+
+/* intermediate Python concept helpers */
+.deep-card .desc{margin-bottom:10px}
+.deep-note{font-size:13px;line-height:1.65;background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:10px 0}
+.deep-note b{color:#0f172a}
+.deep-visual{margin:10px 0 12px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,#fff 0%,#f5f8ff 100%);padding:10px;overflow:hidden}
+.deep-visual svg{display:block;width:100%;height:auto}
+.level-pill{display:inline-block;font-size:11px;font-weight:700;color:#1d4ed8;background:#eff6ff;border:1px solid #bfdbfe;border-radius:999px;padding:3px 8px;margin-top:7px}
+@media(max-width:800px){.deep-note{font-size:12.5px;padding:9px 10px}.deep-visual{padding:8px}}
+
+</style>
+</head>
+<body>
+<div class="mobile-bar"><div class="mobile-toolbar"><select id="mobileCategory" class="mobile-category"></select><button id="mobileClear" class="mobile-clear">초기화</button></div><input id="mobileSearch" type="search" placeholder="검색: list, if, for, 함수, 클래스..."/><div id="mobileCounter" class="mobile-counter"></div></div>
+<div class="app"><aside class="sidebar"><div class="brand">🐍 Python Basics → Intermediate Help</div><div class="sub">기초 문법 · 자료구조 · 제어문 · 함수 · 예외 · 객체지향</div><div class="search-wrap"><input id="search" class="search" type="search" placeholder="검색: 문자열, 리스트, if, for, 함수..."/></div><div class="category-title">카테고리</div><button class="cat-btn active" data-category="all">전체 보기</button>
+<button class="cat-btn" data-category="start">시작 / 기본</button>
+<button class="cat-btn" data-category="variable">변수 / 자료형</button>
+<button class="cat-btn" data-category="operator">연산자</button>
+<button class="cat-btn" data-category="string">문자열</button>
+<button class="cat-btn" data-category="list">리스트</button>
+<button class="cat-btn" data-category="tuple_set">튜플 / 집합</button>
+<button class="cat-btn" data-category="dict">딕셔너리</button>
+<button class="cat-btn" data-category="condition">조건문</button>
+<button class="cat-btn" data-category="loop">반복문</button>
+<button class="cat-btn" data-category="function">함수</button>
+<button class="cat-btn" data-category="comprehension">컴프리헨션</button>
+<button class="cat-btn" data-category="exception">예외처리</button>
+<button class="cat-btn" data-category="module">모듈 / 패키지</button>
+<button class="cat-btn" data-category="file">파일 입출력</button>
+<button class="cat-btn" data-category="oop">클래스 / 객체</button>
+<button class="cat-btn" data-category="coremodel">파이썬 핵심 동작</button>
+<button class="cat-btn" data-category="scope">함수 / 스코프 심화</button>
+<button class="cat-btn" data-category="iterator">이터레이터 / 제너레이터</button>
+<button class="cat-btn" data-category="decorator">데코레이터 / with</button>
+<button class="cat-btn" data-category="typing">타입힌트</button>
+<button class="cat-btn" data-category="oop2">객체지향 심화</button>
+<button class="cat-btn" data-category="idiom">Pythonic 문법</button>
+<button class="cat-btn" data-category="stdlib">표준 라이브러리</button>
+<button class="cat-btn" data-category="async">비동기 기초</button>
+<button class="cat-btn" data-category="env">실행 / 모듈 구조</button>
+<button class="cat-btn" data-category="builtin">자주 쓰는 내장함수</button>
+<button class="cat-btn" data-category="recipe">실전 레시피</button></aside>
+<main class="main"><section class="hero"><h1>파이썬 기초 → 중급 메가 치트시트</h1><p>기초 문법에서 한 단계 더 들어가 파이썬이 왜 그렇게 동작하는지까지 검색해서 바로 보는 모바일 친화형 도움말입니다.</p><div class="tip"><b>추천 사용법:</b> “참조”, “mutable”, “스코프”, “yield”, “데코레이터”, “with”, “타입힌트”, “매직메서드”처럼 궁금한 걸 검색하세요. 기초 카드와 중급 카드를 같이 보면 연결이 잘 됩니다.</div><div class="quick-tags"><button class="quick-tag" data-q="변수">변수</button><button class="quick-tag" data-q="문자열">문자열</button><button class="quick-tag" data-q="리스트">리스트</button><button class="quick-tag" data-q="딕셔너리">딕셔너리</button><button class="quick-tag" data-q="if">if</button><button class="quick-tag" data-q="for">for</button><button class="quick-tag" data-q="함수">함수</button><button class="quick-tag" data-q="예외처리">예외처리</button><button class="quick-tag" data-q="클래스">클래스</button><button class="quick-tag" data-q="컴프리헨션">컴프리헨션</button><button class="quick-tag" data-q="mutable">mutable</button><button class="quick-tag" data-q="스코프">스코프</button><button class="quick-tag" data-q="yield">yield</button><button class="quick-tag" data-q="데코레이터">데코레이터</button><button class="quick-tag" data-q="타입힌트">타입힌트</button></div><div id="counter" class="counter"></div></section>
+<div id="cards" class="grid">
+<article class="card deep-card" data-category="coremodel" data-keywords="참조 reference object 변수 이름표 메모리 id is == 파이썬 핵심 동작">
+<div class="topline"><h3>변수는 값을 담는 상자가 아니라 객체를 가리키는 이름</h3><span class="badge">핵심 동작</span></div>
+<div class="desc">파이썬에서 변수는 객체 자체를 복사해 담기보다 <b>객체를 가리키는 이름</b>으로 생각하면 많은 동작이 이해됩니다.</div>
+<div class="deep-visual"><svg viewBox="0 0 330 150"><rect width="330" height="150" rx="14" fill="#fff"/><rect x="26" y="34" width="82" height="36" rx="8" fill="#dbeafe" stroke="#60a5fa"/><text x="67" y="57" text-anchor="middle" font-size="14">a</text><rect x="26" y="88" width="82" height="36" rx="8" fill="#dcfce7" stroke="#4ade80"/><text x="67" y="111" text-anchor="middle" font-size="14">b</text><path d="M112 52 H206" stroke="#64748b" stroke-width="3"/><path d="M112 106 C150 106 164 52 206 52" fill="none" stroke="#64748b" stroke-width="3"/><polygon points="206,52 196,46 196,58" fill="#64748b"/><rect x="210" y="28" width="92" height="50" rx="10" fill="#f8fafc" stroke="#94a3b8"/><text x="256" y="58" text-anchor="middle" font-size="15">[1, 2, 3]</text><text x="165" y="136" text-anchor="middle" font-size="12" fill="#64748b">a와 b가 같은 리스트 객체를 가리킬 수 있다</text></svg></div>
+<pre>a = [1, 2, 3]
+b = a
+b.append(4)
+print(a)  # [1, 2, 3, 4]</pre>
+<div class="deep-note"><b>핵심:</b> <code>b = a</code>는 리스트를 새로 복사한 게 아닙니다. 같은 객체를 가리킵니다.</div><span class="level-pill">중급 핵심</span>
+</article>
+
+<article class="card deep-card" data-category="coremodel" data-keywords="mutable immutable 가변 불변 list dict set tuple str int 파이썬 핵심 동작">
+<div class="topline"><h3>Mutable vs Immutable</h3><span class="badge">핵심 동작</span></div>
+<div class="desc"><b>가변 객체</b>는 그 자리에서 내용이 바뀌고, <b>불변 객체</b>는 바뀐 것처럼 보여도 새 객체가 만들어집니다.</div>
+<div class="deep-visual"><svg viewBox="0 0 330 150"><rect width="330" height="150" rx="14" fill="#fff"/><rect x="18" y="24" width="135" height="96" rx="12" fill="#ecfdf5" stroke="#86efac"/><text x="85" y="48" text-anchor="middle" font-size="14" font-weight="700">Mutable</text><text x="85" y="73" text-anchor="middle" font-size="13">list · dict · set</text><text x="85" y="99" text-anchor="middle" font-size="12" fill="#64748b">내용을 직접 변경 가능</text><rect x="177" y="24" width="135" height="96" rx="12" fill="#eff6ff" stroke="#93c5fd"/><text x="244" y="48" text-anchor="middle" font-size="14" font-weight="700">Immutable</text><text x="244" y="73" text-anchor="middle" font-size="13">int · str · tuple</text><text x="244" y="99" text-anchor="middle" font-size="12" fill="#64748b">새 객체로 교체</text></svg></div>
+<pre>nums = [1, 2]
+nums.append(3)   # 같은 리스트 변경
+
+name = "Kim"
+name += "!"      # 새 문자열 객체를 만들어 name이 가리킴</pre>
+<div class="deep-note"><b>실무 연결:</b> 함수 인자로 리스트/딕셔너리를 넘겼을 때 원본이 바뀌는 이유도 여기서 시작합니다.</div><span class="level-pill">중급 핵심</span>
+</article>
+
+<article class="card deep-card" data-category="scope" data-keywords="LEGB scope local enclosing global builtin 스코프 이름 찾기 함수 심화">
+<div class="topline"><h3>LEGB 스코프: 이름은 어디서 찾을까?</h3><span class="badge">스코프</span></div>
+<div class="desc">파이썬은 이름을 찾을 때 보통 <b>Local → Enclosing → Global → Built-in</b> 순서로 탐색합니다.</div>
+<div class="deep-visual"><svg viewBox="0 0 330 160"><rect width="330" height="160" rx="14" fill="#fff"/><g font-size="13" text-anchor="middle"><rect x="24" y="24" width="282" height="112" rx="12" fill="#f8fafc" stroke="#cbd5e1"/><text x="165" y="43">Built-in</text><rect x="48" y="48" width="234" height="78" rx="10" fill="#eff6ff" stroke="#bfdbfe"/><text x="165" y="67">Global</text><rect x="76" y="72" width="178" height="46" rx="9" fill="#ecfdf5" stroke="#86efac"/><text x="165" y="90">Enclosing</text><rect x="108" y="94" width="114" height="20" rx="6" fill="#fef3c7" stroke="#fde68a"/><text x="165" y="109">Local</text></g></svg></div>
+<pre>x = "global"
+
+def outer():
+    x = "enclosing"
+    def inner():
+        x = "local"
+        print(x)
+    inner()</pre>
+<div class="deep-note"><b>기억:</b> 함수 안에서 이름을 찾다가 없으면 바깥 함수, 모듈 전역, 마지막으로 내장 이름까지 올라갑니다.</div><span class="level-pill">중급 핵심</span>
+</article>
+
+<article class="card deep-card" data-category="iterator" data-keywords="iterable iterator iter next generator yield 이터레이터 제너레이터 흐름">
+<div class="topline"><h3>Iterable → Iterator → next()</h3><span class="badge">이터레이터</span></div>
+<div class="desc"><code>for</code>문이 내부적으로 어떻게 하나씩 값을 꺼내는지 이해하는 핵심 구조입니다.</div>
+<div class="deep-visual"><svg viewBox="0 0 330 145"><rect width="330" height="145" rx="14" fill="#fff"/><rect x="18" y="48" width="78" height="42" rx="9" fill="#dbeafe" stroke="#60a5fa"/><text x="57" y="73" text-anchor="middle" font-size="13">Iterable</text><path d="M100 69 H132" stroke="#64748b" stroke-width="3"/><text x="116" y="60" text-anchor="middle" font-size="11" fill="#64748b">iter()</text><rect x="136" y="48" width="82" height="42" rx="9" fill="#dcfce7" stroke="#4ade80"/><text x="177" y="73" text-anchor="middle" font-size="13">Iterator</text><path d="M222 69 H254" stroke="#64748b" stroke-width="3"/><text x="238" y="60" text-anchor="middle" font-size="11" fill="#64748b">next()</text><rect x="258" y="48" width="54" height="42" rx="9" fill="#fef3c7" stroke="#fbbf24"/><text x="285" y="73" text-anchor="middle" font-size="13">값</text><text x="165" y="119" text-anchor="middle" font-size="12" fill="#64748b">더 이상 값이 없으면 StopIteration</text></svg></div>
+<pre>nums = [10, 20, 30]
+it = iter(nums)
+
+print(next(it))  # 10
+print(next(it))  # 20</pre>
+<div class="deep-note"><b>핵심:</b> 리스트는 iterable이고, <code>iter(list)</code>가 실제로 하나씩 꺼내는 iterator를 만듭니다.</div><span class="level-pill">중급 핵심</span>
+</article>
+
+<article class="card deep-card" data-category="decorator" data-keywords="decorator 데코레이터 wrapper 함수 감싸기 @ 래퍼">
+<div class="topline"><h3>데코레이터는 함수를 감싸는 함수</h3><span class="badge">데코레이터</span></div>
+<div class="desc">기존 함수 코드를 직접 고치지 않고 앞뒤 동작을 덧붙이는 파이썬의 대표 패턴입니다.</div>
+<div class="deep-visual"><svg viewBox="0 0 330 145"><rect width="330" height="145" rx="14" fill="#fff"/><rect x="28" y="42" width="82" height="56" rx="10" fill="#eff6ff" stroke="#93c5fd"/><text x="69" y="66" text-anchor="middle" font-size="13">원래 함수</text><text x="69" y="84" text-anchor="middle" font-size="12">hello()</text><path d="M115 70 H150" stroke="#64748b" stroke-width="3"/><rect x="154" y="28" width="148" height="84" rx="12" fill="#ecfdf5" stroke="#86efac"/><text x="228" y="51" text-anchor="middle" font-size="13">decorator</text><rect x="181" y="62" width="94" height="34" rx="8" fill="#fff" stroke="#4ade80"/><text x="228" y="83" text-anchor="middle" font-size="12">wrapper()</text><text x="165" y="132" text-anchor="middle" font-size="12" fill="#64748b">호출 전/후에 로깅, 권한검사, 시간측정 등을 추가</text></svg></div>
+<pre>def log_call(func):
+    def wrapper():
+        print("호출 전")
+        func()
+        print("호출 후")
+    return wrapper
+
+@log_call
+def hello():
+    print("hello")</pre>
+<div class="deep-note"><b>@log_call</b>은 대략 <code>hello = log_call(hello)</code>와 같은 의미입니다.</div><span class="level-pill">중급 핵심</span>
+</article>
+
+<article class="card deep-card" data-category="decorator" data-keywords="context manager with enter exit 컨텍스트 매니저 자원 정리">
+<div class="topline"><h3>with는 “열고 → 쓰고 → 반드시 정리”</h3><span class="badge">with</span></div>
+<div class="desc">파일, 락, DB 연결처럼 <b>사용 후 정리가 필요한 자원</b>을 안전하게 다루는 문법입니다.</div>
+<div class="deep-visual"><svg viewBox="0 0 330 145"><rect width="330" height="145" rx="14" fill="#fff"/><g font-size="13" text-anchor="middle"><rect x="22" y="49" width="78" height="40" rx="9" fill="#dbeafe" stroke="#60a5fa"/><text x="61" y="74">열기</text><path d="M104 69 H128" stroke="#64748b" stroke-width="3"/><rect x="132" y="49" width="78" height="40" rx="9" fill="#dcfce7" stroke="#4ade80"/><text x="171" y="74">사용</text><path d="M214 69 H238" stroke="#64748b" stroke-width="3"/><rect x="242" y="49" width="66" height="40" rx="9" fill="#fee2e2" stroke="#f87171"/><text x="275" y="74">정리</text><text x="165" y="120" fill="#64748b" font-size="12">예외가 나도 정리 단계가 실행되도록 설계</text></g></svg></div>
+<pre>with open("data.txt", "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 블록을 벗어나면 파일이 자동으로 닫힘</pre>
+<div class="deep-note"><b>핵심:</b> <code>with</code>는 단순 축약문법이 아니라 자원 수명주기를 안전하게 관리하는 패턴입니다.</div><span class="level-pill">중급 핵심</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="== is identity equality None 객체 동일성">
+<div class="topline"><h3>== 와 is 차이</h3><span class="badge">핵심 동작</span></div>
+<div class="desc">== 는 값이 같은지, is 는 같은 객체인지 확인합니다.</div>
+<pre>a = [1, 2]
+b = [1, 2]
+c = a
+
+print(a == b)  # True
+print(a is b)  # False
+print(a is c)  # True</pre>
+<div class="deep-note">대부분 값 비교는 == 를 사용합니다. is 는 None 비교처럼 객체 동일성이 중요한 경우에 씁니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="None is None 싱글턴 비교">
+<div class="topline"><h3>None 비교는 is None</h3><span class="badge">핵심 동작</span></div>
+<div class="desc">None은 싱글턴 객체이므로 관례적으로 == 대신 is 를 사용합니다.</div>
+<pre>result = None
+
+if result is None:
+    print(&quot;값 없음&quot;)</pre>
+<div class="deep-note">실무에서 매우 자주 보이는 패턴입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="id object identity 메모리 정체">
+<div class="topline"><h3>id()로 객체 정체 확인</h3><span class="badge">핵심 동작</span></div>
+<div class="desc">id()는 객체의 정체성을 나타내는 정수 값을 돌려줍니다.</div>
+<pre>a = [1, 2]
+b = a
+c = [1, 2]
+
+print(id(a) == id(b))  # True
+print(id(a) == id(c))  # False</pre>
+<div class="deep-note">디버깅하며 같은 객체를 공유하는지 확인할 때 개념 이해용으로 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="copy shallow copy 얕은복사 중첩 리스트">
+<div class="topline"><h3>얕은 복사 copy.copy</h3><span class="badge">복사</span></div>
+<div class="desc">얕은 복사는 바깥 컨테이너는 새로 만들지만 내부 중첩 객체는 공유할 수 있습니다.</div>
+<pre>import copy
+
+a = [[1, 2], [3, 4]]
+b = copy.copy(a)
+b[0].append(99)
+
+print(a)  # [[1, 2, 99], [3, 4]]</pre>
+<div class="deep-note">중첩 리스트에서 &quot;복사했는데 원본도 바뀌는&quot; 현상의 핵심입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="deepcopy deep copy 깊은복사">
+<div class="topline"><h3>깊은 복사 copy.deepcopy</h3><span class="badge">복사</span></div>
+<div class="desc">깊은 복사는 중첩된 내부 객체까지 재귀적으로 복사합니다.</div>
+<pre>import copy
+
+a = [[1, 2], [3, 4]]
+b = copy.deepcopy(a)
+b[0].append(99)
+
+print(a)  # [[1, 2], [3, 4]]</pre>
+<div class="deep-note">항상 deepcopy가 좋은 것은 아닙니다. 비용이 크므로 정말 독립 복제가 필요할 때 사용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="list copy slice 복사 [:]">
+<div class="topline"><h3>리스트 복사: [:], list(), copy()</h3><span class="badge">복사</span></div>
+<div class="desc">1차원 리스트를 새 리스트로 복사하는 대표적인 방법들입니다.</div>
+<pre>a = [1, 2, 3]
+b = a[:]
+c = list(a)
+d = a.copy()
+
+print(a is b)  # False</pre>
+<div class="deep-note">세 방법 모두 얕은 복사입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="mutable default argument 기본값 리스트 함정">
+<div class="topline"><h3>함수 기본값에 mutable 쓰지 않기</h3><span class="badge">주의</span></div>
+<div class="desc">기본값 객체는 함수 호출 때마다 새로 생기는 게 아니라 함수 정의 시 한 번 만들어집니다.</div>
+<pre>def add_item(item, items=None):
+    if items is None:
+        items = []
+    items.append(item)
+    return items
+
+print(add_item(&quot;A&quot;))
+print(add_item(&quot;B&quot;))</pre>
+<div class="deep-note">def f(items=[]): 형태는 호출 사이에 리스트가 공유될 수 있어 피하는 게 안전합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="truthy falsy bool 조건문 참 거짓">
+<div class="topline"><h3>Truthy / Falsy</h3><span class="badge">핵심 동작</span></div>
+<div class="desc">조건문은 꼭 True/False만 받는 게 아니라 객체의 참/거짓 성질을 평가합니다.</div>
+<pre>values = [0, 1, &quot;&quot;, &quot;hello&quot;, [], [1], None]
+
+for v in values:
+    print(v, bool(v))</pre>
+<div class="deep-note">0, 빈 문자열, 빈 컨테이너, None 등은 보통 False로 평가됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="short circuit and or 단락평가">
+<div class="topline"><h3>단락 평가 short-circuit</h3><span class="badge">핵심 동작</span></div>
+<div class="desc">and/or는 결과가 이미 결정되면 뒤 표현식을 평가하지 않습니다.</div>
+<pre>user = None
+
+if user is not None and user.get(&quot;active&quot;):
+    print(&quot;활성 사용자&quot;)</pre>
+<div class="deep-note">앞 조건으로 뒤쪽의 위험한 접근을 막는 패턴이 흔합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="and or operand 반환 기본값">
+<div class="topline"><h3>and / or 는 꼭 bool만 반환하지 않는다</h3><span class="badge">핵심 동작</span></div>
+<div class="desc">and와 or는 피연산자 자체를 반환할 수 있습니다.</div>
+<pre>name = &quot;&quot;
+display_name = name or &quot;익명&quot;
+print(display_name)  # 익명
+
+value = 10 and 20
+print(value)  # 20</pre>
+<div class="deep-note">기본값 대체에 x or default 패턴이 자주 쓰입니다. 단, 0도 False 취급되는 점은 주의합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="hash hashable dict key set immutable">
+<div class="topline"><h3>해시 가능한 객체와 dict/set key</h3><span class="badge">핵심 동작</span></div>
+<div class="desc">dict 키와 set 원소는 해시 가능해야 합니다. 보통 불변 객체가 해당됩니다.</div>
+<pre>scores = {(&quot;Kim&quot;, 1): 90}
+seen = {&quot;A&quot;, &quot;B&quot;, &quot;C&quot;}
+
+# 리스트는 dict key로 사용할 수 없음</pre>
+<div class="deep-note">tuple도 내부에 리스트 같은 비해시 객체가 있으면 해시 불가능할 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="coremodel" data-keywords="str object immutable method chaining">
+<div class="topline"><h3>문자열도 객체다</h3><span class="badge">핵심 동작</span></div>
+<div class="desc">문자열은 불변 객체이며 다양한 메서드를 갖습니다.</div>
+<pre>text = &quot;  Python  &quot;
+clean = text.strip().lower().replace(&quot;python&quot;, &quot;py&quot;)
+print(clean)</pre>
+<div class="deep-note">메서드 체이닝이 가능한 이유도 각 연산이 객체를 반환하기 때문입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="global scope 전역변수 재할당">
+<div class="topline"><h3>global 키워드</h3><span class="badge">스코프</span></div>
+<div class="desc">함수 안에서 전역 변수에 재할당하려면 global 선언이 필요합니다.</div>
+<pre>count = 0
+
+def increase():
+    global count
+    count += 1
+
+increase()
+print(count)</pre>
+<div class="deep-note">global 남용보다 값을 반환해 바깥에서 받는 구조가 보통 더 읽기 쉽습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="nonlocal enclosing closure 중첩함수">
+<div class="topline"><h3>nonlocal 키워드</h3><span class="badge">스코프</span></div>
+<div class="desc">중첩 함수에서 바깥 함수의 지역 변수를 바꾸고 싶을 때 사용합니다.</div>
+<pre>def counter():
+    count = 0
+
+    def increase():
+        nonlocal count
+        count += 1
+        return count
+
+    return increase
+
+c = counter()
+print(c())
+print(c())</pre>
+<div class="deep-note">클로저 상태를 갱신할 때 등장합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="closure 클로저 함수 기억 enclosing">
+<div class="topline"><h3>클로저 closure</h3><span class="badge">함수 심화</span></div>
+<div class="desc">바깥 함수가 끝난 뒤에도 내부 함수가 바깥 변수 값을 기억하는 구조입니다.</div>
+<pre>def make_multiplier(n):
+    def multiply(x):
+        return x * n
+    return multiply
+
+double = make_multiplier(2)
+print(double(10))  # 20</pre>
+<div class="deep-note">데코레이터와 함수 팩토리를 이해할 때 매우 중요합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="first class function 일급객체 함수 변수">
+<div class="topline"><h3>함수도 값이다</h3><span class="badge">함수 심화</span></div>
+<div class="desc">파이썬 함수는 변수에 담고, 인자로 넘기고, 반환할 수 있는 일급 객체입니다.</div>
+<pre>def hello():
+    return &quot;hello&quot;
+
+f = hello
+print(f())</pre>
+<div class="deep-note">고차함수, 콜백, 데코레이터의 출발점입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="higher order function 고차함수 callback">
+<div class="topline"><h3>함수를 인자로 전달</h3><span class="badge">함수 심화</span></div>
+<div class="desc">다른 함수를 인자로 받는 고차함수 패턴입니다.</div>
+<pre>def apply(func, value):
+    return func(value)
+
+def square(x):
+    return x * x
+
+print(apply(square, 5))</pre>
+<div class="deep-note">sorted(key=...), map(), filter()도 이런 사고방식과 연결됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="positional keyword arguments 위치 키워드 인자">
+<div class="topline"><h3>위치 인자와 키워드 인자</h3><span class="badge">함수 심화</span></div>
+<div class="desc">함수 호출 시 순서로 전달하거나 이름을 지정해 전달할 수 있습니다.</div>
+<pre>def profile(name, age, city):
+    return f&quot;{name} / {age} / {city}&quot;
+
+print(profile(&quot;Kim&quot;, 30, city=&quot;Seoul&quot;))</pre>
+<div class="deep-note">키워드 인자는 의미가 명확하고 순서 의존성을 줄입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="args variadic positional tuple 가변인자">
+<div class="topline"><h3>*args: 가변 위치 인자</h3><span class="badge">함수 심화</span></div>
+<div class="desc">개수가 정해지지 않은 위치 인자를 tuple로 받습니다.</div>
+<pre>def total(*numbers):
+    return sum(numbers)
+
+print(total(1, 2, 3, 4))</pre>
+<div class="deep-note">*args의 실제 타입은 tuple입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="kwargs variadic keyword dict 가변인자">
+<div class="topline"><h3>**kwargs: 가변 키워드 인자</h3><span class="badge">함수 심화</span></div>
+<div class="desc">개수가 정해지지 않은 키워드 인자를 dict로 받습니다.</div>
+<pre>def show_info(**info):
+    for key, value in info.items():
+        print(key, value)
+
+show_info(name=&quot;Kim&quot;, age=30)</pre>
+<div class="deep-note">**kwargs의 실제 타입은 dict입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="argument unpacking * ** 언패킹">
+<div class="topline"><h3>인자 언패킹 * / **</h3><span class="badge">함수 심화</span></div>
+<div class="desc">리스트/튜플은 *, 딕셔너리는 **로 풀어서 함수 인자에 전달할 수 있습니다.</div>
+<pre>def add(a, b, c):
+    return a + b + c
+
+nums = [1, 2, 3]
+print(add(*nums))
+
+params = {&quot;a&quot;: 10, &quot;b&quot;: 20, &quot;c&quot;: 30}
+print(add(**params))</pre>
+<div class="deep-note">함수 호출에서 컨테이너 데이터를 그대로 인자로 펼칠 때 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="keyword-only arguments 키워드 전용">
+<div class="topline"><h3>키워드 전용 인자</h3><span class="badge">함수 심화</span></div>
+<div class="desc">* 뒤의 인자는 호출할 때 반드시 이름을 적어야 합니다.</div>
+<pre>def connect(host, *, timeout=5, secure=True):
+    return host, timeout, secure
+
+print(connect(&quot;example.com&quot;, timeout=10))</pre>
+<div class="deep-note">옵션 인자가 많을 때 호출 의미를 명확하게 만들 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="positional-only / 인자">
+<div class="topline"><h3>위치 전용 인자 /</h3><span class="badge">함수 심화</span></div>
+<div class="desc">/ 앞의 인자는 위치로만 전달하도록 제한할 수 있습니다.</div>
+<pre>def ratio(a, b, /):
+    return a / b
+
+print(ratio(10, 2))</pre>
+<div class="deep-note">내장함수의 시그니처를 읽을 때 / 표시가 자주 보입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="docstring __doc__ help 함수 문서화">
+<div class="topline"><h3>함수 docstring</h3><span class="badge">함수 심화</span></div>
+<div class="desc">함수의 목적, 인자, 반환값을 설명하는 문자열입니다.</div>
+<pre>def add(a, b):
+    &quot;&quot;&quot;두 숫자를 더해 반환합니다.&quot;&quot;&quot;
+    return a + b
+
+print(add.__doc__)</pre>
+<div class="deep-note">help()와 IDE 문서 표시에도 활용됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="scope" data-keywords="return early return 함수 종료">
+<div class="topline"><h3>함수 안의 return은 즉시 종료</h3><span class="badge">함수 심화</span></div>
+<div class="desc">return을 만나면 함수 실행은 그 자리에서 끝납니다.</div>
+<pre>def grade(score):
+    if score &gt;= 90:
+        return &quot;A&quot;
+    if score &gt;= 80:
+        return &quot;B&quot;
+    return &quot;C&quot;</pre>
+<div class="deep-note">early return 패턴을 쓰면 중첩 if를 줄일 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="for iterator protocol StopIteration iter next">
+<div class="topline"><h3>for문은 iterator protocol을 사용</h3><span class="badge">이터레이터</span></div>
+<div class="desc">for는 내부적으로 iter()와 next()를 반복 호출하는 구조로 이해할 수 있습니다.</div>
+<pre>items = [&quot;A&quot;, &quot;B&quot;, &quot;C&quot;]
+it = iter(items)
+
+while True:
+    try:
+        item = next(it)
+        print(item)
+    except StopIteration:
+        break</pre>
+<div class="deep-note">직접 이렇게 작성할 필요는 거의 없지만 for의 동작을 이해하는 데 중요합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="generator yield lazy 제너레이터">
+<div class="topline"><h3>generator 함수와 yield</h3><span class="badge">제너레이터</span></div>
+<div class="desc">yield를 사용하면 값을 한 번에 모두 만들지 않고 필요할 때 하나씩 생성합니다.</div>
+<pre>def count_up_to(n):
+    i = 1
+    while i &lt;= n:
+        yield i
+        i += 1
+
+for n in count_up_to(3):
+    print(n)</pre>
+<div class="deep-note">return은 함수 종료, yield는 상태를 기억한 채 잠시 멈춥니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="generator expression comprehension lazy memory">
+<div class="topline"><h3>제너레이터 표현식</h3><span class="badge">제너레이터</span></div>
+<div class="desc">리스트 컴프리헨션의 [] 대신 ()를 쓰면 지연 평가되는 generator expression이 됩니다.</div>
+<pre>squares = (x * x for x in range(1_000_000))
+print(next(squares))
+print(next(squares))</pre>
+<div class="deep-note">큰 데이터를 한 번에 메모리에 올리지 않을 때 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="list generator 차이 메모리">
+<div class="topline"><h3>리스트 vs 제너레이터</h3><span class="badge">제너레이터</span></div>
+<div class="desc">리스트는 값을 모두 저장하고, 제너레이터는 필요할 때 순차 생성합니다.</div>
+<pre>numbers = [x * x for x in range(5)]
+generator = (x * x for x in range(5))
+
+print(numbers)
+print(list(generator))</pre>
+<div class="deep-note">재사용이 필요하면 리스트가 편하고, 스트리밍/대용량이면 제너레이터가 유리할 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="yield from generator flatten">
+<div class="topline"><h3>yield from</h3><span class="badge">제너레이터</span></div>
+<div class="desc">다른 iterable의 값을 대신 하나씩 yield할 때 코드를 간단하게 만듭니다.</div>
+<pre>def flatten(groups):
+    for group in groups:
+        yield from group
+
+print(list(flatten([[1, 2], [3, 4]])))</pre>
+<div class="deep-note">중첩 제너레이터를 연결할 때 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="enumerate index pythonic">
+<div class="topline"><h3>enumerate를 직접 인덱스 증가보다 선호</h3><span class="badge">Pythonic</span></div>
+<div class="desc">인덱스와 값을 같이 필요로 할 때 enumerate가 가장 읽기 쉽습니다.</div>
+<pre>names = [&quot;Kim&quot;, &quot;Lee&quot;, &quot;Park&quot;]
+
+for i, name in enumerate(names, start=1):
+    print(i, name)</pre>
+<div class="deep-note">i += 1을 직접 관리할 필요가 없습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="zip parallel iteration 묶기">
+<div class="topline"><h3>zip으로 여러 iterable 묶기</h3><span class="badge">Pythonic</span></div>
+<div class="desc">같은 위치의 값들을 튜플처럼 묶어서 순회합니다.</div>
+<pre>names = [&quot;Kim&quot;, &quot;Lee&quot;]
+scores = [90, 85]
+
+for name, score in zip(names, scores):
+    print(name, score)</pre>
+<div class="deep-note">두 리스트를 병렬로 순회할 때 핵심입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="zip strict Python 3.10 길이 검사">
+<div class="topline"><h3>zip(strict=True)</h3><span class="badge">Pythonic</span></div>
+<div class="desc">길이가 달라도 조용히 잘리는 zip의 실수를 방지할 수 있습니다.</div>
+<pre>names = [&quot;Kim&quot;, &quot;Lee&quot;]
+scores = [90, 85]
+
+for name, score in zip(names, scores, strict=True):
+    print(name, score)</pre>
+<div class="deep-note">Python 3.10+에서 길이가 다르면 ValueError를 발생시킵니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="itertools chain iterable 연결">
+<div class="topline"><h3>itertools.chain</h3><span class="badge">표준 반복도구</span></div>
+<div class="desc">여러 iterable을 하나처럼 이어서 순회합니다.</div>
+<pre>from itertools import chain
+
+a = [1, 2]
+b = [3, 4]
+print(list(chain(a, b)))</pre>
+<div class="deep-note">리스트를 굳이 +로 합쳐 새 리스트를 만들지 않고 순회할 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="iterator" data-keywords="itertools islice generator slice">
+<div class="topline"><h3>itertools.islice</h3><span class="badge">표준 반복도구</span></div>
+<div class="desc">iterator나 generator의 일부 구간만 잘라서 가져옵니다.</div>
+<pre>from itertools import islice
+
+nums = (x * x for x in range(100))
+print(list(islice(nums, 5)))</pre>
+<div class="deep-note">무한 iterator의 앞부분만 확인할 때도 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="decorator" data-keywords="functools wraps decorator metadata">
+<div class="topline"><h3>functools.wraps 사용</h3><span class="badge">데코레이터</span></div>
+<div class="desc">wrapper가 원래 함수의 이름/docstring 같은 메타데이터를 잃지 않게 합니다.</div>
+<pre>from functools import wraps
+
+def log_call(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        print(func.__name__)
+        return func(*args, **kwargs)
+    return wrapper</pre>
+<div class="deep-note">실전 데코레이터를 만들 때 wraps는 거의 기본 세트입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="decorator" data-keywords="decorator arguments repeat wrapper">
+<div class="topline"><h3>인자를 받는 데코레이터</h3><span class="badge">데코레이터</span></div>
+<div class="desc">데코레이터 자체에 옵션을 넘기려면 함수가 한 겹 더 필요합니다.</div>
+<pre>from functools import wraps
+
+def repeat(times):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            result = None
+            for _ in range(times):
+                result = func(*args, **kwargs)
+            return result
+        return wrapper
+    return decorator
+
+@repeat(2)
+def hello():
+    print(&quot;hello&quot;)</pre>
+<div class="deep-note">@repeat(2)처럼 설정 가능한 데코레이터를 만들 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="decorator" data-keywords="property getter setter descriptor age">
+<div class="topline"><h3>property: 메서드를 속성처럼</h3><span class="badge">객체지향 연결</span></div>
+<div class="desc">getter/setter 로직을 유지하면서 외부에서는 일반 속성처럼 접근하게 합니다.</div>
+<pre>class User:
+    def __init__(self, age):
+        self._age = age
+
+    @property
+    def age(self):
+        return self._age
+
+    @age.setter
+    def age(self, value):
+        if value &lt; 0:
+            raise ValueError(&quot;age must be &gt;= 0&quot;)
+        self._age = value</pre>
+<div class="deep-note">나중에 검증 로직을 추가해도 호출 측 API를 user.age 형태로 유지할 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="decorator" data-keywords="contextlib contextmanager with yield">
+<div class="topline"><h3>contextlib.contextmanager</h3><span class="badge">with</span></div>
+<div class="desc">클래스를 직접 만들지 않고 generator 형태로 간단한 context manager를 만들 수 있습니다.</div>
+<pre>from contextlib import contextmanager
+
+@contextmanager
+def managed_resource():
+    print(&quot;준비&quot;)
+    try:
+        yield &quot;resource&quot;
+    finally:
+        print(&quot;정리&quot;)
+
+with managed_resource() as resource:
+    print(resource)</pre>
+<div class="deep-note">yield 앞은 진입, yield 뒤 finally는 정리 단계라고 보면 쉽습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="decorator" data-keywords="with multiple context managers 파일">
+<div class="topline"><h3>with를 여러 개 한 번에</h3><span class="badge">with</span></div>
+<div class="desc">여러 자원을 동시에 context manager로 관리할 수 있습니다.</div>
+<pre>with open(&quot;a.txt&quot;, &quot;r&quot;, encoding=&quot;utf-8&quot;) as src, open(
+    &quot;b.txt&quot;, &quot;w&quot;, encoding=&quot;utf-8&quot;
+) as dst:
+    dst.write(src.read())</pre>
+<div class="deep-note">파일 복사처럼 두 자원의 수명주기를 함께 관리할 때 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="decorator" data-keywords="finally cleanup resource exception">
+<div class="topline"><h3>예외 + finally로 정리 보장</h3><span class="badge">예외처리 연결</span></div>
+<div class="desc">context manager가 없을 때도 finally는 정리 로직을 보장합니다.</div>
+<pre>resource = None
+try:
+    resource = &quot;open&quot;
+    print(&quot;사용&quot;)
+finally:
+    resource = None
+    print(&quot;정리&quot;)</pre>
+<div class="deep-note">가능하면 with를 우선 고려하고, 일반 정리 로직에는 finally를 사용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="typing" data-keywords="type hint annotation str int return">
+<div class="topline"><h3>기본 타입힌트</h3><span class="badge">타입힌트</span></div>
+<div class="desc">타입힌트는 실행을 강제하기보다 사람과 도구에게 의도를 알려줍니다.</div>
+<pre>def greet(name: str, age: int) -&gt; str:
+    return f&quot;{name} ({age})&quot;
+
+message: str = greet(&quot;Kim&quot;, 30)</pre>
+<div class="deep-note">IDE 자동완성, 정적 분석, 코드 이해에 큰 도움이 됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="typing" data-keywords="typing list dict generic Python 3.9">
+<div class="topline"><h3>list / dict 타입힌트</h3><span class="badge">타입힌트</span></div>
+<div class="desc">Python 3.9+에서는 내장 컨테이너에 바로 제네릭 타입을 적을 수 있습니다.</div>
+<pre>def average(scores: list[float]) -&gt; float:
+    return sum(scores) / len(scores)
+
+users: dict[str, int] = {&quot;Kim&quot;: 30}</pre>
+<div class="deep-note">list[str], dict[str, int]처럼 읽습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="typing" data-keywords="union optional | None Python 3.10">
+<div class="topline"><h3>Optional 대신 | None</h3><span class="badge">타입힌트</span></div>
+<div class="desc">Python 3.10+에서는 A | B 문법으로 Union 타입을 간단히 표현합니다.</div>
+<pre>def find_user(user_id: int) -&gt; str | None:
+    if user_id == 1:
+        return &quot;Kim&quot;
+    return None</pre>
+<div class="deep-note">str | None은 문자열 또는 None이라는 뜻입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="typing" data-keywords="Callable typing function callback">
+<div class="topline"><h3>Callable 타입</h3><span class="badge">타입힌트</span></div>
+<div class="desc">함수를 인자로 받는 함수의 타입을 표현할 수 있습니다.</div>
+<pre>from collections.abc import Callable
+
+def apply(func: Callable[[int], int], value: int) -&gt; int:
+    return func(value)</pre>
+<div class="deep-note">Callable[[입력타입], 반환타입] 형태입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="typing" data-keywords="Iterable Iterator typing collections.abc">
+<div class="topline"><h3>Iterable / Iterator 타입</h3><span class="badge">타입힌트</span></div>
+<div class="desc">구체적인 list보다 필요한 동작 중심으로 타입을 넓게 표현할 수 있습니다.</div>
+<pre>from collections.abc import Iterable, Iterator
+
+def total(values: Iterable[int]) -&gt; int:
+    return sum(values)
+
+def count() -&gt; Iterator[int]:
+    yield 1
+    yield 2</pre>
+<div class="deep-note">API가 리스트뿐 아니라 튜플/제너레이터도 받을 수 있음을 명확히 합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="typing" data-keywords="TypeAlias alias typing">
+<div class="topline"><h3>TypeAlias</h3><span class="badge">타입힌트</span></div>
+<div class="desc">복잡한 타입에 의미 있는 별칭을 붙여 읽기 좋게 만듭니다.</div>
+<pre>from typing import TypeAlias
+
+UserId: TypeAlias = int
+UserMap: TypeAlias = dict[UserId, str]
+
+users: UserMap = {1: &quot;Kim&quot;}</pre>
+<div class="deep-note">타입 자체보다 도메인 의미를 강조할 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="typing" data-keywords="TypedDict dict schema typing">
+<div class="topline"><h3>TypedDict</h3><span class="badge">타입힌트</span></div>
+<div class="desc">dict 형태 데이터의 키와 값 타입을 구조적으로 설명할 수 있습니다.</div>
+<pre>from typing import TypedDict
+
+class User(TypedDict):
+    name: str
+    age: int
+
+user: User = {&quot;name&quot;: &quot;Kim&quot;, &quot;age&quot;: 30}</pre>
+<div class="deep-note">JSON 같은 dict 기반 구조에 타입 정보를 붙일 때 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="typing" data-keywords="Protocol structural typing duck typing">
+<div class="topline"><h3>Protocol: 구조 기반 타입</h3><span class="badge">타입힌트</span></div>
+<div class="desc">상속하지 않아도 필요한 메서드 구조만 맞으면 같은 인터페이스로 취급하는 타입힌트입니다.</div>
+<pre>from typing import Protocol
+
+class HasName(Protocol):
+    name: str
+
+def show_name(obj: HasName) -&gt; str:
+    return obj.name</pre>
+<div class="deep-note">덕 타이핑 철학을 정적 타입 도구와 연결해줍니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="class attribute instance attribute self">
+<div class="topline"><h3>인스턴스 속성 vs 클래스 속성</h3><span class="badge">객체지향 심화</span></div>
+<div class="desc">인스턴스마다 다른 값과 모든 인스턴스가 공유하는 값을 구분합니다.</div>
+<pre>class User:
+    species = &quot;human&quot;  # 클래스 속성
+
+    def __init__(self, name):
+        self.name = name  # 인스턴스 속성
+
+a = User(&quot;Kim&quot;)
+b = User(&quot;Lee&quot;)
+print(a.species, b.species)</pre>
+<div class="deep-note">공유 설정값은 클래스 속성, 객체별 상태는 self 속성으로 생각하면 쉽습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="classmethod cls alternative constructor factory">
+<div class="topline"><h3>@classmethod</h3><span class="badge">객체지향 심화</span></div>
+<div class="desc">인스턴스 대신 클래스(cls)를 첫 인자로 받는 메서드입니다.</div>
+<pre>class User:
+    def __init__(self, name):
+        self.name = name
+
+    @classmethod
+    def from_email(cls, email):
+        name = email.split(&quot;@&quot;)[0]
+        return cls(name)
+
+user = User.from_email(&quot;kim@example.com&quot;)</pre>
+<div class="deep-note">대체 생성자(factory) 패턴에서 자주 사용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="staticmethod class method utility">
+<div class="topline"><h3>@staticmethod</h3><span class="badge">객체지향 심화</span></div>
+<div class="desc">self나 cls가 필요 없지만 클래스 의미상 묶어두고 싶은 함수에 사용합니다.</div>
+<pre>class Math:
+    @staticmethod
+    def is_even(n):
+        return n % 2 == 0
+
+print(Math.is_even(10))</pre>
+<div class="deep-note">클래스 상태를 전혀 쓰지 않는다면 일반 함수가 더 자연스러운지도 함께 고민합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="__repr__ dunder magic method debug">
+<div class="topline"><h3>__repr__ 디버깅 표현</h3><span class="badge">매직메서드</span></div>
+<div class="desc">객체를 개발자에게 유용한 문자열 형태로 표현합니다.</div>
+<pre>class User:
+    def __init__(self, name):
+        self.name = name
+
+    def __repr__(self):
+        return f&quot;User(name={self.name!r})&quot;
+
+print(User(&quot;Kim&quot;))</pre>
+<div class="deep-note">로그와 디버깅에서 객체 상태가 보이도록 만들 때 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="__str__ repr dunder print">
+<div class="topline"><h3>__str__ 사용자 친화 표현</h3><span class="badge">매직메서드</span></div>
+<div class="desc">str(obj), print(obj)에서 보여줄 사용자 친화 문자열을 정의합니다.</div>
+<pre>class User:
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return self.name
+
+print(User(&quot;Kim&quot;))</pre>
+<div class="deep-note">__repr__은 개발자용, __str__은 사용자 친화 표현이라는 식으로 구분합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="__len__ len dunder protocol">
+<div class="topline"><h3>__len__으로 len() 지원</h3><span class="badge">매직메서드</span></div>
+<div class="desc">객체에 길이 개념이 있다면 len(obj)가 동작하도록 만들 수 있습니다.</div>
+<pre>class Team:
+    def __init__(self, members):
+        self.members = members
+
+    def __len__(self):
+        return len(self.members)
+
+team = Team([&quot;Kim&quot;, &quot;Lee&quot;])
+print(len(team))</pre>
+<div class="deep-note">파이썬 내장 문법과 자연스럽게 어울리는 사용자 정의 클래스를 만들 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="__iter__ iterable class for dunder">
+<div class="topline"><h3>__iter__로 for 지원</h3><span class="badge">매직메서드</span></div>
+<div class="desc">사용자 정의 객체를 iterable로 만들 수 있습니다.</div>
+<pre>class Team:
+    def __init__(self, members):
+        self.members = members
+
+    def __iter__(self):
+        return iter(self.members)
+
+for member in Team([&quot;Kim&quot;, &quot;Lee&quot;]):
+    print(member)</pre>
+<div class="deep-note">객체가 컬렉션처럼 자연스럽게 동작하게 만드는 핵심입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="__eq__ equality NotImplemented dunder">
+<div class="topline"><h3>__eq__로 == 동작 정의</h3><span class="badge">매직메서드</span></div>
+<div class="desc">두 객체를 어떤 기준으로 같다고 볼지 직접 정의할 수 있습니다.</div>
+<pre>class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __eq__(self, other):
+        if not isinstance(other, Point):
+            return NotImplemented
+        return self.x == other.x and self.y == other.y
+
+print(Point(1, 2) == Point(1, 2))</pre>
+<div class="deep-note">NotImplemented를 반환하면 파이썬이 반대편 비교 등 다른 처리 기회를 가질 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="inheritance super MRO parent child">
+<div class="topline"><h3>상속과 super()</h3><span class="badge">객체지향 심화</span></div>
+<div class="desc">부모 클래스 로직을 재사용하면서 자식 클래스 기능을 확장할 수 있습니다.</div>
+<pre>class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)
+        self.breed = breed</pre>
+<div class="deep-note">super()는 단순히 부모를 뜻한다기보다 MRO 순서의 다음 구현을 호출합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="MRO method resolution order inheritance">
+<div class="topline"><h3>MRO 확인</h3><span class="badge">객체지향 심화</span></div>
+<div class="desc">다중 상속에서 메서드를 어떤 순서로 탐색하는지 확인할 수 있습니다.</div>
+<pre>class A:
+    pass
+
+class B(A):
+    pass
+
+class C(B):
+    pass
+
+print(C.mro())</pre>
+<div class="deep-note">복잡한 다중 상속에서는 MRO 이해가 중요합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="composition has-a inheritance 객체 합성">
+<div class="topline"><h3>상속보다 합성 composition</h3><span class="badge">객체지향 심화</span></div>
+<div class="desc">객체가 다른 객체를 포함하고 기능을 위임하는 방식입니다.</div>
+<pre>class Engine:
+    def start(self):
+        return &quot;engine started&quot;
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()
+
+    def start(self):
+        return self.engine.start()</pre>
+<div class="deep-note">&quot;is-a&quot; 관계면 상속, &quot;has-a&quot; 관계면 합성을 먼저 떠올리는 게 도움이 됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="oop2" data-keywords="dataclass field default_factory eq repr">
+<div class="topline"><h3>dataclass 심화: 기본값과 비교</h3><span class="badge">객체지향 심화</span></div>
+<div class="desc">dataclass는 __init__, __repr__, __eq__ 같은 반복 코드를 자동 생성합니다.</div>
+<pre>from dataclasses import dataclass, field
+
+@dataclass
+class User:
+    name: str
+    tags: list[str] = field(default_factory=list)
+
+a = User(&quot;Kim&quot;)
+b = User(&quot;Kim&quot;)
+print(a == b)</pre>
+<div class="deep-note">mutable 기본값에는 field(default_factory=list)를 사용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="unpacking tuple packing pythonic">
+<div class="topline"><h3>언패킹 기본</h3><span class="badge">Pythonic</span></div>
+<div class="desc">여러 값을 한 번에 변수에 나눠 담을 수 있습니다.</div>
+<pre>x, y = 10, 20
+name, age = (&quot;Kim&quot;, 30)
+
+print(x, y, name, age)</pre>
+<div class="deep-note">튜플 패킹/언패킹은 파이썬다운 코드에서 매우 자주 나옵니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="extended unpacking starred rest">
+<div class="topline"><h3>확장 언패킹 *rest</h3><span class="badge">Pythonic</span></div>
+<div class="desc">앞뒤 몇 개만 받고 나머지를 리스트로 모을 수 있습니다.</div>
+<pre>first, *middle, last = [1, 2, 3, 4, 5]
+print(first)   # 1
+print(middle)  # [2, 3, 4]
+print(last)    # 5</pre>
+<div class="deep-note">CSV 행이나 가변 길이 시퀀스를 분해할 때 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="swap tuple unpacking 변수교환">
+<div class="topline"><h3>변수 교환</h3><span class="badge">Pythonic</span></div>
+<div class="desc">임시 변수 없이 두 값을 바로 바꿀 수 있습니다.</div>
+<pre>a = 10
+b = 20
+a, b = b, a
+print(a, b)</pre>
+<div class="deep-note">오른쪽이 먼저 평가되고 왼쪽에 언패킹된다고 이해하면 됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="sorted key lambda 정렬 기준">
+<div class="topline"><h3>sorted(key=...)</h3><span class="badge">Pythonic</span></div>
+<div class="desc">정렬 기준을 함수로 지정합니다.</div>
+<pre>users = [
+    {&quot;name&quot;: &quot;Kim&quot;, &quot;age&quot;: 30},
+    {&quot;name&quot;: &quot;Lee&quot;, &quot;age&quot;: 25},
+]
+
+result = sorted(users, key=lambda user: user[&quot;age&quot;])
+print(result)</pre>
+<div class="deep-note">복잡한 객체나 dict 정렬의 핵심 패턴입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="operator itemgetter sorted dict">
+<div class="topline"><h3>operator.itemgetter</h3><span class="badge">Pythonic</span></div>
+<div class="desc">dict/tuple 정렬 키를 lambda보다 간단히 표현할 수 있습니다.</div>
+<pre>from operator import itemgetter
+
+users = [
+    {&quot;name&quot;: &quot;Kim&quot;, &quot;age&quot;: 30},
+    {&quot;name&quot;: &quot;Lee&quot;, &quot;age&quot;: 25},
+]
+
+print(sorted(users, key=itemgetter(&quot;age&quot;)))</pre>
+<div class="deep-note">가독성 취향에 따라 lambda와 선택하면 됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="any all generator condition">
+<div class="topline"><h3>any()와 all()</h3><span class="badge">Pythonic</span></div>
+<div class="desc">조건이 하나라도 참인지, 전부 참인지 간결하게 검사합니다.</div>
+<pre>scores = [80, 95, 72]
+
+print(any(score &gt;= 90 for score in scores))
+print(all(score &gt;= 60 for score in scores))</pre>
+<div class="deep-note">generator expression과 함께 쓰면 매우 파이썬다운 검사 코드가 됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="dict get default KeyError">
+<div class="topline"><h3>dict.get으로 기본값 처리</h3><span class="badge">Pythonic</span></div>
+<div class="desc">키가 없을 때 KeyError 대신 기본값을 받을 수 있습니다.</div>
+<pre>user = {&quot;name&quot;: &quot;Kim&quot;}
+age = user.get(&quot;age&quot;, 0)
+print(age)</pre>
+<div class="deep-note">키 존재 여부 자체가 중요한 경우에는 in을 사용하는 편이 명확합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="dict merge | Python 3.9">
+<div class="topline"><h3>dict 병합 |</h3><span class="badge">Pythonic</span></div>
+<div class="desc">Python 3.9+에서는 | 연산자로 딕셔너리를 합칠 수 있습니다.</div>
+<pre>a = {&quot;x&quot;: 1, &quot;y&quot;: 2}
+b = {&quot;y&quot;: 99, &quot;z&quot;: 3}
+merged = a | b
+print(merged)</pre>
+<div class="deep-note">같은 키가 있으면 오른쪽 dict 값이 우선합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="match case structural pattern matching Python 3.10">
+<div class="topline"><h3>구조적 패턴 매칭 match/case</h3><span class="badge">Pythonic</span></div>
+<div class="desc">Python 3.10+에서 값이나 구조 패턴에 따라 분기할 수 있습니다.</div>
+<pre>def describe(status):
+    match status:
+        case 200:
+            return &quot;OK&quot;
+        case 404:
+            return &quot;Not Found&quot;
+        case _:
+            return &quot;Other&quot;</pre>
+<div class="deep-note">단순 값 비교뿐 아니라 리스트/dict 구조 패턴 매칭도 가능합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="walrus := assignment expression Python 3.8">
+<div class="topline"><h3>walrus 연산자 :=</h3><span class="badge">Pythonic</span></div>
+<div class="desc">표현식 안에서 값을 변수에 대입하면서 사용할 수 있습니다.</div>
+<pre>data = [1, 2, 3, 4]
+
+if (n := len(data)) &gt; 3:
+    print(f&quot;데이터가 {n}개 있습니다&quot;)</pre>
+<div class="deep-note">과용하면 읽기 어려워집니다. 계산을 중복하지 않을 때 선택적으로 사용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="idiom" data-keywords="f-string format debug = percent">
+<div class="topline"><h3>f-string 표현식과 포맷</h3><span class="badge">Pythonic</span></div>
+<div class="desc">f-string 안에서 표현식과 숫자 포맷을 바로 적용할 수 있습니다.</div>
+<pre>name = &quot;Kim&quot;
+score = 93.456
+
+print(f&quot;{name=}&quot;)
+print(f&quot;점수: {score:.2f}&quot;)
+print(f&quot;비율: {0.1234:.1%}&quot;)</pre>
+<div class="deep-note">{name=}은 디버깅할 때 변수명과 값을 함께 보여줍니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="collections Counter count frequency">
+<div class="topline"><h3>collections.Counter</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">항목별 빈도를 빠르게 셀 수 있습니다.</div>
+<pre>from collections import Counter
+
+items = [&quot;A&quot;, &quot;B&quot;, &quot;A&quot;, &quot;C&quot;, &quot;A&quot;]
+counter = Counter(items)
+print(counter.most_common(2))</pre>
+<div class="deep-note">빈도 집계가 목적이면 직접 dict 카운팅보다 간단합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="defaultdict collections grouping">
+<div class="topline"><h3>collections.defaultdict</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">없는 키에 기본 컨테이너를 자동 생성해주는 dict입니다.</div>
+<pre>from collections import defaultdict
+
+groups = defaultdict(list)
+groups[&quot;A&quot;].append(&quot;Kim&quot;)
+groups[&quot;A&quot;].append(&quot;Lee&quot;)
+print(groups[&quot;A&quot;])</pre>
+<div class="deep-note">그룹핑 코드에서 setdefault보다 읽기 쉬운 경우가 많습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="deque queue popleft collections">
+<div class="topline"><h3>collections.deque</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">양쪽 끝에서 빠르게 추가/삭제하는 큐 자료구조입니다.</div>
+<pre>from collections import deque
+
+queue = deque([1, 2, 3])
+queue.append(4)
+print(queue.popleft())</pre>
+<div class="deep-note">리스트의 pop(0)보다 큐 용도에 적합합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="pathlib Path file path">
+<div class="topline"><h3>pathlib로 경로 다루기</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">문자열 결합보다 객체 방식으로 파일 경로를 다루기 쉽습니다.</div>
+<pre>from pathlib import Path
+
+path = Path(&quot;data&quot;) / &quot;users.json&quot;
+print(path.name)
+print(path.suffix)</pre>
+<div class="deep-note">운영체제별 경로 구분자 차이를 직접 처리할 일이 줄어듭니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="json dumps loads dump load">
+<div class="topline"><h3>json 읽기 / 쓰기</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">파이썬 dict/list와 JSON 문자열 또는 파일을 변환합니다.</div>
+<pre>import json
+
+data = {&quot;name&quot;: &quot;Kim&quot;, &quot;age&quot;: 30}
+text = json.dumps(data, ensure_ascii=False)
+restored = json.loads(text)
+print(restored)</pre>
+<div class="deep-note">파일에는 json.dump / json.load를 사용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="datetime timedelta strftime strptime">
+<div class="topline"><h3>datetime 현재 시간과 날짜 계산</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">날짜/시간 객체를 생성하고 차이를 계산합니다.</div>
+<pre>from datetime import datetime, timedelta
+
+now = datetime.now()
+tomorrow = now + timedelta(days=1)
+print(tomorrow)</pre>
+<div class="deep-note">문자열 날짜는 strptime, 출력 문자열은 strftime과 연결됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="random Random seed randint choice">
+<div class="topline"><h3>random 전용 객체 사용</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">재현 가능한 랜덤 결과가 필요하면 Random 인스턴스에 seed를 고정할 수 있습니다.</div>
+<pre>import random
+
+rng = random.Random(42)
+print(rng.randint(1, 10))
+print(rng.choice([&quot;A&quot;, &quot;B&quot;, &quot;C&quot;]))</pre>
+<div class="deep-note">테스트용 재현성 확보에 유용합니다. 보안용 랜덤에는 secrets를 사용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="secrets token secure random 보안">
+<div class="topline"><h3>secrets 보안용 랜덤</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">토큰/비밀번호 관련 무작위 값은 random 대신 secrets를 사용합니다.</div>
+<pre>import secrets
+
+token = secrets.token_urlsafe(16)
+print(token)</pre>
+<div class="deep-note">예측 가능성이 문제가 되는 보안 용도에는 random을 쓰지 않습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="re regex 정규표현식 search">
+<div class="topline"><h3>re 정규표현식 기본</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">문자열 패턴 검색과 치환에 사용하는 표준 모듈입니다.</div>
+<pre>import re
+
+text = &quot;phone: 010-1234-5678&quot;
+match = re.search(r&quot;\d{3}-\d{4}-\d{4}&quot;, text)
+if match:
+    print(match.group())</pre>
+<div class="deep-note">단순 포함 검색은 in이 더 읽기 쉽고, 패턴이 복잡할 때 re를 고려합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="logging logger info debug warning">
+<div class="topline"><h3>logging 기본</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">print 대신 로그 레벨과 형식을 관리할 수 있습니다.</div>
+<pre>import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+logger.info(&quot;프로그램 시작&quot;)</pre>
+<div class="deep-note">실제 애플리케이션에서는 print 디버깅보다 logging이 관리하기 좋습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="lru_cache functools memoization cache">
+<div class="topline"><h3>functools.lru_cache</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">같은 입력의 함수 결과를 캐싱해 반복 계산을 줄일 수 있습니다.</div>
+<pre>from functools import lru_cache
+
+@lru_cache(maxsize=None)
+def fib(n):
+    if n &lt; 2:
+        return n
+    return fib(n - 1) + fib(n - 2)
+
+print(fib(30))</pre>
+<div class="deep-note">입력에 따라 항상 같은 결과가 나오는 순수 함수에 특히 잘 맞습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="stdlib" data-keywords="bisect insort sorted list">
+<div class="topline"><h3>bisect로 정렬 상태 삽입</h3><span class="badge">표준 라이브러리</span></div>
+<div class="desc">정렬된 리스트에 값을 넣으며 정렬 상태를 유지합니다.</div>
+<pre>from bisect import insort
+
+nums = [1, 3, 5, 7]
+insort(nums, 4)
+print(nums)</pre>
+<div class="deep-note">정렬된 리스트를 계속 유지해야 할 때 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="async" data-keywords="async await asyncio coroutine I/O">
+<div class="topline"><h3>async def / await 큰 그림</h3><span class="badge">비동기 기초</span></div>
+<div class="desc">대기 시간이 있는 작업을 멈췄다가 다른 작업을 진행하도록 협력하는 문법입니다.</div>
+<pre>import asyncio
+
+async def work():
+    await asyncio.sleep(1)
+    return &quot;done&quot;
+
+async def main():
+    result = await work()
+    print(result)
+
+asyncio.run(main())</pre>
+<div class="deep-note">CPU 계산을 자동으로 빠르게 만드는 문법이 아니라 I/O 대기 처리에 강점이 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="async" data-keywords="coroutine async function object">
+<div class="topline"><h3>coroutine 객체</h3><span class="badge">비동기 기초</span></div>
+<div class="desc">async def 함수는 호출만 하면 바로 본문을 끝까지 실행하는 게 아니라 coroutine 객체를 만듭니다.</div>
+<pre>async def hello():
+    return &quot;hello&quot;
+
+coro = hello()
+print(type(coro))
+coro.close()</pre>
+<div class="deep-note">실제 실행은 await 또는 event loop가 담당합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="async" data-keywords="asyncio gather concurrent coroutine">
+<div class="topline"><h3>asyncio.gather</h3><span class="badge">비동기 기초</span></div>
+<div class="desc">여러 비동기 작업을 함께 실행하고 결과를 모읍니다.</div>
+<pre>import asyncio
+
+async def work(n):
+    await asyncio.sleep(0.1)
+    return n * 2
+
+async def main():
+    results = await asyncio.gather(work(1), work(2), work(3))
+    print(results)
+
+asyncio.run(main())</pre>
+<div class="deep-note">서로 독립적인 I/O 작업을 동시에 기다릴 때 유용합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="async" data-keywords="async for async generator">
+<div class="topline"><h3>async for</h3><span class="badge">비동기 기초</span></div>
+<div class="desc">값을 비동기적으로 하나씩 받아오는 iterable을 순회할 때 사용합니다.</div>
+<pre>import asyncio
+
+async def numbers():
+    for i in range(3):
+        await asyncio.sleep(0.01)
+        yield i
+
+async def main():
+    async for n in numbers():
+        print(n)
+
+asyncio.run(main())</pre>
+<div class="deep-note">일반 for의 비동기 iterable 버전이라고 보면 됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="async" data-keywords="async with __aenter__ __aexit__ context manager">
+<div class="topline"><h3>async with</h3><span class="badge">비동기 기초</span></div>
+<div class="desc">비동기 진입/정리가 필요한 자원을 다루는 context manager 문법입니다.</div>
+<pre>class Resource:
+    async def __aenter__(self):
+        return self
+
+    async def __aexit__(self, exc_type, exc, tb):
+        return False</pre>
+<div class="deep-note">네트워크 클라이언트나 비동기 DB 연결에서 자주 만나게 됩니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="async" data-keywords="concurrency parallelism asyncio CPU IO 차이">
+<div class="topline"><h3>동시성 ≠ 병렬성</h3><span class="badge">비동기 기초</span></div>
+<div class="desc">asyncio는 여러 작업의 대기 시간을 겹치는 동시성에 초점을 둡니다.</div>
+<pre>import asyncio
+
+async def wait_a_bit():
+    await asyncio.sleep(0.1)
+    return &quot;finished&quot;</pre>
+<div class="deep-note">CPU 연산 병렬화가 목적이면 multiprocessing 등 다른 도구가 필요할 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="env" data-keywords="__name__ __main__ main guard import 실행">
+<div class="topline"><h3>__name__ == &quot;__main__&quot;</h3><span class="badge">실행 구조</span></div>
+<div class="desc">파일이 직접 실행될 때만 특정 코드를 실행하는 대표 패턴입니다.</div>
+<pre>def main():
+    print(&quot;프로그램 실행&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    main()</pre>
+<div class="deep-note">다른 파일에서 import했을 때 테스트/실행 코드가 자동 실행되는 것을 막습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="env" data-keywords="sys.modules import cache module">
+<div class="topline"><h3>모듈은 한 번 import 후 캐시</h3><span class="badge">실행 구조</span></div>
+<div class="desc">같은 프로세스 안에서 일반 import는 보통 sys.modules 캐시를 사용합니다.</div>
+<pre>import sys
+import math
+
+print(&quot;math&quot; in sys.modules)</pre>
+<div class="deep-note">import할 때 모듈 최상위 코드가 실행된다는 점도 중요합니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="env" data-keywords="package __init__.py module 구조">
+<div class="topline"><h3>패키지와 __init__.py</h3><span class="badge">실행 구조</span></div>
+<div class="desc">여러 모듈을 폴더 단위로 묶어 패키지로 구성합니다.</div>
+<pre>from pathlib import Path
+
+package_dir = Path(&quot;mypackage&quot;)
+print(package_dir / &quot;__init__.py&quot;)</pre>
+<div class="deep-note">현대 파이썬에는 namespace package도 있지만 학습 초반에는 __init__.py가 있는 패키지 구조를 먼저 익히면 좋습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="env" data-keywords="absolute relative import package">
+<div class="topline"><h3>절대 import vs 상대 import</h3><span class="badge">실행 구조</span></div>
+<div class="desc">패키지 내부 모듈을 가져올 때 위치를 명확하게 표현합니다.</div>
+<pre>from mypackage.utils import helper
+
+# 패키지 내부에서는 상황에 따라
+# from .utils import helper</pre>
+<div class="deep-note">애플리케이션 코드에서는 절대 import가 경로를 파악하기 쉬운 경우가 많습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="env" data-keywords="venv virtual environment sys.prefix executable">
+<div class="topline"><h3>가상환경을 쓰는 이유</h3><span class="badge">실행 구조</span></div>
+<div class="desc">프로젝트마다 패키지 버전을 분리해 의존성 충돌을 줄입니다.</div>
+<pre>import sys
+
+print(sys.executable)
+print(sys.prefix)</pre>
+<div class="deep-note">venv는 문법 자체는 아니지만 파이썬 프로젝트를 안정적으로 운영하는 핵심 환경 개념입니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card deep-card" data-category="env" data-keywords="circular import 순환참조 module">
+<div class="topline"><h3>import 순환 의존성 주의</h3><span class="badge">실행 구조</span></div>
+<div class="desc">모듈 A와 B가 서로 최상위에서 import하면 초기화 도중 문제가 생길 수 있습니다.</div>
+<pre>def load_user_service():
+    from mypackage.user_service import UserService
+    return UserService</pre>
+<div class="deep-note">구조를 재설계하는 게 우선이고, 필요하면 지연 import가 임시 해결책이 될 수 있습니다.</div><span class="level-pill">파이썬 중급</span>
+</article>
+<article class="card" data-category="start" data-keywords="지하철 암기 큰그림 변수 조건 반복 함수 클래스">
+<div class="topline"><h3>지하철 1분용: 파이썬 문법 큰 그림</h3><span class="badge">빠른 이해</span></div>
+<div class="desc">파이썬 코드는 보통 <b>값을 저장하고 → 조건을 판단하고 → 반복하고 → 함수로 묶고 → 객체로 확장</b>하는 흐름으로 이해하면 쉽습니다.</div><div class="visual-box"><svg viewBox="0 0 320 150" role="img"><rect width="320" height="150" rx="14" fill="#fff"/><g font-family="Arial,sans-serif" font-size="12" text-anchor="middle"><rect x="14" y="52" width="52" height="40" rx="8" fill="#dbeafe" stroke="#60a5fa"/><text x="40" y="76">변수</text><path d="M68 72 H92" stroke="#64748b" stroke-width="2"/><polygon points="92,72 85,68 85,76" fill="#64748b"/><rect x="96" y="52" width="52" height="40" rx="8" fill="#dcfce7" stroke="#4ade80"/><text x="122" y="76">조건</text><path d="M150 72 H174" stroke="#64748b" stroke-width="2"/><polygon points="174,72 167,68 167,76" fill="#64748b"/><rect x="178" y="52" width="52" height="40" rx="8" fill="#fef3c7" stroke="#fbbf24"/><text x="204" y="76">반복</text><path d="M232 72 H256" stroke="#64748b" stroke-width="2"/><polygon points="256,72 249,68 249,76" fill="#64748b"/><rect x="260" y="52" width="46" height="40" rx="8" fill="#fee2e2" stroke="#f87171"/><text x="283" y="76">함수</text><text x="160" y="125" fill="#64748b">기초 문법 → 코드를 묶고 재사용 → 객체지향으로 확장</text></g></svg></div><div class="parts"><b>변수</b> = 값에 이름 붙이기<br><b>조건문</b> = 상황에 따라 갈림길<br><b>반복문</b> = 같은 일을 여러 번<br><b>함수</b> = 코드 묶음 재사용<br><b>클래스</b> = 데이터와 기능을 하나의 설계도로 묶기</div>
+</article><article class="card" data-category="variable" data-keywords="변수 이름표 할당 assign">
+<div class="topline"><h3>변수는 “이름표”라고 생각하기</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">값 자체보다 <b>값을 가리키는 이름</b>이라고 생각하면 이해가 쉽습니다.</div><div class="visual-box"><svg viewBox="0 0 300 130"><rect width="300" height="130" rx="12" fill="#fff"/><rect x="28" y="42" width="80" height="42" rx="8" fill="#dbeafe" stroke="#60a5fa"/><text x="68" y="68" text-anchor="middle" font-size="14" fill="#1e3a8a">age</text><path d="M112 63 H178" stroke="#64748b" stroke-width="3"/><polygon points="178,63 168,57 168,69" fill="#64748b"/><rect x="182" y="42" width="80" height="42" rx="8" fill="#f8fafc" stroke="#94a3b8"/><text x="222" y="68" text-anchor="middle" font-size="16">20</text><text x="150" y="110" text-anchor="middle" font-size="12" fill="#64748b">변수 이름이 값을 가리킨다</text></svg></div><pre>age = 20
+name = &quot;Kim&quot;
+score = 95.5</pre><div class="parts"><b>age</b> → 20을 가리킴<br><b>name</b> → "Kim"을 가리킴</div>
+</article><article class="card" data-category="list" data-keywords="리스트 인덱스 0 -1">
+<div class="topline"><h3>리스트 인덱스 모형</h3><span class="badge">리스트</span></div>
+<div class="desc">리스트는 여러 값을 순서대로 담는 상자입니다. 인덱스는 <b>0부터 시작</b>합니다.</div><div class="visual-box"><svg viewBox="0 0 320 130"><rect width="320" height="130" rx="12" fill="#fff"/><g font-size="12" text-anchor="middle"><text x="62" y="27" fill="#64748b">0</text><text x="140" y="27" fill="#64748b">1</text><text x="218" y="27" fill="#64748b">2</text><rect x="24" y="38" width="76" height="44" rx="6" fill="#dbeafe" stroke="#60a5fa"/><rect x="102" y="38" width="76" height="44" rx="6" fill="#dcfce7" stroke="#4ade80"/><rect x="180" y="38" width="76" height="44" rx="6" fill="#fef3c7" stroke="#fbbf24"/><text x="62" y="65">사과</text><text x="140" y="65">바나나</text><text x="218" y="65">포도</text><text x="62" y="106" fill="#64748b">-3</text><text x="140" y="106" fill="#64748b">-2</text><text x="218" y="106" fill="#64748b">-1</text></g></svg></div><pre>fruits = [&quot;사과&quot;, &quot;바나나&quot;, &quot;포도&quot;]
+print(fruits[0])   # 사과
+print(fruits[-1])  # 포도</pre><div class="parts"><b>0</b> = 첫 번째<br><b>-1</b> = 마지막</div>
+</article><article class="card" data-category="dict" data-keywords="dict 딕셔너리 key value 키 값">
+<div class="topline"><h3>딕셔너리 모형: key → value</h3><span class="badge">딕셔너리</span></div>
+<div class="desc">딕셔너리는 순서보다 <b>키(key)로 값을 찾는 구조</b>가 핵심입니다.</div><div class="visual-box"><svg viewBox="0 0 320 140"><rect width="320" height="140" rx="12" fill="#fff"/><g font-size="13"><rect x="28" y="28" width="82" height="34" rx="7" fill="#dbeafe"/><text x="69" y="50" text-anchor="middle">"name"</text><path d="M116 45 H180" stroke="#64748b" stroke-width="2"/><polygon points="180,45 172,40 172,50" fill="#64748b"/><rect x="184" y="28" width="82" height="34" rx="7" fill="#f8fafc" stroke="#cbd5e1"/><text x="225" y="50" text-anchor="middle">"Kim"</text><rect x="28" y="78" width="82" height="34" rx="7" fill="#dcfce7"/><text x="69" y="100" text-anchor="middle">"age"</text><path d="M116 95 H180" stroke="#64748b" stroke-width="2"/><polygon points="180,95 172,90 172,100" fill="#64748b"/><rect x="184" y="78" width="82" height="34" rx="7" fill="#f8fafc" stroke="#cbd5e1"/><text x="225" y="100" text-anchor="middle">20</text></g></svg></div><pre>user = {&quot;name&quot;: &quot;Kim&quot;, &quot;age&quot;: 20}
+print(user[&quot;name&quot;])</pre><div class="parts"><b>name</b> → Kim<br><b>age</b> → 20</div>
+</article><article class="card" data-category="condition" data-keywords="if else 조건 갈림길">
+<div class="topline"><h3>조건문 흐름 모형</h3><span class="badge">조건문</span></div>
+<div class="desc">조건이 참이면 한쪽, 거짓이면 다른 쪽으로 흐릅니다.</div><div class="visual-box"><svg viewBox="0 0 320 160"><rect width="320" height="160" rx="12" fill="#fff"/><polygon points="160,22 220,60 160,98 100,60" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/><text x="160" y="64" text-anchor="middle" font-size="13">score ≥ 60?</text><path d="M100 60 H52 V122" stroke="#64748b" stroke-width="2" fill="none"/><path d="M220 60 H268 V122" stroke="#64748b" stroke-width="2" fill="none"/><rect x="24" y="120" width="74" height="28" rx="6" fill="#fee2e2"/><rect x="222" y="120" width="74" height="28" rx="6" fill="#dcfce7"/><text x="61" y="139" text-anchor="middle" font-size="12">불합격</text><text x="259" y="139" text-anchor="middle" font-size="12">합격</text><text x="70" y="50" font-size="11" fill="#64748b">False</text><text x="245" y="50" font-size="11" fill="#64748b">True</text></svg></div><pre>if score &gt;= 60:
+    print(&quot;합격&quot;)
+else:
+    print(&quot;불합격&quot;)</pre><div class="parts"><b>if</b> = 조건 시작<br><b>else</b> = 나머지 경우</div>
+</article><article class="card" data-category="loop" data-keywords="for 반복 루프">
+<div class="topline"><h3>반복문 흐름 모형</h3><span class="badge">반복문</span></div>
+<div class="desc">여러 값을 하나씩 꺼내 같은 코드를 반복합니다.</div><div class="visual-box"><svg viewBox="0 0 320 160"><rect width="320" height="160" rx="12" fill="#fff"/><rect x="30" y="42" width="82" height="38" rx="8" fill="#dbeafe"/><text x="71" y="65" text-anchor="middle" font-size="13">리스트</text><path d="M116 61 H158" stroke="#64748b" stroke-width="2"/><polygon points="158,61 150,56 150,66" fill="#64748b"/><rect x="162" y="42" width="104" height="38" rx="8" fill="#dcfce7"/><text x="214" y="65" text-anchor="middle" font-size="13">한 개 꺼내기</text><path d="M214 82 V118 H72 V84" stroke="#64748b" stroke-width="2" fill="none"/><polygon points="72,84 67,92 77,92" fill="#64748b"/><text x="160" y="136" text-anchor="middle" font-size="12" fill="#64748b">다음 값이 있으면 다시 반복</text></svg></div><pre>for fruit in fruits:
+    print(fruit)</pre><div class="parts"><b>for</b> = 반복 시작<br><b>fruit</b> = 이번 차례의 값</div>
+</article><article class="card" data-category="function" data-keywords="함수 입력 처리 출력 return parameter">
+<div class="topline"><h3>함수 모형: 입력 → 처리 → 결과</h3><span class="badge">함수</span></div>
+<div class="desc">함수는 여러 줄 코드를 <b>이름 하나로 묶어 재사용</b>합니다.</div><div class="visual-box"><svg viewBox="0 0 330 150"><rect width="330" height="150" rx="12" fill="#fff"/><rect x="20" y="55" width="72" height="40" rx="8" fill="#dbeafe"/><text x="56" y="79" text-anchor="middle" font-size="13">입력 a,b</text><path d="M96 75 H126" stroke="#64748b" stroke-width="2"/><polygon points="126,75 118,70 118,80" fill="#64748b"/><rect x="130" y="40" width="78" height="70" rx="10" fill="#fef3c7" stroke="#f59e0b"/><text x="169" y="69" text-anchor="middle" font-size="13">함수</text><text x="169" y="89" text-anchor="middle" font-size="12">a + b</text><path d="M212 75 H242" stroke="#64748b" stroke-width="2"/><polygon points="242,75 234,70 234,80" fill="#64748b"/><rect x="246" y="55" width="64" height="40" rx="8" fill="#dcfce7"/><text x="278" y="79" text-anchor="middle" font-size="13">결과 8</text></svg></div><pre>def add(a, b):
+    return a + b
+
+result = add(3, 5)</pre><div class="parts"><b>a, b</b> = 입력(parameter)<br><b>return</b> = 결과 반환</div>
+</article><article class="card" data-category="oop" data-keywords="class 객체 인스턴스 설계도">
+<div class="topline"><h3>클래스 모형: 설계도 → 객체</h3><span class="badge">클래스 / 객체</span></div>
+<div class="desc">클래스는 속성과 기능을 묶은 설계도이고, 객체는 그 설계도로 만든 실제 값입니다.</div><div class="visual-box"><svg viewBox="0 0 330 160"><rect width="330" height="160" rx="12" fill="#fff"/><rect x="24" y="26" width="116" height="108" rx="10" fill="#eff6ff" stroke="#60a5fa"/><text x="82" y="50" text-anchor="middle" font-size="14" font-weight="700">class User</text><text x="82" y="76" text-anchor="middle" font-size="12">name</text><text x="82" y="98" text-anchor="middle" font-size="12">age</text><text x="82" y="120" text-anchor="middle" font-size="12">greet()</text><path d="M145 80 H188" stroke="#64748b" stroke-width="2"/><polygon points="188,80 180,75 180,85" fill="#64748b"/><rect x="192" y="44" width="112" height="72" rx="10" fill="#dcfce7" stroke="#4ade80"/><text x="248" y="68" text-anchor="middle" font-size="13" font-weight="700">user1 객체</text><text x="248" y="90" text-anchor="middle" font-size="12">name="Kim"</text><text x="248" y="108" text-anchor="middle" font-size="12">age=20</text></svg></div><pre>class User:
+    def __init__(self, name):
+        self.name = name
+
+user1 = User(&quot;Kim&quot;)</pre><div class="parts"><b>class</b> = 설계도<br><b>user1</b> = 객체(instance)</div>
+</article><article class="card" data-category="start" data-keywords="print 출력">
+<div class="topline"><h3>화면에 출력하기</h3><span class="badge">시작 / 기본</span></div>
+<div class="desc">가장 기본적인 출력 함수입니다.</div><pre>print(&quot;Hello, Python!&quot;)</pre>
+</article><article class="card" data-category="start" data-keywords="주석 comment #">
+<div class="topline"><h3>주석 작성하기</h3><span class="badge">시작 / 기본</span></div>
+<div class="desc">실행하지 않을 설명은 # 뒤에 적습니다.</div><pre># 한 줄 주석
+print(&quot;실행됨&quot;)</pre>
+</article><article class="card" data-category="start" data-keywords="triple quote 여러줄 문자열">
+<div class="topline"><h3>여러 줄 문자열</h3><span class="badge">시작 / 기본</span></div>
+<div class="desc">긴 문자열이나 설명을 여러 줄로 작성할 때 사용합니다.</div><pre>text = &quot;&quot;&quot;
+첫째 줄
+둘째 줄
+&quot;&quot;&quot;</pre>
+</article><article class="card" data-category="start" data-keywords="input 입력">
+<div class="topline"><h3>사용자 입력 받기</h3><span class="badge">시작 / 기본</span></div>
+<div class="desc">input()의 결과는 기본적으로 문자열(str)입니다.</div><pre>name = input(&quot;이름: &quot;)
+print(name)</pre>
+</article><article class="card" data-category="start" data-keywords="input int float 형변환">
+<div class="topline"><h3>숫자로 입력 받기</h3><span class="badge">시작 / 기본</span></div>
+<div class="desc">숫자 계산이 필요하면 int()나 float()로 변환합니다.</div><pre>age = int(input(&quot;나이: &quot;))
+height = float(input(&quot;키: &quot;))</pre>
+</article><article class="card" data-category="variable" data-keywords="int integer 정수 type">
+<div class="topline"><h3>정수 int</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">소수점 없는 숫자입니다.</div><pre>x = 10
+print(type(x))  # &lt;class &#x27;int&#x27;&gt;</pre>
+</article><article class="card" data-category="variable" data-keywords="float 실수">
+<div class="topline"><h3>실수 float</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">소수점이 있는 숫자입니다.</div><pre>pi = 3.14
+print(type(pi))</pre>
+</article><article class="card" data-category="variable" data-keywords="str string 문자열">
+<div class="topline"><h3>문자열 str</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">문자를 따옴표로 감싸 표현합니다.</div><pre>name = &quot;Python&quot;
+message = &#x27;안녕하세요&#x27;</pre>
+</article><article class="card" data-category="variable" data-keywords="bool boolean True False 참 거짓">
+<div class="topline"><h3>불리언 bool</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">참/거짓 두 값만 가집니다.</div><pre>is_ok = True
+is_admin = False</pre>
+</article><article class="card" data-category="variable" data-keywords="None null 값없음">
+<div class="topline"><h3>None</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">값이 없음을 나타내는 특별한 값입니다.</div><pre>result = None
+print(result is None)</pre>
+</article><article class="card" data-category="variable" data-keywords="type 자료형 확인">
+<div class="topline"><h3>자료형 확인 type()</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">현재 값의 자료형을 확인합니다.</div><pre>print(type(10))
+print(type(&quot;abc&quot;))
+print(type([1,2,3]))</pre>
+</article><article class="card" data-category="variable" data-keywords="형변환 cast int float str">
+<div class="topline"><h3>형변환 int / float / str</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">자료형을 원하는 형태로 바꿉니다.</div><pre>int(&quot;10&quot;)
+float(&quot;3.14&quot;)
+str(100)</pre>
+</article><article class="card" data-category="variable" data-keywords="unpacking 다중 할당">
+<div class="topline"><h3>여러 변수 한 번에 할당</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">한 줄에서 여러 변수에 값을 넣을 수 있습니다.</div><pre>a, b, c = 1, 2, 3</pre>
+</article><article class="card" data-category="variable" data-keywords="swap 교환">
+<div class="topline"><h3>두 변수 값 교환</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">임시 변수 없이 값 교환이 가능합니다.</div><pre>a, b = b, a</pre>
+</article><article class="card" data-category="variable" data-keywords="상수 constant uppercase">
+<div class="topline"><h3>상수 느낌의 이름</h3><span class="badge">변수 / 자료형</span></div>
+<div class="desc">파이썬은 강제 상수가 없지만 관례상 대문자를 사용합니다.</div><pre>PI = 3.141592
+MAX_SIZE = 100</pre>
+</article><article class="card" data-category="operator" data-keywords="연산 + - * /">
+<div class="topline"><h3>사칙연산</h3><span class="badge">연산자</span></div>
+<div class="desc">기본 계산 연산자입니다.</div><pre>a + b
+a - b
+a * b
+a / b</pre>
+</article><article class="card" data-category="operator" data-keywords="몫 나머지 // % modulo">
+<div class="topline"><h3>몫 // 와 나머지 %</h3><span class="badge">연산자</span></div>
+<div class="desc">정수 나눗셈에서 자주 씁니다.</div><pre>17 // 5  # 3
+17 % 5   # 2</pre>
+</article><article class="card" data-category="operator" data-keywords="제곱 power **">
+<div class="topline"><h3>거듭제곱 **</h3><span class="badge">연산자</span></div>
+<div class="desc">제곱 계산에 사용합니다.</div><pre>2 ** 3  # 8</pre>
+</article><article class="card" data-category="operator" data-keywords="비교 == != &gt; &lt; &gt;= &lt;=">
+<div class="topline"><h3>비교 연산자</h3><span class="badge">연산자</span></div>
+<div class="desc">두 값을 비교하면 True/False가 나옵니다.</div><pre>a == b
+a != b
+a &gt; b
+a &gt;= b
+a &lt; b
+a &lt;= b</pre>
+</article><article class="card" data-category="operator" data-keywords="and or not 논리">
+<div class="topline"><h3>논리 연산자 and / or / not</h3><span class="badge">연산자</span></div>
+<div class="desc">여러 조건을 연결합니다.</div><pre>age &gt;= 20 and has_ticket
+is_admin or is_manager
+not is_blocked</pre>
+</article><article class="card" data-category="operator" data-keywords="in not in 포함 membership">
+<div class="topline"><h3>포함 여부 in / not in</h3><span class="badge">연산자</span></div>
+<div class="desc">값이 컨테이너 안에 있는지 검사합니다.</div><pre>&quot;a&quot; in &quot;apple&quot;
+3 in [1, 2, 3]
+&quot;x&quot; not in {&quot;a&quot;, &quot;b&quot;}</pre>
+</article><article class="card" data-category="operator" data-keywords="is == identity equality">
+<div class="topline"><h3>is와 == 차이</h3><span class="badge">연산자</span></div>
+<div class="desc">==는 값 비교, is는 같은 객체인지 비교합니다.</div><pre>a == b   # 값이 같은가?
+a is b   # 같은 객체인가?</pre>
+</article><article class="card" data-category="operator" data-keywords="+= -= *= /= 복합할당">
+<div class="topline"><h3>복합 할당 연산자</h3><span class="badge">연산자</span></div>
+<div class="desc">기존 값에 계산 후 다시 저장합니다.</div><pre>x += 1
+x -= 2
+x *= 3
+x /= 4</pre>
+</article><article class="card" data-category="string" data-keywords="문자열 indexing">
+<div class="topline"><h3>문자열 인덱싱</h3><span class="badge">문자열</span></div>
+<div class="desc">문자열도 0부터 인덱스를 사용합니다.</div><pre>s = &quot;Python&quot;
+print(s[0])   # P
+print(s[-1])  # n</pre>
+</article><article class="card" data-category="string" data-keywords="slice slicing 문자열 자르기">
+<div class="topline"><h3>문자열 슬라이싱</h3><span class="badge">문자열</span></div>
+<div class="desc">시작:끝 범위를 잘라냅니다. 끝 위치는 포함하지 않습니다.</div><pre>s = &quot;Python&quot;
+print(s[0:3])  # Pyt
+print(s[:2])   # Py
+print(s[2:])   # thon</pre>
+</article><article class="card" data-category="string" data-keywords="len 문자열 길이">
+<div class="topline"><h3>문자열 길이 len()</h3><span class="badge">문자열</span></div>
+<div class="desc">문자 개수를 셉니다.</div><pre>len(&quot;Python&quot;)  # 6</pre>
+</article><article class="card" data-category="string" data-keywords="upper lower title 대문자 소문자">
+<div class="topline"><h3>대소문자 변환</h3><span class="badge">문자열</span></div>
+<div class="desc">영문 문자열 정리에 자주 사용합니다.</div><pre>text.upper()
+text.lower()
+text.title()</pre>
+</article><article class="card" data-category="string" data-keywords="strip 공백 제거">
+<div class="topline"><h3>앞뒤 공백 제거 strip()</h3><span class="badge">문자열</span></div>
+<div class="desc">입력 데이터 정리에서 매우 자주 씁니다.</div><pre>text.strip()
+text.lstrip()
+text.rstrip()</pre>
+</article><article class="card" data-category="string" data-keywords="replace 치환">
+<div class="topline"><h3>문자열 치환 replace()</h3><span class="badge">문자열</span></div>
+<div class="desc">특정 문자열을 다른 문자열로 바꿉니다.</div><pre>text.replace(&quot;old&quot;, &quot;new&quot;)</pre>
+</article><article class="card" data-category="string" data-keywords="split 분리">
+<div class="topline"><h3>문자열 나누기 split()</h3><span class="badge">문자열</span></div>
+<div class="desc">구분자를 기준으로 리스트로 나눕니다.</div><pre>&quot;a,b,c&quot;.split(&quot;,&quot;)
+# [&#x27;a&#x27;, &#x27;b&#x27;, &#x27;c&#x27;]</pre>
+</article><article class="card" data-category="string" data-keywords="join 문자열 합치기">
+<div class="topline"><h3>문자열 합치기 join()</h3><span class="badge">문자열</span></div>
+<div class="desc">문자열 리스트를 하나로 합칩니다.</div><pre>&quot;, &quot;.join([&quot;A&quot;, &quot;B&quot;, &quot;C&quot;])
+# A, B, C</pre>
+</article><article class="card" data-category="string" data-keywords="find in 문자열 찾기">
+<div class="topline"><h3>문자열 찾기</h3><span class="badge">문자열</span></div>
+<div class="desc">포함 여부와 위치를 확인합니다.</div><pre>&quot;python&quot; in text.lower()
+text.find(&quot;python&quot;)</pre>
+</article><article class="card" data-category="string" data-keywords="startswith endswith 시작 끝">
+<div class="topline"><h3>시작/끝 검사</h3><span class="badge">문자열</span></div>
+<div class="desc">파일명이나 접두사 검사에 편리합니다.</div><pre>filename.endswith(&quot;.csv&quot;)
+text.startswith(&quot;http&quot;)</pre>
+</article><article class="card" data-category="string" data-keywords="f-string 포매팅 formatting">
+<div class="topline"><h3>f-string</h3><span class="badge">문자열</span></div>
+<div class="desc">변수 값을 문자열 안에 넣는 가장 편한 방법입니다.</div><pre>name = &quot;Kim&quot;
+score = 95
+print(f&quot;{name}님의 점수는 {score}점&quot;)</pre>
+</article><article class="card" data-category="string" data-keywords="format 소수점 천단위">
+<div class="topline"><h3>숫자 출력 형식</h3><span class="badge">문자열</span></div>
+<div class="desc">소수점 자리수나 천 단위 쉼표를 쉽게 지정합니다.</div><pre>value = 12345.678
+print(f&quot;{value:,.2f}&quot;)  # 12,345.68</pre>
+</article><article class="card" data-category="list" data-keywords="list 리스트 생성">
+<div class="topline"><h3>리스트 만들기</h3><span class="badge">리스트</span></div>
+<div class="desc">여러 값을 순서대로 저장합니다.</div><pre>nums = [10, 20, 30]
+names = [&quot;Kim&quot;, &quot;Lee&quot;]</pre>
+</article><article class="card" data-category="list" data-keywords="list 수정 mutable">
+<div class="topline"><h3>리스트 값 변경</h3><span class="badge">리스트</span></div>
+<div class="desc">리스트는 mutable이라 값 변경이 가능합니다.</div><pre>nums[0] = 100</pre>
+</article><article class="card" data-category="list" data-keywords="append 추가">
+<div class="topline"><h3>append()</h3><span class="badge">리스트</span></div>
+<div class="desc">리스트 끝에 값 하나를 추가합니다.</div><pre>nums.append(40)</pre>
+</article><article class="card" data-category="list" data-keywords="extend 여러개 추가">
+<div class="topline"><h3>extend()</h3><span class="badge">리스트</span></div>
+<div class="desc">여러 값을 한 번에 이어 붙입니다.</div><pre>nums.extend([40, 50])</pre>
+</article><article class="card" data-category="list" data-keywords="insert 삽입">
+<div class="topline"><h3>insert()</h3><span class="badge">리스트</span></div>
+<div class="desc">원하는 위치에 값을 삽입합니다.</div><pre>nums.insert(1, 15)</pre>
+</article><article class="card" data-category="list" data-keywords="remove 값 삭제">
+<div class="topline"><h3>remove()</h3><span class="badge">리스트</span></div>
+<div class="desc">값을 찾아 첫 번째 항목을 삭제합니다.</div><pre>nums.remove(20)</pre>
+</article><article class="card" data-category="list" data-keywords="pop 삭제 꺼내기">
+<div class="topline"><h3>pop()</h3><span class="badge">리스트</span></div>
+<div class="desc">위치의 값을 꺼내면서 삭제합니다. 기본은 마지막 값입니다.</div><pre>last = nums.pop()
+first = nums.pop(0)</pre>
+</article><article class="card" data-category="list" data-keywords="del 리스트 삭제">
+<div class="topline"><h3>del로 삭제</h3><span class="badge">리스트</span></div>
+<div class="desc">인덱스나 슬라이스 범위를 삭제합니다.</div><pre>del nums[0]
+del nums[1:3]</pre>
+</article><article class="card" data-category="list" data-keywords="sort 정렬 reverse">
+<div class="topline"><h3>sort()</h3><span class="badge">리스트</span></div>
+<div class="desc">원본 리스트 자체를 정렬합니다.</div><pre>nums.sort()
+nums.sort(reverse=True)</pre>
+</article><article class="card" data-category="list" data-keywords="sorted 정렬 원본 유지">
+<div class="topline"><h3>sorted()</h3><span class="badge">리스트</span></div>
+<div class="desc">원본은 유지하고 정렬된 새 리스트를 만듭니다.</div><pre>new_nums = sorted(nums)
+new_nums = sorted(nums, reverse=True)</pre>
+</article><article class="card" data-category="list" data-keywords="reverse 뒤집기">
+<div class="topline"><h3>reverse()</h3><span class="badge">리스트</span></div>
+<div class="desc">리스트 순서를 뒤집습니다.</div><pre>nums.reverse()</pre>
+</article><article class="card" data-category="list" data-keywords="count index 리스트">
+<div class="topline"><h3>count() / index()</h3><span class="badge">리스트</span></div>
+<div class="desc">값 개수와 위치를 찾습니다.</div><pre>nums.count(10)
+nums.index(20)</pre>
+</article><article class="card" data-category="list" data-keywords="copy shallow 리스트 복사">
+<div class="topline"><h3>리스트 복사</h3><span class="badge">리스트</span></div>
+<div class="desc">얕은 복사를 할 때 copy()나 슬라이싱을 사용합니다.</div><pre>b = a.copy()
+c = a[:]</pre>
+</article><article class="card" data-category="list" data-keywords="slice step 역순">
+<div class="topline"><h3>리스트 슬라이싱 간격</h3><span class="badge">리스트</span></div>
+<div class="desc">세 번째 값은 step입니다.</div><pre>nums[::2]   # 2칸씩
+nums[::-1]  # 역순</pre>
+</article><article class="card" data-category="tuple_set" data-keywords="tuple 튜플 immutable">
+<div class="topline"><h3>튜플 tuple</h3><span class="badge">튜플 / 집합</span></div>
+<div class="desc">리스트와 비슷하지만 생성 후 값을 바꿀 수 없습니다.</div><pre>point = (10, 20)
+x, y = point</pre>
+</article><article class="card" data-category="tuple_set" data-keywords="tuple one comma">
+<div class="topline"><h3>튜플 한 개 만들기</h3><span class="badge">튜플 / 집합</span></div>
+<div class="desc">원소 하나짜리 튜플은 쉼표가 필요합니다.</div><pre>one = (10,)</pre>
+</article><article class="card" data-category="tuple_set" data-keywords="set 집합 중복 제거">
+<div class="topline"><h3>집합 set</h3><span class="badge">튜플 / 집합</span></div>
+<div class="desc">중복이 없고 순서가 중요하지 않은 값 모음입니다.</div><pre>tags = {&quot;python&quot;, &quot;pandas&quot;, &quot;python&quot;}
+print(tags)</pre>
+</article><article class="card" data-category="tuple_set" data-keywords="중복 제거 set">
+<div class="topline"><h3>set으로 중복 제거</h3><span class="badge">튜플 / 집합</span></div>
+<div class="desc">리스트 중복 제거에 자주 사용합니다.</div><pre>unique = list(set(items))</pre>
+</article><article class="card" data-category="tuple_set" data-keywords="union intersection difference 집합">
+<div class="topline"><h3>집합 합집합/교집합/차집합</h3><span class="badge">튜플 / 집합</span></div>
+<div class="desc">두 집합 관계를 계산합니다.</div><pre>a | b   # 합집합
+a &amp; b   # 교집합
+a - b   # 차집합</pre>
+</article><article class="card" data-category="tuple_set" data-keywords="set add discard">
+<div class="topline"><h3>집합 add / discard</h3><span class="badge">튜플 / 집합</span></div>
+<div class="desc">값을 추가하거나 제거합니다.</div><pre>s.add(&quot;python&quot;)
+s.discard(&quot;java&quot;)</pre>
+</article><article class="card" data-category="dict" data-keywords="dict 생성">
+<div class="topline"><h3>딕셔너리 만들기</h3><span class="badge">딕셔너리</span></div>
+<div class="desc">키와 값을 쌍으로 저장합니다.</div><pre>user = {&quot;name&quot;: &quot;Kim&quot;, &quot;age&quot;: 20}</pre>
+</article><article class="card" data-category="dict" data-keywords="dict get 읽기">
+<div class="topline"><h3>딕셔너리 값 읽기</h3><span class="badge">딕셔너리</span></div>
+<div class="desc">키로 값을 찾습니다.</div><pre>user[&quot;name&quot;]
+user.get(&quot;age&quot;)</pre>
+</article><article class="card" data-category="dict" data-keywords="get default 기본값">
+<div class="topline"><h3>get() 기본값</h3><span class="badge">딕셔너리</span></div>
+<div class="desc">키가 없어도 오류 없이 기본값을 반환할 수 있습니다.</div><pre>user.get(&quot;city&quot;, &quot;없음&quot;)</pre>
+</article><article class="card" data-category="dict" data-keywords="dict 추가 수정">
+<div class="topline"><h3>값 추가/수정</h3><span class="badge">딕셔너리</span></div>
+<div class="desc">없는 키면 추가, 있으면 수정됩니다.</div><pre>user[&quot;city&quot;] = &quot;Seoul&quot;
+user[&quot;age&quot;] = 21</pre>
+</article><article class="card" data-category="dict" data-keywords="keys values items">
+<div class="topline"><h3>keys / values / items</h3><span class="badge">딕셔너리</span></div>
+<div class="desc">키, 값, 키-값 쌍을 각각 확인합니다.</div><pre>user.keys()
+user.values()
+user.items()</pre>
+</article><article class="card" data-category="dict" data-keywords="dict loop items">
+<div class="topline"><h3>딕셔너리 반복</h3><span class="badge">딕셔너리</span></div>
+<div class="desc">items()로 키와 값을 함께 꺼냅니다.</div><pre>for key, value in user.items():
+    print(key, value)</pre>
+</article><article class="card" data-category="dict" data-keywords="dict pop 삭제">
+<div class="topline"><h3>pop()으로 키 삭제</h3><span class="badge">딕셔너리</span></div>
+<div class="desc">키를 삭제하면서 값을 반환합니다.</div><pre>age = user.pop(&quot;age&quot;)</pre>
+</article><article class="card" data-category="dict" data-keywords="dict update 병합">
+<div class="topline"><h3>update()</h3><span class="badge">딕셔너리</span></div>
+<div class="desc">여러 키-값을 한 번에 추가/수정합니다.</div><pre>user.update({&quot;age&quot;: 30, &quot;city&quot;: &quot;Busan&quot;})</pre>
+</article><article class="card" data-category="condition" data-keywords="if 조건">
+<div class="topline"><h3>기본 if</h3><span class="badge">조건문</span></div>
+<div class="desc">조건이 참일 때만 실행합니다.</div><pre>if score &gt;= 60:
+    print(&quot;합격&quot;)</pre>
+</article><article class="card" data-category="condition" data-keywords="if else">
+<div class="topline"><h3>if / else</h3><span class="badge">조건문</span></div>
+<div class="desc">두 갈래 조건입니다.</div><pre>if age &gt;= 20:
+    print(&quot;성인&quot;)
+else:
+    print(&quot;미성년&quot;)</pre>
+</article><article class="card" data-category="condition" data-keywords="elif 다중 조건">
+<div class="topline"><h3>if / elif / else</h3><span class="badge">조건문</span></div>
+<div class="desc">조건이 여러 개일 때 위에서부터 확인합니다.</div><pre>if score &gt;= 90:
+    grade = &quot;A&quot;
+elif score &gt;= 80:
+    grade = &quot;B&quot;
+else:
+    grade = &quot;C&quot;</pre>
+</article><article class="card" data-category="condition" data-keywords="and or condition">
+<div class="topline"><h3>조건 여러 개 연결</h3><span class="badge">조건문</span></div>
+<div class="desc">and는 둘 다, or는 하나라도 참이면 됩니다.</div><pre>if age &gt;= 20 and has_ticket:
+    print(&quot;입장&quot;)</pre>
+</article><article class="card" data-category="condition" data-keywords="ternary 삼항 조건식">
+<div class="topline"><h3>짧은 조건식</h3><span class="badge">조건문</span></div>
+<div class="desc">간단한 값을 조건에 따라 선택할 때 사용합니다.</div><pre>result = &quot;합격&quot; if score &gt;= 60 else &quot;불합격&quot;</pre>
+</article><article class="card" data-category="condition" data-keywords="truthy falsy 빈값">
+<div class="topline"><h3>Truthiness</h3><span class="badge">조건문</span></div>
+<div class="desc">0, 빈 문자열, 빈 리스트, None 등은 False처럼 평가됩니다.</div><pre>if items:
+    print(&quot;데이터 있음&quot;)
+
+if not name:
+    print(&quot;이름 없음&quot;)</pre>
+</article><article class="card" data-category="loop" data-keywords="for loop 반복">
+<div class="topline"><h3>for 기본</h3><span class="badge">반복문</span></div>
+<div class="desc">리스트 같은 반복 가능한 객체에서 값을 하나씩 꺼냅니다.</div><pre>for name in names:
+    print(name)</pre>
+</article><article class="card" data-category="loop" data-keywords="range 반복 횟수">
+<div class="topline"><h3>range()</h3><span class="badge">반복문</span></div>
+<div class="desc">정해진 횟수 반복에 가장 많이 사용합니다.</div><pre>for i in range(5):
+    print(i)  # 0~4</pre>
+</article><article class="card" data-category="loop" data-keywords="range start stop step">
+<div class="topline"><h3>range(start, stop, step)</h3><span class="badge">반복문</span></div>
+<div class="desc">시작/끝/간격을 지정할 수 있습니다.</div><pre>for i in range(1, 10, 2):
+    print(i)</pre>
+</article><article class="card" data-category="loop" data-keywords="enumerate index 인덱스">
+<div class="topline"><h3>enumerate()</h3><span class="badge">반복문</span></div>
+<div class="desc">값과 인덱스를 동시에 얻습니다.</div><pre>for i, name in enumerate(names):
+    print(i, name)</pre>
+</article><article class="card" data-category="loop" data-keywords="zip 병렬 반복">
+<div class="topline"><h3>zip()</h3><span class="badge">반복문</span></div>
+<div class="desc">여러 리스트를 같은 위치끼리 묶어 반복합니다.</div><pre>for name, score in zip(names, scores):
+    print(name, score)</pre>
+</article><article class="card" data-category="loop" data-keywords="while loop">
+<div class="topline"><h3>while</h3><span class="badge">반복문</span></div>
+<div class="desc">조건이 참인 동안 반복합니다.</div><pre>count = 0
+while count &lt; 3:
+    print(count)
+    count += 1</pre>
+</article><article class="card" data-category="loop" data-keywords="break 반복 종료">
+<div class="topline"><h3>break</h3><span class="badge">반복문</span></div>
+<div class="desc">반복문을 즉시 종료합니다.</div><pre>for x in nums:
+    if x &lt; 0:
+        break</pre>
+</article><article class="card" data-category="loop" data-keywords="continue 건너뛰기">
+<div class="topline"><h3>continue</h3><span class="badge">반복문</span></div>
+<div class="desc">현재 반복만 건너뛰고 다음 반복으로 갑니다.</div><pre>for x in nums:
+    if x &lt; 0:
+        continue
+    print(x)</pre>
+</article><article class="card" data-category="loop" data-keywords="for else break search">
+<div class="topline"><h3>for-else</h3><span class="badge">반복문</span></div>
+<div class="desc">break 없이 정상 종료됐을 때 else가 실행됩니다.</div><pre>for x in nums:
+    if x == target:
+        break
+else:
+    print(&quot;찾지 못함&quot;)</pre>
+</article><article class="card" data-category="function" data-keywords="def 함수 정의">
+<div class="topline"><h3>함수 정의 def</h3><span class="badge">함수</span></div>
+<div class="desc">반복해서 쓸 코드를 이름으로 묶습니다.</div><pre>def greet():
+    print(&quot;안녕하세요&quot;)
+
+greet()</pre>
+</article><article class="card" data-category="function" data-keywords="parameter argument 매개변수 인자">
+<div class="topline"><h3>매개변수 parameter</h3><span class="badge">함수</span></div>
+<div class="desc">함수에 값을 전달받습니다.</div><pre>def greet(name):
+    print(f&quot;안녕하세요, {name}&quot;)</pre>
+</article><article class="card" data-category="function" data-keywords="return 반환">
+<div class="topline"><h3>return</h3><span class="badge">함수</span></div>
+<div class="desc">함수 결과를 호출한 곳으로 돌려줍니다.</div><pre>def square(x):
+    return x ** 2
+
+y = square(5)</pre>
+</article><article class="card" data-category="function" data-keywords="default argument 기본값">
+<div class="topline"><h3>기본값 인자</h3><span class="badge">함수</span></div>
+<div class="desc">값을 생략했을 때 사용할 기본값을 지정합니다.</div><pre>def greet(name=&quot;손님&quot;):
+    print(name)</pre>
+</article><article class="card" data-category="function" data-keywords="keyword argument 키워드 인자">
+<div class="topline"><h3>키워드 인자</h3><span class="badge">함수</span></div>
+<div class="desc">순서 대신 이름을 붙여 전달합니다.</div><pre>connect(host=&quot;localhost&quot;, port=5432)</pre>
+</article><article class="card" data-category="function" data-keywords="args 가변인자">
+<div class="topline"><h3>*args</h3><span class="badge">함수</span></div>
+<div class="desc">개수가 정해지지 않은 위치 인자를 튜플로 받습니다.</div><pre>def total(*nums):
+    return sum(nums)</pre>
+</article><article class="card" data-category="function" data-keywords="kwargs 가변 키워드">
+<div class="topline"><h3>**kwargs</h3><span class="badge">함수</span></div>
+<div class="desc">개수가 정해지지 않은 키워드 인자를 딕셔너리로 받습니다.</div><pre>def show(**info):
+    print(info)</pre>
+</article><article class="card" data-category="function" data-keywords="multiple return unpack">
+<div class="topline"><h3>여러 값 반환</h3><span class="badge">함수</span></div>
+<div class="desc">쉼표로 여러 값을 return하면 튜플 형태로 돌아옵니다.</div><pre>def calc(a, b):
+    return a+b, a-b
+
+s, d = calc(5, 2)</pre>
+</article><article class="card" data-category="function" data-keywords="scope local global 변수 범위">
+<div class="topline"><h3>지역변수와 전역변수</h3><span class="badge">함수</span></div>
+<div class="desc">함수 안에서 만든 변수는 기본적으로 함수 밖에서 접근할 수 없습니다.</div><pre>x = 10
+
+def f():
+    y = 20  # 지역변수</pre>
+</article><article class="card" data-category="function" data-keywords="lambda 익명함수">
+<div class="topline"><h3>lambda</h3><span class="badge">함수</span></div>
+<div class="desc">아주 짧은 함수를 한 줄로 표현합니다.</div><pre>double = lambda x: x * 2
+print(double(3))</pre>
+</article><article class="card" data-category="comprehension" data-keywords="list comprehension 리스트 컴프리헨션">
+<div class="topline"><h3>리스트 컴프리헨션</h3><span class="badge">컴프리헨션</span></div>
+<div class="desc">간단한 반복+가공을 한 줄로 표현합니다.</div><pre>squares = [x**2 for x in range(10)]</pre>
+</article><article class="card" data-category="comprehension" data-keywords="comprehension if filter">
+<div class="topline"><h3>조건 포함 리스트 컴프리헨션</h3><span class="badge">컴프리헨션</span></div>
+<div class="desc">조건에 맞는 값만 새 리스트로 만듭니다.</div><pre>evens = [x for x in nums if x % 2 == 0]</pre>
+</article><article class="card" data-category="comprehension" data-keywords="comprehension ternary">
+<div class="topline"><h3>조건식 포함 컴프리헨션</h3><span class="badge">컴프리헨션</span></div>
+<div class="desc">각 값에 따라 다른 결과를 만들 수 있습니다.</div><pre>labels = [&quot;짝수&quot; if x % 2 == 0 else &quot;홀수&quot; for x in nums]</pre>
+</article><article class="card" data-category="comprehension" data-keywords="dict comprehension">
+<div class="topline"><h3>딕셔너리 컴프리헨션</h3><span class="badge">컴프리헨션</span></div>
+<div class="desc">키-값 딕셔너리를 한 줄로 만듭니다.</div><pre>square_map = {x: x**2 for x in range(5)}</pre>
+</article><article class="card" data-category="comprehension" data-keywords="set comprehension">
+<div class="topline"><h3>집합 컴프리헨션</h3><span class="badge">컴프리헨션</span></div>
+<div class="desc">중복 없는 결과 집합을 만듭니다.</div><pre>lengths = {len(word) for word in words}</pre>
+</article><article class="card" data-category="exception" data-keywords="try except exception 예외">
+<div class="topline"><h3>try / except</h3><span class="badge">예외처리</span></div>
+<div class="desc">오류가 발생해도 프로그램이 멈추지 않게 처리합니다.</div><pre>try:
+    n = int(text)
+except ValueError:
+    print(&quot;숫자가 아닙니다&quot;)</pre>
+</article><article class="card" data-category="exception" data-keywords="multiple except">
+<div class="topline"><h3>여러 예외 처리</h3><span class="badge">예외처리</span></div>
+<div class="desc">예외 종류별로 다르게 처리할 수 있습니다.</div><pre>try:
+    value = data[key]
+except KeyError:
+    print(&quot;키 없음&quot;)
+except TypeError:
+    print(&quot;형식 오류&quot;)</pre>
+</article><article class="card" data-category="exception" data-keywords="else finally exception">
+<div class="topline"><h3>else / finally</h3><span class="badge">예외처리</span></div>
+<div class="desc">else는 오류가 없을 때, finally는 항상 실행됩니다.</div><pre>try:
+    f()
+except Exception as e:
+    print(e)
+else:
+    print(&quot;성공&quot;)
+finally:
+    print(&quot;항상 실행&quot;)</pre>
+</article><article class="card" data-category="exception" data-keywords="raise ValueError 예외 발생">
+<div class="topline"><h3>raise</h3><span class="badge">예외처리</span></div>
+<div class="desc">조건이 잘못됐을 때 직접 예외를 발생시킵니다.</div><pre>if age &lt; 0:
+    raise ValueError(&quot;나이는 0 이상이어야 합니다&quot;)</pre>
+</article><article class="card" data-category="module" data-keywords="import module math">
+<div class="topline"><h3>모듈 import</h3><span class="badge">모듈 / 패키지</span></div>
+<div class="desc">다른 모듈의 기능을 가져옵니다.</div><pre>import math
+print(math.sqrt(16))</pre>
+</article><article class="card" data-category="module" data-keywords="from import">
+<div class="topline"><h3>from ... import ...</h3><span class="badge">모듈 / 패키지</span></div>
+<div class="desc">필요한 기능만 직접 가져옵니다.</div><pre>from math import sqrt
+print(sqrt(16))</pre>
+</article><article class="card" data-category="module" data-keywords="as alias pd np">
+<div class="topline"><h3>별칭 as</h3><span class="badge">모듈 / 패키지</span></div>
+<div class="desc">긴 이름을 짧게 부릅니다.</div><pre>import pandas as pd
+import numpy as np</pre>
+</article><article class="card" data-category="module" data-keywords="pathlib Path 경로">
+<div class="topline"><h3>표준 라이브러리 pathlib</h3><span class="badge">모듈 / 패키지</span></div>
+<div class="desc">운영체제별 경로 차이를 줄이고 파일 경로를 다룹니다.</div><pre>from pathlib import Path
+path = Path(&quot;data&quot;) / &quot;sample.csv&quot;</pre>
+</article><article class="card" data-category="module" data-keywords="main __name__ entrypoint">
+<div class="topline"><h3>__name__ == "__main__"</h3><span class="badge">모듈 / 패키지</span></div>
+<div class="desc">파일을 직접 실행했을 때만 실행할 코드를 구분합니다.</div><pre>def main():
+    print(&quot;실행&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    main()</pre>
+</article><article class="card" data-category="file" data-keywords="open read 파일 읽기">
+<div class="topline"><h3>텍스트 파일 읽기</h3><span class="badge">파일 입출력</span></div>
+<div class="desc">with를 쓰면 파일을 자동으로 닫아줍니다.</div><pre>with open(&quot;note.txt&quot;, &quot;r&quot;, encoding=&quot;utf-8&quot;) as f:
+    text = f.read()</pre>
+</article><article class="card" data-category="file" data-keywords="open write w 파일 쓰기">
+<div class="topline"><h3>텍스트 파일 쓰기</h3><span class="badge">파일 입출력</span></div>
+<div class="desc">w 모드는 기존 내용을 덮어씁니다.</div><pre>with open(&quot;note.txt&quot;, &quot;w&quot;, encoding=&quot;utf-8&quot;) as f:
+    f.write(&quot;안녕하세요&quot;)</pre>
+</article><article class="card" data-category="file" data-keywords="append file a 이어쓰기">
+<div class="topline"><h3>파일에 이어쓰기</h3><span class="badge">파일 입출력</span></div>
+<div class="desc">a 모드는 기존 내용 뒤에 추가합니다.</div><pre>with open(&quot;log.txt&quot;, &quot;a&quot;, encoding=&quot;utf-8&quot;) as f:
+    f.write(&quot;새 로그\n&quot;)</pre>
+</article><article class="card" data-category="file" data-keywords="file line 줄씩 읽기">
+<div class="topline"><h3>한 줄씩 읽기</h3><span class="badge">파일 입출력</span></div>
+<div class="desc">큰 텍스트 파일은 한 줄씩 반복해서 읽을 수 있습니다.</div><pre>with open(&quot;data.txt&quot;, encoding=&quot;utf-8&quot;) as f:
+    for line in f:
+        print(line.strip())</pre>
+</article><article class="card" data-category="file" data-keywords="Path exists 파일 존재">
+<div class="topline"><h3>Path 존재 여부</h3><span class="badge">파일 입출력</span></div>
+<div class="desc">파일이나 폴더가 있는지 확인합니다.</div><pre>from pathlib import Path
+path = Path(&quot;data.csv&quot;)
+print(path.exists())</pre>
+</article><article class="card" data-category="oop" data-keywords="class method self">
+<div class="topline"><h3>클래스 기본 구조</h3><span class="badge">클래스 / 객체</span></div>
+<div class="desc">클래스 안에는 속성과 메서드를 정의할 수 있습니다.</div><pre>class Person:
+    def say_hello(self):
+        print(&quot;안녕하세요&quot;)</pre>
+</article><article class="card" data-category="oop" data-keywords="__init__ constructor 생성자">
+<div class="topline"><h3>__init__ 생성자</h3><span class="badge">클래스 / 객체</span></div>
+<div class="desc">객체가 만들어질 때 초기값을 설정합니다.</div><pre>class Person:
+    def __init__(self, name):
+        self.name = name</pre>
+</article><article class="card" data-category="oop" data-keywords="instance 객체 생성">
+<div class="topline"><h3>인스턴스 생성</h3><span class="badge">클래스 / 객체</span></div>
+<div class="desc">클래스를 호출하면 객체(인스턴스)가 만들어집니다.</div><pre>p = Person(&quot;Kim&quot;)
+print(p.name)</pre>
+</article><article class="card" data-category="oop" data-keywords="method self 메서드">
+<div class="topline"><h3>인스턴스 메서드</h3><span class="badge">클래스 / 객체</span></div>
+<div class="desc">self를 통해 현재 객체의 속성에 접근합니다.</div><pre>class Person:
+    def greet(self):
+        return f&quot;안녕, 나는 {self.name}&quot;</pre>
+</article><article class="card" data-category="oop" data-keywords="inheritance 상속">
+<div class="topline"><h3>상속</h3><span class="badge">클래스 / 객체</span></div>
+<div class="desc">기존 클래스의 기능을 물려받아 확장합니다.</div><pre>class Animal:
+    def speak(self):
+        print(&quot;소리&quot;)
+
+class Dog(Animal):
+    pass</pre>
+</article><article class="card" data-category="oop" data-keywords="override 오버라이딩 다형성">
+<div class="topline"><h3>메서드 오버라이딩</h3><span class="badge">클래스 / 객체</span></div>
+<div class="desc">부모 메서드를 자식 클래스에서 다시 정의합니다.</div><pre>class Dog(Animal):
+    def speak(self):
+        print(&quot;멍멍&quot;)</pre>
+</article><article class="card" data-category="oop" data-keywords="dataclass class 데이터 클래스">
+<div class="topline"><h3>@dataclass 기초</h3><span class="badge">클래스 / 객체</span></div>
+<div class="desc">데이터 중심 클래스를 간결하게 만들 때 편리합니다.</div><pre>from dataclasses import dataclass
+
+@dataclass
+class User:
+    name: str
+    age: int</pre>
+</article><article class="card" data-category="builtin" data-keywords="len length">
+<div class="topline"><h3>len()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">문자열, 리스트, 딕셔너리 등의 길이를 구합니다.</div><pre>len(items)</pre>
+</article><article class="card" data-category="builtin" data-keywords="sum 합계">
+<div class="topline"><h3>sum()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">숫자 합계를 구합니다.</div><pre>sum([10, 20, 30])  # 60</pre>
+</article><article class="card" data-category="builtin" data-keywords="min max 최소 최대">
+<div class="topline"><h3>min() / max()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">최솟값과 최댓값을 구합니다.</div><pre>min(nums)
+max(nums)</pre>
+</article><article class="card" data-category="builtin" data-keywords="abs 절대값">
+<div class="topline"><h3>abs()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">절댓값을 구합니다.</div><pre>abs(-10)  # 10</pre>
+</article><article class="card" data-category="builtin" data-keywords="round 반올림">
+<div class="topline"><h3>round()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">숫자를 반올림합니다.</div><pre>round(3.14159, 2)  # 3.14</pre>
+</article><article class="card" data-category="builtin" data-keywords="sorted key 정렬">
+<div class="topline"><h3>sorted()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">반복 가능한 데이터를 정렬한 새 리스트를 만듭니다.</div><pre>sorted(words, key=len)</pre>
+</article><article class="card" data-category="builtin" data-keywords="any all bool">
+<div class="topline"><h3>any() / all()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">하나라도 참인지 / 모두 참인지 검사합니다.</div><pre>any([False, True, False])
+all([True, True, True])</pre>
+</article><article class="card" data-category="builtin" data-keywords="map 함수 적용">
+<div class="topline"><h3>map()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">각 값에 함수를 적용합니다. 초보 단계에서는 컴프리헨션과 함께 알아두면 좋습니다.</div><pre>nums2 = list(map(int, [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;]))</pre>
+</article><article class="card" data-category="builtin" data-keywords="filter 조건">
+<div class="topline"><h3>filter()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">조건을 통과하는 값만 남깁니다.</div><pre>positive = list(filter(lambda x: x &gt; 0, nums))</pre>
+</article><article class="card" data-category="builtin" data-keywords="enumerate start">
+<div class="topline"><h3>enumerate()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">반복 중 인덱스가 필요할 때 씁니다.</div><pre>for i, value in enumerate(items, start=1):
+    print(i, value)</pre>
+</article><article class="card" data-category="builtin" data-keywords="zip pair">
+<div class="topline"><h3>zip()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">여러 시퀀스를 같은 위치끼리 묶습니다.</div><pre>pairs = list(zip(names, scores))</pre>
+</article><article class="card" data-category="builtin" data-keywords="reversed 역순">
+<div class="topline"><h3>reversed()</h3><span class="badge">자주 쓰는 내장함수</span></div>
+<div class="desc">역순 반복자를 만듭니다.</div><pre>for x in reversed(nums):
+    print(x)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe 입력 조건 합격">
+<div class="topline"><h3>실전: 입력받은 점수로 합격/불합격</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">입력 → 형변환 → 조건문 흐름을 한 번에 연습합니다.</div><pre>score = int(input(&quot;점수: &quot;))
+
+if score &gt;= 60:
+    print(&quot;합격&quot;)
+else:
+    print(&quot;불합격&quot;)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe comprehension 짝수 제곱">
+<div class="topline"><h3>실전: 리스트에서 짝수만 골라 제곱</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">반복+조건+가공을 컴프리헨션으로 처리합니다.</div><pre>nums = [1, 2, 3, 4, 5, 6]
+result = [x**2 for x in nums if x % 2 == 0]
+print(result)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe dict 빈도 count">
+<div class="topline"><h3>실전: 단어 빈도 세기</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">딕셔너리의 get()을 이용해 빈도를 셉니다.</div><pre>words = [&quot;a&quot;, &quot;b&quot;, &quot;a&quot;, &quot;c&quot;, &quot;a&quot;]
+counts = {}
+
+for word in words:
+    counts[word] = counts.get(word, 0) + 1
+
+print(counts)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe max index">
+<div class="topline"><h3>실전: 최댓값과 위치 찾기</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">max()와 index()를 함께 사용합니다.</div><pre>scores = [70, 95, 88]
+best = max(scores)
+idx = scores.index(best)
+print(best, idx)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe zip fstring">
+<div class="topline"><h3>실전: 이름과 점수 같이 출력</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">zip()으로 두 리스트를 나란히 반복합니다.</div><pre>names = [&quot;Kim&quot;, &quot;Lee&quot;, &quot;Park&quot;]
+scores = [90, 85, 92]
+
+for name, score in zip(names, scores):
+    print(f&quot;{name}: {score}점&quot;)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe try except input validation">
+<div class="topline"><h3>실전: 안전한 숫자 입력</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">잘못된 입력을 try/except로 처리합니다.</div><pre>while True:
+    try:
+        age = int(input(&quot;나이: &quot;))
+        break
+    except ValueError:
+        print(&quot;숫자로 입력하세요&quot;)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe function average 평균">
+<div class="topline"><h3>실전: 함수로 중복 코드 줄이기</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">반복되는 계산을 함수로 묶습니다.</div><pre>def calc_average(scores):
+    if not scores:
+        return 0
+    return sum(scores) / len(scores)
+
+print(calc_average([80, 90, 100]))</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe pathlib csv path">
+<div class="topline"><h3>실전: CSV 경로 만들기</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">pathlib로 운영체제에 안전한 경로를 만듭니다.</div><pre>from pathlib import Path
+
+data_dir = Path(&quot;data&quot;)
+csv_path = data_dir / &quot;sales.csv&quot;
+print(csv_path)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe class object student">
+<div class="topline"><h3>실전: 학생 객체 만들기</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">클래스·생성자·메서드를 한 번에 연습합니다.</div><pre>class Student:
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+    def is_passed(self):
+        return self.score &gt;= 60
+
+s = Student(&quot;Kim&quot;, 85)
+print(s.is_passed())</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe sorted lambda dict">
+<div class="topline"><h3>실전: 딕셔너리 목록 정렬</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">key 함수를 이용한 sorted()의 대표 패턴입니다.</div><pre>users = [
+    {&quot;name&quot;: &quot;Kim&quot;, &quot;score&quot;: 80},
+    {&quot;name&quot;: &quot;Lee&quot;, &quot;score&quot;: 95},
+]
+
+result = sorted(users, key=lambda x: x[&quot;score&quot;], reverse=True)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe duplicate 순서 유지">
+<div class="topline"><h3>실전: 중복 제거하면서 순서 유지</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">dict.fromkeys() 패턴을 쓰면 순서를 유지하며 중복을 제거할 수 있습니다.</div><pre>items = [&quot;a&quot;, &quot;b&quot;, &quot;a&quot;, &quot;c&quot;, &quot;b&quot;]
+unique = list(dict.fromkeys(items))
+print(unique)</pre>
+</article><article class="card recipe" data-category="recipe" data-keywords="recipe cleaning strip int list comprehension">
+<div class="topline"><h3>실전: 자주 쓰는 데이터 정리 흐름</h3><span class="badge">실전 레시피</span></div>
+<div class="desc">문자열 정리 → 빈 값 제외 → 숫자 변환 같은 기초 전처리 흐름입니다.</div><pre>raw = [&quot; 10 &quot;, &quot;20&quot;, &quot;&quot;, &quot; 30&quot;]
+clean = [int(x.strip()) for x in raw if x.strip()]
+print(clean)</pre>
+</article></div><div id="noResult" class="no-result">검색 결과가 없습니다. 다른 단어로 검색해 보세요.</div><div class="footer">Python Basics → Intermediate Mega Help · 모바일 복습형 · 검색 + 코드 복사 + 기초 모형</div></main></div>
+<script>
+const cards=[...document.querySelectorAll('.card')],search=document.getElementById('search'),mobileSearch=document.getElementById('mobileSearch'),mobileCategory=document.getElementById('mobileCategory'),mobileClear=document.getElementById('mobileClear'),mobileCounter=document.getElementById('mobileCounter'),buttons=[...document.querySelectorAll('.cat-btn')],noResult=document.getElementById('noResult'),counter=document.getElementById('counter'),quickTags=[...document.querySelectorAll('.quick-tag')];let currentCategory='all',currentQuery='';
+function norm(s){return(s||'').toLowerCase().replace(/\s+/g,' ').trim()} function applyFilter(){const q=norm(currentQuery);let visible=0;cards.forEach(card=>{const okCat=currentCategory==='all'||card.dataset.category===currentCategory;const hay=norm(card.innerText+' '+(card.dataset.keywords||''));const show=okCat&&(!q||hay.includes(q));card.classList.toggle('hidden',!show);if(show)visible++;});noResult.style.display=visible?'none':'block';const t=`현재 ${visible}개 / 전체 ${cards.length}개 카드 표시 중`;counter.textContent=t;mobileCounter.textContent=t;}
+function onSearch(v){currentQuery=v;if(search.value!==v)search.value=v;if(mobileSearch.value!==v)mobileSearch.value=v;applyFilter()} function syncCat(cat){buttons.forEach(b=>b.classList.toggle('active',b.dataset.category===cat));mobileCategory.value=cat}
+buttons.forEach(btn=>{const o=document.createElement('option');o.value=btn.dataset.category;o.textContent=btn.textContent.trim();mobileCategory.appendChild(o);btn.addEventListener('click',()=>{currentCategory=btn.dataset.category;syncCat(currentCategory);applyFilter();})});mobileCategory.addEventListener('change',e=>{currentCategory=e.target.value;syncCat(currentCategory);applyFilter();});search.addEventListener('input',e=>onSearch(e.target.value));mobileSearch.addEventListener('input',e=>onSearch(e.target.value));mobileClear.addEventListener('click',()=>{currentCategory='all';syncCat('all');onSearch('');mobileSearch.focus();});quickTags.forEach(t=>t.addEventListener('click',()=>{currentCategory='all';syncCat('all');onSearch(t.dataset.q||'');(innerWidth<=800?mobileSearch:search).focus();}));
+cards.forEach(card=>{const pre=card.querySelector('pre');if(!pre)return;const b=document.createElement('button');b.className='copy-btn';b.textContent='복사';b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(pre.innerText);b.textContent='복사됨';setTimeout(()=>b.textContent='복사',1000)}catch(e){b.textContent='복사 실패'}});card.querySelector('.topline').appendChild(b);});document.addEventListener('keydown',e=>{const tag=(e.target?.tagName||'').toLowerCase();if(e.key==='/'&&!['input','textarea','select'].includes(tag)){e.preventDefault();(innerWidth<=800?mobileSearch:search).focus()}if(e.key==='Escape')onSearch('')});applyFilter();
+</script></body></html>
