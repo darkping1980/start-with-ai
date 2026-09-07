@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>크롤링 연습용 책 목록</title>
+</head>
+<body>
+    <header>
+        <h1 id="page-title">이번 주 추천 도서</h1>
+        <p class="notice">아래 정보는 정적 크롤링 연습을 위한 예시입니다.</p>
+    </header>
+
+    <main>
+        <!-- 같은 구조의 article을 반복해서 찾아보세요. -->
+        <section id="book-list">
+            <article class="book" data-category="python">
+                <h2 class="book-title">혼자 공부하는 파이썬</h2>
+                <p class="author">저자: 윤인성</p>
+                <p class="price">가격: <span>22,500원</span></p>
+                <a class="detail-link" href="https://example.com/books/python">상세 보기</a>
+            </article>
+
+            <article class="book" data-category="data">
+                <h2 class="book-title">데이터 분석 입문</h2>
+                <p class="author">저자: 김데이터</p>
+                <p class="price">가격: <span>18,000원</span></p>
+                <a class="detail-link" href="https://example.com/books/data">상세 보기</a>
+            </article>
+
+            <article class="book sold-out" data-category="web">
+                <h2 class="book-title">웹 크롤링 첫걸음</h2>
+                <p class="author">저자: 박크롤</p>
+                <p class="price">가격: <span>20,000원</span></p>
+                <strong class="status">품절</strong>
+                <a class="detail-link" href="https://example.com/books/crawling">상세 보기</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">© 2026 크롤링 연습 사이트</p>
+    </footer>
+</body>
+</html>
