@@ -809,8 +809,16 @@ with open(지하철_역_파일명, encoding="utf-8") as 지하철_역_파일:
         marker: {{
           color: mapRows.map(item => item.종합점수),
           colorscale: 'YlOrRd',
+          // Plotly HTML 표시 기준을 뒤집어 높은 점수를 진한 색으로 보인다.
+          reversescale: true,
           showscale: true,
-          colorbar: {{ title: '종합점수' }},
+          colorbar: {{
+            title: '종합점수<br>(진할수록 높음)',
+            // 컬러바는 노선 범례 아래쪽에 따로 배치한다.
+            x: 1.16,
+            y: 0.32,
+            len: 0.45,
+          }},
           size: mapRows.map(item => Math.max(6, Math.sqrt(Number(item['반경300m 고유위치수'])) * 3.5)),
           opacity: 0.76,
           line: {{ color: 'white', width: 0.5 }},
@@ -824,7 +832,7 @@ with open(지하철_역_파일명, encoding="utf-8") as 지하철_역_파일:
       Plotly.react(districtMapChart, [...subwayTraces, stationTrace, wifiTrace], {{
         title: {{
           text: `${{gu}} 표시위치 분포도 (좌표 기반 참고 지도)<br>` +
-            `<sup>점 색은 종합점수입니다. 장소유형 가중치(임의 기준): ${{weightNote}}</sup>`,
+            `<sup>점 색은 종합점수이며 진할수록 높습니다. 장소유형 가중치(임의 기준): ${{weightNote}}</sup>`,
           x: 0.5,
         }},
         xaxis: {{
@@ -837,8 +845,16 @@ with open(지하철_역_파일명, encoding="utf-8") as 지하철_역_파일:
           title: 'Y좌표(위도)',
           range: [minLatitude, maxLatitude],
         }},
+        // 지하철 노선 범례는 오른쪽 위에 배치한다.
+        legend: {{
+          x: 1.02,
+          y: 1,
+          xanchor: 'left',
+          yanchor: 'top',
+          bgcolor: 'rgba(255,255,255,0.85)',
+        }},
         height: 700,
-        margin: {{ l: 80, r: 110, t: 70, b: 70 }},
+        margin: {{ l: 80, r: 280, t: 70, b: 70 }},
       }}, {{
         responsive: true,
         // 기본 초기화는 모든 지하철 노선의 범위로 돌아가므로 숨긴다.
@@ -883,3 +899,10 @@ else:
     # 크롬이 설치되지 않은 컴퓨터에서도 결과를 확인할 수 있게 기본 브라우저로 연다.
     webbrowser.open(그래프_주소, new=2)
     print(f"크롬을 찾지 못해 기본 브라우저로 열었습니다: {그래프_파일_경로}")
+
+
+
+# 지하철 노선 범례와 종합점수 컬러바가 겹치지 않도록 분리해줘.
+# 지하철 노선 범례는 그래프 우측 상단 바깥쪽에 배치하고,
+# 종합점수 컬러바는 그 아래에 별도로 배치해줘.
+# 컬러바 제목은 종합점수로 표시하고 낮은 점수는 연한색, 높은 점수는 진한색을 유지해줘.
