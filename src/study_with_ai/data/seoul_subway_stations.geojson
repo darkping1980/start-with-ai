@@ -1,0 +1,9393 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173041",
+        "name_ko": "대화",
+        "name_en": "Daehwa",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7474578,
+          37.6761485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173042",
+        "name_ko": "주엽",
+        "name_en": "Juyeop",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7612341,
+          37.670111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173038",
+        "name_ko": "정발산",
+        "name_en": "Jeongbalsan",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7732179,
+          37.6597112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173039",
+        "name_ko": "마두",
+        "name_en": "Madu",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7777178,
+          37.6520005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173034",
+        "name_ko": "백석",
+        "name_en": "Baekseok",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7879533,
+          37.6430565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2090733291",
+        "name_ko": "대곡",
+        "name_en": "Daegok",
+        "lines": [
+          "3",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8096784,
+          37.6318362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5991943795",
+        "name_ko": "화정",
+        "name_en": "Hwajeong",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8326234,
+          37.6345957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5991943823",
+        "name_ko": "원당",
+        "name_en": "Wondang",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8433973,
+          37.6538264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5991943866",
+        "name_ko": "원흥",
+        "name_en": "Wonheung",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8737376,
+          37.6504946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173031",
+        "name_ko": "삼송",
+        "name_en": "Samsong",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8954689,
+          37.6531033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173030",
+        "name_ko": "지축",
+        "name_en": "Jichuk",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9149061,
+          37.6479341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5281680295",
+        "name_ko": "구파발",
+        "name_en": "Gupabal",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9187721,
+          37.6368537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033544483",
+        "name_ko": "연신내",
+        "name_en": "Yeonsinnae",
+        "lines": [
+          "3",
+          "6",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.920858,
+          37.6194491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5930698992",
+        "name_ko": "불광",
+        "name_en": "Bulgwang",
+        "lines": [
+          "3",
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.930398,
+          37.6098806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173021",
+        "name_ko": "녹번",
+        "name_en": "Nokbeon",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9357156,
+          37.600943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173018",
+        "name_ko": "홍제",
+        "name_en": "Hongje (Seoul Culture Arts Univ.)",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.944199,
+          37.588674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173026",
+        "name_ko": "무악재",
+        "name_en": "Muakjae",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9503083,
+          37.5823147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5930698988",
+        "name_ko": "독립문",
+        "name_en": "Dongnimmun",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9578197,
+          37.574513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173059",
+        "name_ko": "경복궁",
+        "name_en": "Gyeongbokgung (Government Complex Seoul)",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9735668,
+          37.5757585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "414685965",
+        "name_ko": "안국",
+        "name_en": "Anguk",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9862272,
+          37.5768286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3833429767",
+        "name_ko": "종로3가",
+        "name_en": "Jongno 3(sam)-ga",
+        "lines": [
+          "1",
+          "3",
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9916922,
+          37.5720185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5930698986",
+        "name_ko": "을지로3가",
+        "name_en": "Euljiro 3(sam)-ga",
+        "lines": [
+          "2",
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9925882,
+          37.5663629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3833429777",
+        "name_ko": "충무로",
+        "name_en": "Chungmuro",
+        "lines": [
+          "3",
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9948063,
+          37.5606488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173044",
+        "name_ko": "동대입구",
+        "name_en": "Dongguk Univ.",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0057659,
+          37.5590197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5933896999",
+        "name_ko": "약수",
+        "name_en": "Yaksu",
+        "lines": [
+          "3",
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0105499,
+          37.5548296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173067",
+        "name_ko": "금호",
+        "name_en": "Geumho",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0158595,
+          37.5480153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "660843668",
+        "name_ko": "옥수",
+        "name_en": "Oksu",
+        "lines": [
+          "3",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0178475,
+          37.5408763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2028067305",
+        "name_ko": "압구정",
+        "name_en": "Apgujeong",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0284705,
+          37.5261356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2244637619",
+        "name_ko": "신사",
+        "name_en": "Sinsa",
+        "lines": [
+          "3",
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0196309,
+          37.5161705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033544393",
+        "name_ko": "잠원",
+        "name_en": "Jamwon",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0110886,
+          37.5127485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3824606377",
+        "name_ko": "고속터미널",
+        "name_en": "Express Bus Terminal",
+        "lines": [
+          "3",
+          "7",
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0049022,
+          37.5050376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5933947005",
+        "name_ko": "교대",
+        "name_en": "Seoul Nat'l Univ. of Education (Court & Public Prosecutors' Office)",
+        "lines": [
+          "2",
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0138064,
+          37.4928812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1939100051",
+        "name_ko": "남부터미널",
+        "name_en": "Nambu Bus Terminal (Seoul Arts Center)",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0162904,
+          37.4849718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5225259404",
+        "name_ko": "양재",
+        "name_en": "Yangjae",
+        "lines": [
+          "3",
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.034317,
+          37.4845433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2346858827",
+        "name_ko": "매봉",
+        "name_en": "Maebong",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0469913,
+          37.4870435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5225311375",
+        "name_ko": "도곡",
+        "name_en": "Dogok",
+        "lines": [
+          "3",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0554872,
+          37.4908838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173102",
+        "name_ko": "대치",
+        "name_en": "Daechi",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0632186,
+          37.4944502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173100",
+        "name_ko": "학여울",
+        "name_en": "Hangnyeoul",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0699125,
+          37.4964802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2102704507",
+        "name_ko": "대청",
+        "name_en": "Daecheong",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0795056,
+          37.493654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "414684303",
+        "name_ko": "일원",
+        "name_en": "Irwon",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0841812,
+          37.4837678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5909995037",
+        "name_ko": "수서",
+        "name_en": "Suseo",
+        "lines": [
+          "3",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1019706,
+          37.487427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5930287078",
+        "name_ko": "가락시장",
+        "name_en": "Garak Market",
+        "lines": [
+          "3",
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1177039,
+          37.4922475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3418807256",
+        "name_ko": "경찰병원",
+        "name_en": "Nat'l Police Hospital",
+        "lines": [
+          "3"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1238319,
+          37.4953088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5934012012",
+        "name_ko": "오금",
+        "name_en": "Ogeum",
+        "lines": [
+          "3",
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1283544,
+          37.5021419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1797562528",
+        "name_ko": "시청",
+        "name_en": "City Hall",
+        "lines": [
+          "1",
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9739637,
+          37.5630913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5826564342",
+        "name_ko": "충정로",
+        "name_en": "Chungjeongno(Kyonggi University)",
+        "lines": [
+          "2",
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9636659,
+          37.5593594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355172855",
+        "name_ko": "아현",
+        "name_en": "Ahyeon",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9561344,
+          37.5574487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5937884697",
+        "name_ko": "이대",
+        "name_en": "Ewha Womans University",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9458415,
+          37.5567916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1918413725",
+        "name_ko": "신촌",
+        "name_en": "Sinchon",
+        "lines": [
+          "2",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9369091,
+          37.5551787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544686",
+        "name_ko": "홍대입구",
+        "name_en": "Hongik University",
+        "lines": [
+          "2",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9234645,
+          37.5566763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5916874392",
+        "name_ko": "합정",
+        "name_en": "Hapjeong",
+        "lines": [
+          "2",
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9146378,
+          37.5500781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033312682",
+        "name_ko": "당산",
+        "name_en": "Dangsan",
+        "lines": [
+          "2",
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9020714,
+          37.534127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314402",
+        "name_ko": "영등포구청",
+        "name_en": "Yeongdeungpo-gu Office",
+        "lines": [
+          "2",
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8965366,
+          37.5253151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314413",
+        "name_ko": "문래",
+        "name_en": "Mullae",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8948387,
+          37.518408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "660878435",
+        "name_ko": "신도림",
+        "name_en": "Sindorim",
+        "lines": [
+          "1",
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8911913,
+          37.5089506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5907762741",
+        "name_ko": "대림",
+        "name_en": "Daerim(Guro-gu Office)",
+        "lines": [
+          "2",
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8949584,
+          37.4932804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314427",
+        "name_ko": "구로디지털단지",
+        "name_en": "Guro Digital Complex",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9025904,
+          37.4850332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314468",
+        "name_ko": "신대방",
+        "name_en": "Sindaebang",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91343,
+          37.4875967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314482",
+        "name_ko": "신림",
+        "name_en": "Sillim",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9296985,
+          37.4842228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314702",
+        "name_ko": "봉천",
+        "name_en": "Bongcheon",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9419846,
+          37.4823536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314712",
+        "name_ko": "서울대입구",
+        "name_en": "Seoul Nat'l University (Gwanak-gu Office)",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9527472,
+          37.4811907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314725",
+        "name_ko": "낙성대",
+        "name_en": "Nakseongdae",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9635445,
+          37.4770291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314757",
+        "name_ko": "사당",
+        "name_en": "Sadang",
+        "lines": [
+          "2",
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9825455,
+          37.4764777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314783",
+        "name_ko": "방배",
+        "name_en": "Bangbae",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9976822,
+          37.4814426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033314994",
+        "name_ko": "서초",
+        "name_en": "Seocho",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0076422,
+          37.491807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5907762740",
+        "name_ko": "강남",
+        "name_en": "Gangnam",
+        "lines": [
+          "2",
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0276077,
+          37.4979002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5812010548",
+        "name_ko": "역삼",
+        "name_en": "Yeoksam",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0369159,
+          37.5007895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5924284356",
+        "name_ko": "선릉",
+        "name_en": "Seolleung",
+        "lines": [
+          "2",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0489087,
+          37.5044396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "287525731",
+        "name_ko": "삼성",
+        "name_en": "Samseong(World Trade Center Seoul)",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0642476,
+          37.5091066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355172911",
+        "name_ko": "종합운동장",
+        "name_en": "Sports Complex",
+        "lines": [
+          "2",
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0753203,
+          37.5112839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033315012",
+        "name_ko": "잠실새내",
+        "name_en": "Jamsilsaenae",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0864332,
+          37.5115479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8337914284",
+        "name_ko": "잠실",
+        "name_en": "Jamsil(Songpa-gu Office)",
+        "lines": [
+          "2",
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1016671,
+          37.5136906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5933687061",
+        "name_ko": "잠실나루",
+        "name_en": "Jamsillaru",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1043045,
+          37.5198837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5933687058",
+        "name_ko": "강변",
+        "name_en": "Gangbyeon(Dongseoul Bus Terminal)",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0952593,
+          37.5343289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5933687294",
+        "name_ko": "구의",
+        "name_en": "Guui(Gwangjin-gu Office)",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.085103,
+          37.5368976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5801559318",
+        "name_ko": "건대입구",
+        "name_en": "Konkuk University",
+        "lines": [
+          "2",
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0681712,
+          37.5407875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5935554452",
+        "name_ko": "성수",
+        "name_en": "Seongsu",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0550553,
+          37.5448976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5935554449",
+        "name_ko": "뚝섬",
+        "name_en": "Ttukseom",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0463967,
+          37.5475873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5935554434",
+        "name_ko": "한양대",
+        "name_en": "Hanyang University",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0436837,
+          37.5557274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5801559319",
+        "name_ko": "왕십리",
+        "name_en": "Wangsimni(Seongdong-Gu Office)",
+        "lines": [
+          "2",
+          "5",
+          "bundang",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0371358,
+          37.5612222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355172983",
+        "name_ko": "상왕십리",
+        "name_en": "Sangwangsimni",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.029212,
+          37.5644254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1797587546",
+        "name_ko": "신당",
+        "name_en": "Sindang",
+        "lines": [
+          "2",
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0198141,
+          37.5656525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5935738070",
+        "name_ko": "동대문역사문화공원",
+        "name_en": "Dongdaemun History & Culture Park Station (DDP)",
+        "lines": [
+          "2",
+          "4",
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0081762,
+          37.5659047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5349724970",
+        "name_ko": "을지로4가",
+        "name_en": "Euljiro 4(sa)-ga",
+        "lines": [
+          "2",
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9979998,
+          37.5666655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355172962",
+        "name_ko": "을지로입구",
+        "name_en": "Euljiro 1(il)-ga (Industrial Bank of Korea)",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.982607,
+          37.5659777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173346",
+        "name_ko": "불암산",
+        "name_en": "Buramsan",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0784401,
+          37.6695753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173339",
+        "name_ko": "상계",
+        "name_en": "Sanggye",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0726737,
+          37.6599912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5914759508",
+        "name_ko": "노원",
+        "name_en": "Nowon",
+        "lines": [
+          "4",
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0623632,
+          37.6561244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5812233466",
+        "name_ko": "창동",
+        "name_en": "Chang-dong",
+        "lines": [
+          "1",
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0466586,
+          37.6529636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173148",
+        "name_ko": "쌍문",
+        "name_en": "Ssangmun",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0345485,
+          37.6484204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173138",
+        "name_ko": "수유",
+        "name_en": "Suyu (Gangbuk-gu Office)",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0256914,
+          37.6379893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7106108484",
+        "name_ko": "미아",
+        "name_en": "Mia",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0264909,
+          37.6254296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3835922764",
+        "name_ko": "미아사거리",
+        "name_en": "Miasageori",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0300744,
+          37.6131644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "353186868",
+        "name_ko": "길음",
+        "name_en": "Gireum",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.024414,
+          37.6024214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "287321417",
+        "name_ko": "성신여대입구",
+        "name_en": "Sungshin Women's University",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0164111,
+          37.592665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5914829686",
+        "name_ko": "한성대입구",
+        "name_en": "Hansung Univ. (Samseongyo)",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0053156,
+          37.588201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173201",
+        "name_ko": "혜화",
+        "name_en": "Hyehwa",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0019312,
+          37.5821434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3833429765",
+        "name_ko": "동대문",
+        "name_en": "Dongdaemun",
+        "lines": [
+          "1",
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0093746,
+          37.5707564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173195",
+        "name_ko": "명동",
+        "name_en": "Myeong-dong",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9862899,
+          37.5609174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3832931179",
+        "name_ko": "회현",
+        "name_en": "Hoehyeon (Namdaemun Market)",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978436,
+          37.5587614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7366159452",
+        "name_ko": "서울역",
+        "name_en": "Seoul Station",
+        "lines": [
+          "1",
+          "4",
+          "airport",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9724492,
+          37.552576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3818491433",
+        "name_ko": "숙대입구",
+        "name_en": "Sookmyung Women's Univ.",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9719211,
+          37.5451375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2385324651",
+        "name_ko": "삼각지",
+        "name_en": "Samgakji",
+        "lines": [
+          "4",
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9729031,
+          37.5344579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173105",
+        "name_ko": "신용산",
+        "name_en": "Sinyongsan",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9678072,
+          37.5291568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2533971240",
+        "name_ko": "이촌",
+        "name_en": "Ichon (National Museum of Korea)",
+        "lines": [
+          "4",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9736117,
+          37.5226181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "798558661",
+        "name_ko": "동작",
+        "name_en": "Dongjak",
+        "lines": [
+          "4",
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9808291,
+          37.5021191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6036160364",
+        "name_ko": "총신대입구",
+        "name_en": "Chongsin Univ. (Isu)",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9822046,
+          37.487026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9357694474",
+        "name_ko": "남태령",
+        "name_en": "Namtaeryeong",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9889176,
+          37.463972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6035746724",
+        "name_ko": "선바위",
+        "name_en": "Seonbawi",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.003056,
+          37.4507449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6035746726",
+        "name_ko": "경마공원",
+        "name_en": "Seoul Racecourse park",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.007913,
+          37.4438286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6035746710",
+        "name_ko": "대공원",
+        "name_en": "Seoul Grand park",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0061773,
+          37.435088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6035746736",
+        "name_ko": "과천",
+        "name_en": "Gwacheon",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9968428,
+          37.4330278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6035746709",
+        "name_ko": "정부과천청사",
+        "name_en": "Ansan Line",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9897471,
+          37.4264288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6035746755",
+        "name_ko": "인덕원",
+        "name_en": "Indeogwon",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9769874,
+          37.4013614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6035746765",
+        "name_ko": "평촌",
+        "name_en": "Pyeongchon",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9638926,
+          37.3942706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6035746706",
+        "name_ko": "범계",
+        "name_en": "Beomgye",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9509188,
+          37.3898873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10795263940",
+        "name_ko": "금정",
+        "name_en": "Geumjeong",
+        "lines": [
+          "1",
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9439463,
+          37.3715851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5347811352",
+        "name_ko": "산본",
+        "name_en": "Sanbon",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9321639,
+          37.3575433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5347802254",
+        "name_ko": "수리산",
+        "name_en": "Surisan",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9253962,
+          37.3498152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173131",
+        "name_ko": "대야미",
+        "name_en": "Daeyami",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9162856,
+          37.3272174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4974511637",
+        "name_ko": "반월",
+        "name_en": "Banwol",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9032326,
+          37.3116652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5911861549",
+        "name_ko": "상록수",
+        "name_en": "Sangnoksu",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8656673,
+          37.3028721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5911861568",
+        "name_ko": "한대앞",
+        "name_en": "Hanyang University at Ansan",
+        "lines": [
+          "4",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.852888,
+          37.3104519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5349743239",
+        "name_ko": "중앙",
+        "name_en": "Jungang",
+        "lines": [
+          "4",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8374647,
+          37.3160633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5911861689",
+        "name_ko": "고잔",
+        "name_en": "Gojan",
+        "lines": [
+          "4",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8220934,
+          37.3169005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5723047769",
+        "name_ko": "초지",
+        "name_en": "Choji",
+        "lines": [
+          "4",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8049024,
+          37.3211622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5911861708",
+        "name_ko": "안산",
+        "name_en": "Ansan",
+        "lines": [
+          "4",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7879605,
+          37.3274089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2066387615",
+        "name_ko": "신길온천",
+        "name_en": "Singiloncheon",
+        "lines": [
+          "4",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7661867,
+          37.3380983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "619039778",
+        "name_ko": "정왕",
+        "name_en": "Jeongwang",
+        "lines": [
+          "4",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7419901,
+          37.3520536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5907965098",
+        "name_ko": "오이도",
+        "name_en": "Oido",
+        "lines": [
+          "4",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.738718,
+          37.3628018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7872228251",
+        "name_ko": "고색",
+        "name_en": "Gosaek",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9803937,
+          37.2498322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5910050514",
+        "name_ko": "수원",
+        "name_en": "Suwon",
+        "lines": [
+          "1",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0013487,
+          37.266659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287966330",
+        "name_ko": "매교",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0157079,
+          37.2655001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287966323",
+        "name_ko": "수원시청",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0319033,
+          37.2617563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287966313",
+        "name_ko": "매탄권선",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0404781,
+          37.2530511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287966302",
+        "name_ko": "망포",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0570027,
+          37.245644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287966296",
+        "name_ko": "영통",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0712437,
+          37.2513838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287966289",
+        "name_ko": "청명",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0794894,
+          37.2599984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287965175",
+        "name_ko": "상갈",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1088684,
+          37.2617522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1725220163",
+        "name_ko": "기흥",
+        "name_en": "Giheung",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1159856,
+          37.2755066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287965143",
+        "name_ko": "신갈",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1113353,
+          37.286116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287965130",
+        "name_ko": "구성",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1057172,
+          37.2990209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1914727373",
+        "name_ko": "보정",
+        "name_en": "Bojeong",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1082976,
+          37.3123522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5924431380",
+        "name_ko": "죽전",
+        "name_en": "Jukjeon",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1073844,
+          37.3245639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5438824808",
+        "name_ko": "오리",
+        "name_en": "Ori",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1088934,
+          37.3406386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5881397264",
+        "name_ko": "미금",
+        "name_en": "Migeum",
+        "lines": [
+          "bundang",
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1089702,
+          37.3499981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5225259408",
+        "name_ko": "정자",
+        "name_en": "Jeongja",
+        "lines": [
+          "bundang",
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1080933,
+          37.3653889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1915043095",
+        "name_ko": "수내",
+        "name_en": "Sunae",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1142279,
+          37.3784199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1915043090",
+        "name_ko": "서현",
+        "name_en": "Seohyeon",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1233156,
+          37.3849257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5882162368",
+        "name_ko": "이매",
+        "name_en": "Imae",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1282124,
+          37.3952494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1915043091",
+        "name_ko": "야탑",
+        "name_en": "Yatap",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1286881,
+          37.4112829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5887972151",
+        "name_ko": "모란",
+        "name_en": "Moran",
+        "lines": [
+          "8",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1290618,
+          37.4321771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1914136597",
+        "name_ko": "태평",
+        "name_en": "Taepyeong",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1277192,
+          37.4397071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1914136725",
+        "name_ko": "가천대",
+        "name_en": "Gachon Univ.",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1266971,
+          37.4486968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4733039958",
+        "name_ko": "복정",
+        "name_en": "Bokjeong",
+        "lines": [
+          "8",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1266838,
+          37.4716385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173583",
+        "name_ko": "대모산입구",
+        "name_en": "Daemosan",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0727648,
+          37.4913743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6312484935",
+        "name_ko": "개포동",
+        "name_en": "Gaepo-dong",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0660515,
+          37.4890796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1906684759",
+        "name_ko": "구룡",
+        "name_en": "Guryong",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.059455,
+          37.4869099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6312484936",
+        "name_ko": "한티",
+        "name_en": "Hanti",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0528411,
+          37.496274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7908597444",
+        "name_ko": "선정릉",
+        "name_en": "Seonjeongneung",
+        "lines": [
+          "9",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0436952,
+          37.510668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6312484938",
+        "name_ko": "강남구청",
+        "name_en": "Gangnam-gu Office",
+        "lines": [
+          "7",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0414135,
+          37.5167764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6312484944",
+        "name_ko": "압구정로데오",
+        "name_en": "Apgujungrodeo",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0406811,
+          37.5278201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4963715631",
+        "name_ko": "서울숲",
+        "name_en": "Seoul-forest",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0447177,
+          37.5436201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5325300810",
+        "name_ko": "개화",
+        "name_en": "Gaehwa",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7968238,
+          37.5784343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3278844040",
+        "name_ko": "김포공항",
+        "name_en": "Gimpo Int'l Airport",
+        "lines": [
+          "5",
+          "9",
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8015364,
+          37.5619723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994677371",
+        "name_ko": "공항시장",
+        "name_en": "Airport Market",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8104215,
+          37.5634156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4604102197",
+        "name_ko": "신방화",
+        "name_en": "Sinbanghwa",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8178288,
+          37.5674056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1996406534",
+        "name_ko": "마곡나루",
+        "name_en": "",
+        "lines": [
+          "9",
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8277135,
+          37.5666674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994678935",
+        "name_ko": "양천향교",
+        "name_en": "Yangcheon Hyanggyo",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8412018,
+          37.5684782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994679616",
+        "name_ko": "가양",
+        "name_en": "Gayang",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8550615,
+          37.5611258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994679915",
+        "name_ko": "증미",
+        "name_en": "Jeungmi",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.86193,
+          37.557422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994680293",
+        "name_ko": "등촌",
+        "name_en": "Deungchon",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8645708,
+          37.5511895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994680392",
+        "name_ko": "염창",
+        "name_en": "Yeomchang",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8754428,
+          37.5470051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994680522",
+        "name_ko": "신목동",
+        "name_en": "Sinmokdong",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8831853,
+          37.544227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3439039804",
+        "name_ko": "선유도",
+        "name_en": "Seonyudo",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8938639,
+          37.5378557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9181579787",
+        "name_ko": "국회의사당",
+        "name_en": "National Assembly",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9184254,
+          37.5274368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5917210895",
+        "name_ko": "여의도",
+        "name_en": "",
+        "lines": [
+          "5",
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9241053,
+          37.5217071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9482998436",
+        "name_ko": "샛강",
+        "name_en": "Saetgang",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9283959,
+          37.5172824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1996430636",
+        "name_ko": "노량진",
+        "name_en": "Noryangjin",
+        "lines": [
+          "1",
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9418701,
+          37.5136072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1996430673",
+        "name_ko": "노들",
+        "name_en": "Nodeul",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9535788,
+          37.5129494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994702763",
+        "name_ko": "흑석",
+        "name_en": "Heukseok",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9639299,
+          37.508366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994703274",
+        "name_ko": "구반포",
+        "name_en": "Gubanpo",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9867889,
+          37.5012703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1994703290",
+        "name_ko": "신반포",
+        "name_en": "Sinbanpo",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9964259,
+          37.5035801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3824606383",
+        "name_ko": "사평",
+        "name_en": "Sapyeong",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0153773,
+          37.504105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3824606392",
+        "name_ko": "신논현역",
+        "name_en": "Sinnonhyeon",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0248738,
+          37.5045465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3454026413",
+        "name_ko": "언주",
+        "name_en": "Eonju",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0341153,
+          37.5073701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3824606380",
+        "name_ko": "삼성중앙",
+        "name_en": "Samseong Jungang",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0537122,
+          37.5130743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3824606374",
+        "name_ko": "봉은사역",
+        "name_en": "Bongeunsa",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0601774,
+          37.5141546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6117347092",
+        "name_ko": "삼전",
+        "name_en": "",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0871856,
+          37.504478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6102706816",
+        "name_ko": "석촌고분",
+        "name_en": "",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0965651,
+          37.502417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6102706788",
+        "name_ko": "석촌",
+        "name_en": "Seokchon",
+        "lines": [
+          "8",
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1068567,
+          37.5050452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6117347089",
+        "name_ko": "송파나루",
+        "name_en": "",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1128828,
+          37.5112303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6102706837",
+        "name_ko": "한성백제",
+        "name_en": "",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1162809,
+          37.5167113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6102706374",
+        "name_ko": "올림픽공원",
+        "name_en": "",
+        "lines": [
+          "5",
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1303019,
+          37.5160799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6102706369",
+        "name_ko": "둔촌오륜",
+        "name_en": "",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1383293,
+          37.5198527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6102706367",
+        "name_ko": "중앙보훈병원",
+        "name_en": "VHS Medical Center",
+        "lines": [
+          "9"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.148286,
+          37.5282699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12119884929",
+        "name_ko": "별내",
+        "name_en": "Byeollae",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1280243,
+          37.6418028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12119884931",
+        "name_ko": "다산",
+        "name_en": "Dasan",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1496187,
+          37.6237479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12119884932",
+        "name_ko": "동구릉",
+        "name_en": "Donggureung",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1381349,
+          37.6101744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12119884933",
+        "name_ko": "구리",
+        "name_en": "Guri",
+        "lines": [
+          "8",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1410186,
+          37.6016366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8445537865",
+        "name_ko": "장자호수공원",
+        "name_en": "Jangja Lake Park",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1378478,
+          37.5864905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8445537827",
+        "name_ko": "암사역사공원",
+        "name_en": "Amsa History Park",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1365133,
+          37.5568968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173473",
+        "name_ko": "암사",
+        "name_en": "Amsa",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1270746,
+          37.5490025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5801302006",
+        "name_ko": "천호",
+        "name_en": "Cheonho",
+        "lines": [
+          "5",
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1232037,
+          37.5380736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "414685028",
+        "name_ko": "강동구청",
+        "name_en": "Gangdong-gu Office",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.120598,
+          37.5306815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "414684814",
+        "name_ko": "몽촌토성",
+        "name_en": "Mongchontoseong",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1126502,
+          37.5175496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173581",
+        "name_ko": "송파",
+        "name_en": "Songpa",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1122514,
+          37.4996207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173577",
+        "name_ko": "문정",
+        "name_en": "Munjeong",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.122484,
+          37.48585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5821684795",
+        "name_ko": "장지",
+        "name_en": "Jangji",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1260371,
+          37.4788927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3605365336",
+        "name_ko": "남위례",
+        "name_en": "Namwirye",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1397967,
+          37.4624724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173569",
+        "name_ko": "산성",
+        "name_en": "Sanseong",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1499078,
+          37.4568481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4809472051",
+        "name_ko": "남한산성입구",
+        "name_en": "Namhansanseong",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.159804,
+          37.451584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173593",
+        "name_ko": "단대오거리",
+        "name_en": "Dandaeogeori",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1567551,
+          37.4450934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173595",
+        "name_ko": "신흥",
+        "name_en": "Sinheung",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1476254,
+          37.4410138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173590",
+        "name_ko": "수진",
+        "name_en": "Sujin",
+        "lines": [
+          "8"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1406647,
+          37.4374574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544837",
+        "name_ko": "인천공항2터미널",
+        "name_en": "Incheon Airport Terminal 2",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4334999,
+          37.4688911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544824",
+        "name_ko": "인천공항1터미널",
+        "name_en": "Incheon Int'l Airport Terminal 1",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4526977,
+          37.4472569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544815",
+        "name_ko": "공항화물청사",
+        "name_en": "",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4776332,
+          37.4589066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544811",
+        "name_ko": "운서",
+        "name_en": "",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4937351,
+          37.4928102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544751",
+        "name_ko": "영종",
+        "name_en": "",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5248572,
+          37.5120219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544740",
+        "name_ko": "청라국제도시",
+        "name_en": "",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6246726,
+          37.5565025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544723",
+        "name_ko": "검암",
+        "name_en": "",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6736778,
+          37.5691612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5204025132",
+        "name_ko": "계양",
+        "name_en": "Gyeyang",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7363487,
+          37.5717906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544689",
+        "name_ko": "공덕",
+        "name_en": "Gongdeok",
+        "lines": [
+          "5",
+          "6",
+          "airport",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9522541,
+          37.5424161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5916874386",
+        "name_ko": "응암",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9157018,
+          37.598774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173383",
+        "name_ko": "역촌",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9228008,
+          37.6060541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6041674928",
+        "name_ko": "독바위",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9330576,
+          37.6184519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173384",
+        "name_ko": "구산",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9170995,
+          37.6110401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "414683380",
+        "name_ko": "새절",
+        "name_en": "Saejeol",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9134797,
+          37.5910867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173381",
+        "name_ko": "증산",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9098598,
+          37.5841289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5919544688",
+        "name_ko": "디지털미디어시티",
+        "name_en": "Digital Media City",
+        "lines": [
+          "6",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9014392,
+          37.576216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173429",
+        "name_ko": "월드컵경기장",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8992939,
+          37.5701609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173424",
+        "name_ko": "마포구청",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9033737,
+          37.5635156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173426",
+        "name_ko": "망원",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9101224,
+          37.5559808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173436",
+        "name_ko": "상수",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9229225,
+          37.5477391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173431",
+        "name_ko": "광흥창",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.932001,
+          37.547449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173433",
+        "name_ko": "대흥",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9423171,
+          37.5476895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173443",
+        "name_ko": "효창공원앞",
+        "name_en": "Hyochang Park",
+        "lines": [
+          "6",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9613534,
+          37.5393117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173438",
+        "name_ko": "녹사평",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9864975,
+          37.5347329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173440",
+        "name_ko": "이태원",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.994386,
+          37.534481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173448",
+        "name_ko": "한강진",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0017633,
+          37.5398199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173451",
+        "name_ko": "버티고개",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0066769,
+          37.5482256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313640",
+        "name_ko": "청구",
+        "name_en": "",
+        "lines": [
+          "5",
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0138544,
+          37.5602864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3279010922",
+        "name_ko": "동묘앞",
+        "name_en": "Dongmyo",
+        "lines": [
+          "1",
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0158026,
+          37.571413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173402",
+        "name_ko": "창신",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.015273,
+          37.579786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5747397251",
+        "name_ko": "보문",
+        "name_en": "Bomun",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0193326,
+          37.5852622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173400",
+        "name_ko": "안암",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.029329,
+          37.5862818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173408",
+        "name_ko": "고려대",
+        "name_en": "Korea Univ.",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0359359,
+          37.58975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173406",
+        "name_ko": "월곡",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.041489,
+          37.601924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173405",
+        "name_ko": "상월곡",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0482569,
+          37.606207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173404",
+        "name_ko": "돌곶이",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0564905,
+          37.6105343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355172774",
+        "name_ko": "석계",
+        "name_en": "Seokgye",
+        "lines": [
+          "1",
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.065768,
+          37.6148757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6041673025",
+        "name_ko": "태릉입구",
+        "name_en": "",
+        "lines": [
+          "6",
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0745285,
+          37.6172248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173413",
+        "name_ko": "화랑대",
+        "name_en": "",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0837172,
+          37.6197559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173411",
+        "name_ko": "봉화산",
+        "name_en": "Bonghwasan",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0910747,
+          37.6173928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8049297383",
+        "name_ko": "신설동",
+        "name_en": "Sinseol-dong",
+        "lines": [
+          "1",
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0263347,
+          37.5740982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355172924",
+        "name_ko": "용두",
+        "name_en": "",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.038702,
+          37.5738711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5694832466",
+        "name_ko": "신답",
+        "name_en": "",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0474214,
+          37.5692823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5856128334",
+        "name_ko": "용답",
+        "name_en": "",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0510125,
+          37.5617246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033364547",
+        "name_ko": "도림천",
+        "name_en": "Dorimcheon",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8826324,
+          37.5144991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033364507",
+        "name_ko": "양천구청",
+        "name_en": "Yangcheon-gu Office",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8659115,
+          37.5123003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033364446",
+        "name_ko": "신정네거리",
+        "name_en": "Sinjeongnegeori",
+        "lines": [
+          "2"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.853057,
+          37.5200245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6033364443",
+        "name_ko": "까치산",
+        "name_en": "Kkachisan",
+        "lines": [
+          "2",
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.846698,
+          37.5313676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313057",
+        "name_ko": "마천",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1527509,
+          37.4949893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313046",
+        "name_ko": "거여",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1437715,
+          37.4933801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313049",
+        "name_ko": "개롱",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1348455,
+          37.4981053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313053",
+        "name_ko": "방이",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1260719,
+          37.5086178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313073",
+        "name_ko": "둔촌동",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1362849,
+          37.5277875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313082",
+        "name_ko": "강동",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1326384,
+          37.5358634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5915757374",
+        "name_ko": "상일동",
+        "name_en": "Sangil-dong",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1650911,
+          37.5566609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5915757375",
+        "name_ko": "고덕",
+        "name_en": "Godeok",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1537873,
+          37.5550028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5915757377",
+        "name_ko": "명일",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1440529,
+          37.5519248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173312",
+        "name_ko": "굽은다리",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1429306,
+          37.5456603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173323",
+        "name_ko": "길동",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.140159,
+          37.5383553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173377",
+        "name_ko": "광나루",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1035169,
+          37.5453332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173375",
+        "name_ko": "아차산",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0898223,
+          37.5517023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313614",
+        "name_ko": "군자",
+        "name_en": "",
+        "lines": [
+          "5",
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0795654,
+          37.5571693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173372",
+        "name_ko": "장한평",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0645955,
+          37.5615078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173370",
+        "name_ko": "답십리",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0527067,
+          37.5668495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173368",
+        "name_ko": "마장",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0428899,
+          37.5661188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173365",
+        "name_ko": "행당",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0299451,
+          37.5576032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173364",
+        "name_ko": "신금호",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0202666,
+          37.5544558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2346858819",
+        "name_ko": "광화문",
+        "name_en": "Gwanghwamun",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9769142,
+          37.5716332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173360",
+        "name_ko": "서대문",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9666095,
+          37.5658085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3278844465",
+        "name_ko": "애오개",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9566713,
+          37.553447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "353186877",
+        "name_ko": "마포",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9459579,
+          37.5396405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "414684925",
+        "name_ko": "여의나루",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9325101,
+          37.5268661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2803508740",
+        "name_ko": "신길",
+        "name_en": "Singil",
+        "lines": [
+          "1",
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9165959,
+          37.5175712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313681",
+        "name_ko": "영등포시장",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9051311,
+          37.5227195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313985",
+        "name_ko": "양평",
+        "name_en": "Yangpyeong",
+        "lines": [
+          "5",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.886125,
+          37.525654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173398",
+        "name_ko": "오목교",
+        "name_en": "Omokgyo",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8751578,
+          37.5245758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173399",
+        "name_ko": "목동",
+        "name_en": "Mok-dong",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.864513,
+          37.5261412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039313995",
+        "name_ko": "신정",
+        "name_en": "Sinjeong",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8559381,
+          37.5250652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173397",
+        "name_ko": "화곡",
+        "name_en": "Hwagok",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8404024,
+          37.5417123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039314019",
+        "name_ko": "우장산",
+        "name_en": "Ujangsan",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8363427,
+          37.5488674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1790506663",
+        "name_ko": "발산",
+        "name_en": "Balsan",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8375125,
+          37.5584571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173390",
+        "name_ko": "마곡",
+        "name_en": "Magok",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8247446,
+          37.5602708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1790519133",
+        "name_ko": "송정",
+        "name_en": "Songjeong",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8119992,
+          37.5612892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6039314031",
+        "name_ko": "개화산",
+        "name_en": "Gaehwasan",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.808166,
+          37.5728374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355173386",
+        "name_ko": "방화",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8127722,
+          37.5773845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5773411578",
+        "name_ko": "광명",
+        "name_en": "Gwangmyeong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8846994,
+          37.4169851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3153793711",
+        "name_ko": "금천구청",
+        "name_en": "Geumcheon-gu Office",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8934833,
+          37.4563959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3426723670",
+        "name_ko": "독산",
+        "name_en": "Doksan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8890361,
+          37.4668796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3426723651",
+        "name_ko": "가산디지털단지",
+        "name_en": "Gasan Digital Complex",
+        "lines": [
+          "1",
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8821636,
+          37.4823798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896638402",
+        "name_ko": "구로",
+        "name_en": "Guro",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8823678,
+          37.5033463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3212614903",
+        "name_ko": "영등포",
+        "name_en": "Yeongdeungpo",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9072862,
+          37.5154485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5889532187",
+        "name_ko": "용문",
+        "name_en": "Yongmun",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5947947,
+          37.4820467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5889532072",
+        "name_ko": "원덕",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5454542,
+          37.4689667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5889529470",
+        "name_ko": "오빈",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4726689,
+          37.5064442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5889529458",
+        "name_ko": "아신",
+        "name_en": "Asin",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4421485,
+          37.5141696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5889529441",
+        "name_ko": "국수",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3982455,
+          37.5159075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5889529431",
+        "name_ko": "신원",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3724619,
+          37.5262402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890164147",
+        "name_ko": "양수",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3281417,
+          37.5464099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890164134",
+        "name_ko": "운길산",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.308969,
+          37.555176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890164130",
+        "name_ko": "팔당",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2429811,
+          37.5481215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890637513",
+        "name_ko": "도심",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2217583,
+          37.5798815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890637492",
+        "name_ko": "덕소",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2076604,
+          37.5875186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4063596085",
+        "name_ko": "양정",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1941174,
+          37.6046783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5519310088",
+        "name_ko": "도농",
+        "name_en": "Donong",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1612194,
+          37.6087773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890637453",
+        "name_ko": "양원",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1072307,
+          37.6064164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5571709416",
+        "name_ko": "망우",
+        "name_en": "Mangu",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0915707,
+          37.5989729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890637419",
+        "name_ko": "상봉",
+        "name_en": "",
+        "lines": [
+          "7",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0843139,
+          37.5965559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890637409",
+        "name_ko": "중랑",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0753534,
+          37.5946995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5887905550",
+        "name_ko": "회기",
+        "name_en": "Hoegi",
+        "lines": [
+          "1",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0572961,
+          37.5891676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8390160499",
+        "name_ko": "청량리",
+        "name_en": "Cheongnyangni (University of Seoul)",
+        "lines": [
+          "1",
+          "bundang",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0482186,
+          37.5806416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890636978",
+        "name_ko": "응봉",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0342619,
+          37.549548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5893030216",
+        "name_ko": "한남",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0085345,
+          37.5291501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5893030217",
+        "name_ko": "서빙고",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9872817,
+          37.5195173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5893030219",
+        "name_ko": "용산",
+        "name_en": "Yongsan",
+        "lines": [
+          "1",
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9663678,
+          37.5305621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4704699992",
+        "name_ko": "서강대",
+        "name_en": "Sogang Univ.",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93427,
+          37.5529911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5893030243",
+        "name_ko": "가좌",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9141529,
+          37.5688469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4151479522",
+        "name_ko": "수색",
+        "name_en": "Susaek",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8950228,
+          37.5809734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5891334845",
+        "name_ko": "한국항공대",
+        "name_en": "Korea Aerospace Univ.",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8677587,
+          37.6032316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5893288218",
+        "name_ko": "강매",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8442848,
+          37.6121383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8334213085",
+        "name_ko": "행신",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8341887,
+          37.611993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8334213103",
+        "name_ko": "능곡",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8197461,
+          37.619355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5891336948",
+        "name_ko": "곡산",
+        "name_en": "Goksan",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8014149,
+          37.6463771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5891337012",
+        "name_ko": "풍산",
+        "name_en": "Pungsan",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7859221,
+          37.6728688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5891337061",
+        "name_ko": "일산",
+        "name_en": "Ilsan",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7698544,
+          37.682014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5891337069",
+        "name_ko": "탄현",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.761013,
+          37.6946855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5891337071",
+        "name_ko": "야당",
+        "name_en": "Yadang",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7616058,
+          37.7132647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10743068855",
+        "name_ko": "운정",
+        "name_en": "Unjeong",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7674433,
+          37.7262417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4045715667",
+        "name_ko": "금릉",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7650266,
+          37.7518897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890815212",
+        "name_ko": "금촌",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7753589,
+          37.7665998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890815220",
+        "name_ko": "월롱",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7930258,
+          37.7974275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890815486",
+        "name_ko": "파주",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7922097,
+          37.8157295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5890815514",
+        "name_ko": "문산",
+        "name_en": "",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7879894,
+          37.8553067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5891336974",
+        "name_ko": "백마",
+        "name_en": "Baengma",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7949216,
+          37.6575978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7287842392",
+        "name_ko": "논현",
+        "name_en": "Nonhyeon",
+        "lines": [
+          "7",
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0218958,
+          37.5099469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9776192970",
+        "name_ko": "신논현",
+        "name_en": "Sinnonhyeon",
+        "lines": [
+          "9",
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0249157,
+          37.5035711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1906756417",
+        "name_ko": "양재시민의숲",
+        "name_en": "Yangjae Citizen's Forest",
+        "lines": [
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0383592,
+          37.4701433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1906756403",
+        "name_ko": "청계산입구",
+        "name_en": "Cheonggyesan",
+        "lines": [
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0545673,
+          37.4483921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5624997112",
+        "name_ko": "판교",
+        "name_en": "Pangyo",
+        "lines": [
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1111873,
+          37.3943639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4820118359",
+        "name_ko": "동천",
+        "name_en": "Dongcheon",
+        "lines": [
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1028482,
+          37.3378769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6269743768",
+        "name_ko": "수지구청",
+        "name_en": "Suji-gu Office",
+        "lines": [
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0947567,
+          37.3224903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6152750623",
+        "name_ko": "성복",
+        "name_en": "Seongbok",
+        "lines": [
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0803106,
+          37.3134135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3492346917",
+        "name_ko": "상현",
+        "name_en": "Sanghyeon",
+        "lines": [
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0693373,
+          37.2974137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3642451903",
+        "name_ko": "광교중앙",
+        "name_en": "Gwanggyo Jungang",
+        "lines": [
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0514993,
+          37.288547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3740158509",
+        "name_ko": "광교",
+        "name_en": "Gwanggyo",
+        "lines": [
+          "shinbundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0435221,
+          37.3024813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "11433141478",
+        "name_ko": "소요산",
+        "name_en": "Soyosan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0607225,
+          37.9471617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4881356285",
+        "name_ko": "동두천",
+        "name_en": "Dongducheon",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0550196,
+          37.9266917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4937987035",
+        "name_ko": "보산",
+        "name_en": "Bosan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0573342,
+          37.9133009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4937987051",
+        "name_ko": "동두천중앙",
+        "name_en": "Dongducheonjungang (Shinhan University Campus 2)",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0564914,
+          37.9008562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4939679013",
+        "name_ko": "지행",
+        "name_en": "Jihaeng",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0557765,
+          37.8915262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4939679248",
+        "name_ko": "덕정",
+        "name_en": "Deokjeong (Seojeong College)",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0616808,
+          37.8424204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5050088095",
+        "name_ko": "덕계",
+        "name_en": "Deokgye",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0564018,
+          37.8179643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5050088100",
+        "name_ko": "양주",
+        "name_en": "Yangju",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0447041,
+          37.7733153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5050088102",
+        "name_ko": "녹양",
+        "name_en": "Nogyang",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.042323,
+          37.758501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5050088115",
+        "name_ko": "가능",
+        "name_en": "Ganeung",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0447039,
+          37.7476557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7121505500",
+        "name_ko": "의정부",
+        "name_en": "Uijeongbu",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0464268,
+          37.7366367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5350784134",
+        "name_ko": "회룡",
+        "name_en": "Hoeryong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0472403,
+          37.7230757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4520040946",
+        "name_ko": "망월사",
+        "name_en": "Mangwolsa (Shinhan University)",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.047594,
+          37.7094036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5899116546",
+        "name_ko": "도봉산",
+        "name_en": "Dobongsan",
+        "lines": [
+          "1",
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0461858,
+          37.688786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5899116544",
+        "name_ko": "도봉",
+        "name_en": "Dobong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0453853,
+          37.6781766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5899116539",
+        "name_ko": "방학",
+        "name_en": "Banghak (Dobong-gu Office)",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0444265,
+          37.666534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5899116510",
+        "name_ko": "녹천",
+        "name_en": "Nokcheon",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0516865,
+          37.6439844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5899214148",
+        "name_ko": "월계",
+        "name_en": "Wolgye (Induk University)",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0588626,
+          37.6323154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5899214142",
+        "name_ko": "광운대",
+        "name_en": "Kwangwoon University",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0620693,
+          37.6232033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4246459937",
+        "name_ko": "신이문",
+        "name_en": "Sinimun (Korea National University of Arts)",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0669802,
+          37.600931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5899527479",
+        "name_ko": "외대앞",
+        "name_en": "Hankuk University of Foreign Studies",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.063374,
+          37.5956329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7611776393",
+        "name_ko": "제기동",
+        "name_en": "Jegidong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0335456,
+          37.5783087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "355172742",
+        "name_ko": "종로5가",
+        "name_en": "Jongno 5(o)-ga",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0011763,
+          37.5709298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "660871450",
+        "name_ko": "종각",
+        "name_en": "Jonggak",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9821118,
+          37.5701195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5835544503",
+        "name_ko": "남영",
+        "name_en": "Namyeong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9714083,
+          37.5395691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3214007453",
+        "name_ko": "대방",
+        "name_en": "Daebang",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9254113,
+          37.5134068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5900500358",
+        "name_ko": "구일",
+        "name_en": "Guil",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8689185,
+          37.4957217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5900500349",
+        "name_ko": "개봉",
+        "name_en": "Gaebong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8581644,
+          37.4945762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3174423993",
+        "name_ko": "오류동",
+        "name_en": "Oryu-dong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8434437,
+          37.4939856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5814312744",
+        "name_ko": "온수",
+        "name_en": "Onsu",
+        "lines": [
+          "1",
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8229565,
+          37.4919928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5900500328",
+        "name_ko": "역곡",
+        "name_en": "Yeokgok",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8111076,
+          37.4848544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5900500318",
+        "name_ko": "소사",
+        "name_en": "Sosa",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7946398,
+          37.4826204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5900500302",
+        "name_ko": "부천",
+        "name_en": "Bucheon",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7813237,
+          37.4841939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5904751236",
+        "name_ko": "중동",
+        "name_en": "Jung-dong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7630781,
+          37.4867408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902086894",
+        "name_ko": "송내",
+        "name_en": "Songnae",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7516291,
+          37.4876022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902086886",
+        "name_ko": "부개",
+        "name_en": "Bugae",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7398397,
+          37.4884186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5585685809",
+        "name_ko": "부평",
+        "name_en": "Bupyeong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7245079,
+          37.4893315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902086070",
+        "name_ko": "백운",
+        "name_en": "Baegun",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7063864,
+          37.4824022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902086062",
+        "name_ko": "동암",
+        "name_en": "Dongam",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7029777,
+          37.4699087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902086056",
+        "name_ko": "간석",
+        "name_en": "Ganseok",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6924772,
+          37.4645678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902086048",
+        "name_ko": "주안",
+        "name_en": "Juan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6784288,
+          37.4650755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3216255723",
+        "name_ko": "도화",
+        "name_en": "Dohwa",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6674091,
+          37.4660994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902086034",
+        "name_ko": "제물포",
+        "name_en": "Jemulpo",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6565865,
+          37.4666952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902086026",
+        "name_ko": "도원",
+        "name_en": "Dowon",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6416049,
+          37.469062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902086016",
+        "name_ko": "동인천",
+        "name_en": "Dongincheon",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.63231,
+          37.4756163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5902085994",
+        "name_ko": "인천",
+        "name_en": "Incheon",
+        "lines": [
+          "1",
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6169985,
+          37.4764189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896638408",
+        "name_ko": "석수",
+        "name_en": "Seoksu",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9025637,
+          37.4345411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896638413",
+        "name_ko": "관악",
+        "name_en": "Gwanak",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9090056,
+          37.4191207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896638421",
+        "name_ko": "안양",
+        "name_en": "Anyang",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9238319,
+          37.4006749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3426723675",
+        "name_ko": "명학",
+        "name_en": "Myeonghak",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93601,
+          37.3837522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3426723656",
+        "name_ko": "군포",
+        "name_en": "Gunpo",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9485985,
+          37.3534284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3426723663",
+        "name_ko": "당정",
+        "name_en": "Dangjeong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9484387,
+          37.3424456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3426724594",
+        "name_ko": "의왕",
+        "name_en": "Uiwang",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9482854,
+          37.3193973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3426723681",
+        "name_ko": "성균관대",
+        "name_en": "Sungkyunkwan University",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.972123,
+          37.3003127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896399353",
+        "name_ko": "화서",
+        "name_en": "Hwaseo",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9900975,
+          37.2833438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896399383",
+        "name_ko": "세류",
+        "name_en": "Seryu",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.014239,
+          37.2433133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4954074038",
+        "name_ko": "병점",
+        "name_en": "Byeongjeom",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0335067,
+          37.2065157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896284769",
+        "name_ko": "세마",
+        "name_en": "Sema",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0439663,
+          37.1864677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5304357332",
+        "name_ko": "오산대",
+        "name_en": "Osan College",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0633372,
+          37.1687277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5304357345",
+        "name_ko": "오산",
+        "name_en": "Osan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0666675,
+          37.1438724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896286321",
+        "name_ko": "진위",
+        "name_en": "Jinwi",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0623878,
+          37.109307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896286341",
+        "name_ko": "송탄",
+        "name_en": "Songtan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0544205,
+          37.075606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5304357423",
+        "name_ko": "서정리",
+        "name_en": "Seojeong-ri",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0528971,
+          37.0556777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5304357449",
+        "name_ko": "평택지제",
+        "name_en": "Pyeongtaek Jije",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.070582,
+          37.0182009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5896031469",
+        "name_ko": "평택",
+        "name_en": "Pyeongtaek",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0863693,
+          36.9899168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5895868462",
+        "name_ko": "성환",
+        "name_en": "Seonghwan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1270569,
+          36.9153776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5895878220",
+        "name_ko": "직산",
+        "name_en": "Jiksan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1443262,
+          36.8701914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4718341773",
+        "name_ko": "두정",
+        "name_en": "Dujeong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.149214,
+          36.8332818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5894856838",
+        "name_ko": "천안",
+        "name_en": "Cheonan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1466993,
+          36.8106632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5894856981",
+        "name_ko": "봉명",
+        "name_en": "Bongmyeong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1352651,
+          36.8009468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5894856995",
+        "name_ko": "쌍용",
+        "name_en": "Ssangyong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1205757,
+          36.7933314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5894857008",
+        "name_ko": "아산",
+        "name_en": "Asan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1035459,
+          36.7917816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9213388326",
+        "name_ko": "탕정",
+        "name_en": "Tangjeong",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0835332,
+          36.7878853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5894627116",
+        "name_ko": "배방",
+        "name_en": "Baebang",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0519158,
+          36.7771457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8890027524",
+        "name_ko": "온양온천",
+        "name_en": "Onyangoncheon",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.002185,
+          36.7806844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8874550904",
+        "name_ko": "신창",
+        "name_en": "Sinchang",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9507896,
+          36.7694233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5904958056",
+        "name_ko": "서동탄",
+        "name_en": "Seodongtan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0518219,
+          37.1956686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5340688293",
+        "name_ko": "고촌",
+        "name_en": "Gochon",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7701876,
+          37.6013319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4636808676",
+        "name_ko": "풍무",
+        "name_en": "Pungmu",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7324458,
+          37.6124305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5340642603",
+        "name_ko": "사우",
+        "name_en": "Sau",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7196924,
+          37.6203085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5340642724",
+        "name_ko": "걸포북변",
+        "name_en": "Geolpo Bukbyeon",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7058836,
+          37.6315929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5340662955",
+        "name_ko": "운양",
+        "name_en": "Unyang",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.683853,
+          37.6538351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5340662972",
+        "name_ko": "장기",
+        "name_en": "Janggi",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6689623,
+          37.6440357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5340663023",
+        "name_ko": "마산",
+        "name_en": "Masan",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6441105,
+          37.640616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10814394643",
+        "name_ko": "구래",
+        "name_en": "Gurae",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6287137,
+          37.6454185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5340678916",
+        "name_ko": "양촌",
+        "name_en": "Yangchon",
+        "lines": [
+          "airport"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6147532,
+          37.6416447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6046634697",
+        "name_ko": "수락산",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0552337,
+          37.6770108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6046634703",
+        "name_ko": "마들",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0577568,
+          37.6647424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2111825348",
+        "name_ko": "중계",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0638548,
+          37.6455228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6046634707",
+        "name_ko": "하계",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0682067,
+          37.6359753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6046634708",
+        "name_ko": "공릉",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0729869,
+          37.6256062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6046634710",
+        "name_ko": "먹골",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0775866,
+          37.6114362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4706526694",
+        "name_ko": "중화",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07945,
+          37.6016296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6046634712",
+        "name_ko": "면목",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0875458,
+          37.5883794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6046634739",
+        "name_ko": "사가정",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0883912,
+          37.5807153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3823777524",
+        "name_ko": "용마산",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0864879,
+          37.5738974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6046634750",
+        "name_ko": "중곡",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08449,
+          37.5662958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6046633859",
+        "name_ko": "어린이대공원",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0743859,
+          37.5476281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955208",
+        "name_ko": "자양",
+        "name_en": "Jayang",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0664071,
+          37.5308705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2111924741",
+        "name_ko": "청담",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0500373,
+          37.5188573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "436832405",
+        "name_ko": "학동",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0307332,
+          37.5139701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2279487866",
+        "name_ko": "반포",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.011619,
+          37.5081855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955191",
+        "name_ko": "내방",
+        "name_en": "Naebang",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9921169,
+          37.4872377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955183",
+        "name_ko": "이수",
+        "name_en": "Isu",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9819566,
+          37.4853378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955158",
+        "name_ko": "남성",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9718787,
+          37.4843794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955148",
+        "name_ko": "숭실대입구",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9541388,
+          37.4956558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955147",
+        "name_ko": "상도",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9476896,
+          37.5032145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955124",
+        "name_ko": "장승배기",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9391954,
+          37.5049927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955112",
+        "name_ko": "신대방삼거리",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9282087,
+          37.49972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955111",
+        "name_ko": "보라매",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.919781,
+          37.4999833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955110",
+        "name_ko": "신풍",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9089367,
+          37.5001548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048953571",
+        "name_ko": "남구로",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8866733,
+          37.485404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8761155422",
+        "name_ko": "철산",
+        "name_en": "Cheolsan",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8677626,
+          37.4760589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6048955086",
+        "name_ko": "광명사거리",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8538115,
+          37.479621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6050655875",
+        "name_ko": "천왕",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8389512,
+          37.4863535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2111940162",
+        "name_ko": "장암",
+        "name_en": "Jangam",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.053075,
+          37.7001801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7185807400",
+        "name_ko": "신내",
+        "name_en": "Sinnae",
+        "lines": [
+          "6"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1046462,
+          37.6124026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7864301049",
+        "name_ko": "오목천",
+        "name_en": "Omokcheon",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.963125,
+          37.2429062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7872218776",
+        "name_ko": "어천",
+        "name_en": "Eocheon",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9081819,
+          37.2503749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7863473544",
+        "name_ko": "야목",
+        "name_en": "Yamok",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8833633,
+          37.2616308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7872218729",
+        "name_ko": "사리",
+        "name_en": "Sari",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8573725,
+          37.2915384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5907965096",
+        "name_ko": "달월",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7458836,
+          37.3807129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5907965080",
+        "name_ko": "월곶",
+        "name_en": "Wolgot",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7423159,
+          37.3921604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5907965062",
+        "name_ko": "소래포구",
+        "name_en": "Soraepogu",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7325487,
+          37.4013038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5907965001",
+        "name_ko": "인천논현",
+        "name_en": "",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7215322,
+          37.4004832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5907964982",
+        "name_ko": "호구포",
+        "name_en": "Hogupo",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7077547,
+          37.4020968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5907964905",
+        "name_ko": "남동인더스파크",
+        "name_en": "Namdong Induspark",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6943986,
+          37.4082483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5910775695",
+        "name_ko": "원인재",
+        "name_en": "Woninjae",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6856687,
+          37.4136809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5910775684",
+        "name_ko": "연수",
+        "name_en": "Yeonsu",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6779472,
+          37.4183698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5910775256",
+        "name_ko": "송도",
+        "name_en": "Songdo",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6538721,
+          37.4303043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5910775615",
+        "name_ko": "인하대",
+        "name_en": "Inha University",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6493767,
+          37.4489904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5910775262",
+        "name_ko": "숭의",
+        "name_en": "Sungui",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6370849,
+          37.461239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5910775260",
+        "name_ko": "신포",
+        "name_en": "Sinpo",
+        "lines": [
+          "bundang"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6236807,
+          37.4689305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8566458091",
+        "name_ko": "하남검단산",
+        "name_en": "Hanam Geomdansan",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2237049,
+          37.5397123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8566458089",
+        "name_ko": "하남시청",
+        "name_en": "Hanam City Hall (Deokpung·Sinjang)",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2070277,
+          37.5416948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "7798230510",
+        "name_ko": "하남풍산",
+        "name_en": "",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2043263,
+          37.5528048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5448542683",
+        "name_ko": "미사",
+        "name_en": "Misa",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1927747,
+          37.5630584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8566458081",
+        "name_ko": "강일",
+        "name_en": "Gangil",
+        "lines": [
+          "5"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1760948,
+          37.5575854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6050655863",
+        "name_ko": "까치울",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.8113774,
+          37.5062561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6050655851",
+        "name_ko": "부천종합운동장",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7972534,
+          37.5054654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6050655850",
+        "name_ko": "춘의",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7871771,
+          37.5037437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6050655845",
+        "name_ko": "신중동",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7762185,
+          37.5030595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6050654945",
+        "name_ko": "부천시청",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7631827,
+          37.5047828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6050654943",
+        "name_ko": "상동",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7531662,
+          37.5058462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6050654948",
+        "name_ko": "삼산체육관",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7423065,
+          37.5065175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2360117049",
+        "name_ko": "굴포천",
+        "name_en": "",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7313177,
+          37.5070361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6050655840",
+        "name_ko": "부평구청",
+        "name_en": "Bupyeong-gu Office",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7198593,
+          37.5075712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6185441878",
+        "name_ko": "산곡",
+        "name_en": "Sangok",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7036796,
+          37.5086158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8754538368",
+        "name_ko": "석남",
+        "name_en": "Seongnam",
+        "lines": [
+          "7"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6731764,
+          37.5063954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9589229143",
+        "name_ko": "별내별가람",
+        "name_en": "Byeollaebyeolgaram",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1169523,
+          37.6680941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9589229145",
+        "name_ko": "오남",
+        "name_en": "Onam",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1923455,
+          37.7057341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9589229146",
+        "name_ko": "진접",
+        "name_en": "Jinjeop",
+        "lines": [
+          "4"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2031634,
+          37.7212032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10989473140",
+        "name_ko": "연천",
+        "name_en": "Yeoncheon",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0738629,
+          38.1004613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "11433141474",
+        "name_ko": "전곡",
+        "name_en": "Jeongok",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0724112,
+          38.0237849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "11433141476",
+        "name_ko": "청산",
+        "name_en": "Cheongsan",
+        "lines": [
+          "1"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0736759,
+          37.9943328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12455789582",
+        "name_ko": "킨텍스",
+        "name_en": "Kintex",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.748263,
+          37.6651542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12455789584",
+        "name_ko": "운정중앙",
+        "name_en": "Unjeongjungang",
+        "lines": [
+          "gyeongui"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7281994,
+          37.7161256
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정적 크롤링 연습 페이지</title>
+</head>
+<body>
+    <!-- 페이지 전체 제목: h1 태그 선택 연습 -->
+    <h1 id="page-title">파이썬 책방</h1>
+    <p class="description">정적 크롤링 연습을 위한 테스트 상품 목록입니다.</p>
+
+    <!-- 여러 상품을 article 태그로 묶었습니다. -->
+    <section id="product-list">
+        <article class="product" data-product-id="101">
+            <h2 class="product-name">혼자 공부하는 파이썬</h2>
+            <p class="price">18,000원</p>
+            <p class="rating">평점: 4.8</p>
+            <p class="stock in-stock">재고 있음</p>
+        </article>
+
+        <article class="product" data-product-id="102">
+            <h2 class="product-name">점프 투 파이썬</h2>
+            <p class="price">20,000원</p>
+            <p class="rating">평점: 4.6</p>
+            <p class="stock in-stock">재고 있음</p>
+        </article>
+
+        <article class="product" data-product-id="103">
+            <h2 class="product-name">파이썬 코딩 도장</h2>
+            <p class="price">15,000원</p>
+            <p class="rating">평점: 4.5</p>
+            <p class="stock sold-out">품절</p>
+        </article>
+    </section>
+
+    <!-- footer 태그 선택 연습 -->
+    <footer>
+        <p class="updated-date">마지막 수정: 2026-09-03</p>
+    </footer>
+</body>
+</html>
